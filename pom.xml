@@ -2,14 +2,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>fhir-xml-emf</groupId>
-	<artifactId>fhir-xml-emf</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<groupId>org.hl7.emf.fhir</groupId>
+	<artifactId>org.hl7.emf.fhir</artifactId>
+	<version>5.0.0-SNAPSHOT</version>
 	<properties>
-		<tycho-version>1.7.0</tycho-version>
-		<tycho-extras-version>1.7.0</tycho-extras-version>
-		<tycho.scmUrl>scm:git:https://git.eclipse.org/c/mmt/org.eclipse.atl.git</tycho.scmUrl>
-
+		<tycho-version>2.4.0</tycho-version>
+		<tycho-extras-version>2.4.0</tycho-extras-version>
 	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -71,17 +69,6 @@
 			<id>releasetrain</id>
 			<layout>p2</layout>
 			<url>https://download.eclipse.org/releases/latest</url>
-		</repository>
-		<repository>
-			<id>orbit</id>
-			<layout>p2</layout>
-			<url>https://download.eclipse.org/tools/orbit/downloads/latest-R</url>
-		</repository>
-		<repository>
-			<id>emf compare 1.2 (test purpose only)</id>
-			<layout>p2</layout>
-			<url>
-				http://download.eclipse.org/modeling/emf/compare/updates/releases/1.2</url>
 		</repository>
 	</repositories>
 </project>
