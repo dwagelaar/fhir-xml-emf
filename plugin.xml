@@ -10,7 +10,7 @@
       <!-- @generated fhir -->
       <package
             uri="http://hl7.org/fhir"
-            class="org.hl7.fhir.FhirPackage"
+            class="org.hl7.emf.fhir.FhirPackage"
             genModel="model/fhir.genmodel"/>
    </extension>
 
@@ -18,7 +18,7 @@
       <!-- @generated fhir -->
       <parser
             type="fhir"
-            class="org.hl7.fhir.util.FhirResourceFactoryImpl"/>
+            class="org.hl7.emf.fhir.util.FhirResourceFactoryImpl"/>
    </extension>
 
 </plugin>
