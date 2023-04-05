@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.hl7.emf.fhir.feature">
+      <category name="fhir-xml-emf"/>
+   </feature>
+   <category-def name="fhir-xml-emf" label="FHIR-XML implementation for EMF">
+      <description>
+         FHIR-XML implementation for EMF features
+      </description>
+   </category-def>
+</site>
