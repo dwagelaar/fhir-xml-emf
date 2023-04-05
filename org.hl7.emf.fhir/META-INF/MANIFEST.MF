@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: fhir-xml-emf;singleton:=true
-Automatic-Module-Name: fhir-xml-emf
+Bundle-SymbolicName: org.hl7.emf.fhir;singleton:=true
+Automatic-Module-Name: org.hl7.emf.fhir
 Bundle-Version: 5.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
