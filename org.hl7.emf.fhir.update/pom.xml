@@ -7,14 +7,6 @@
 		<artifactId>fhir-xml-emf</artifactId>
 		<version>5.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>org.hl7.emf.fhir</artifactId>
-	<packaging>eclipse-plugin</packaging>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-source-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+	<artifactId>org.hl7.emf.fhir.update</artifactId>
+	<packaging>eclipse-repository</packaging>
 </project>

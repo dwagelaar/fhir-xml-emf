@@ -7,14 +7,16 @@
 	<version>5.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
-		<tycho-version>2.7.0</tycho-version>
-		<tycho-extras-version>2.7.0</tycho-extras-version>
+		<tycho-version>3.0.4</tycho-version>
+		<tycho-extras-version>3.0.4</tycho-extras-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<modules>
 		<module>org.hl7.emf.fhir</module>
+		<module>org.hl7.emf.fhir.feature</module>
+		<module>org.hl7.emf.fhir.update</module>
 	</modules>
 	<build>
 		<pluginManagement>
@@ -37,6 +39,12 @@
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>tycho-maven-plugin</artifactId>
+					<version>${tycho-version}</version>
+					<extensions>true</extensions>
+				</plugin>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-packaging-plugin</artifactId>
 					<version>${tycho-version}</version>
 				</plugin>
 				<plugin>
