@@ -50,7 +50,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	@Override
-	protected boolean isSwitchFor(final EPackage ePackage) {
+	protected boolean isSwitchFor(EPackage ePackage) {
 		return ePackage == modelPackage;
 	}
 
@@ -9866,7 +9866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccount(final Account object) {
+	public T caseAccount(Account object) {
 		return null;
 	}
 
@@ -9881,7 +9881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountBalance(final AccountBalance object) {
+	public T caseAccountBalance(AccountBalance object) {
 		return null;
 	}
 
@@ -9896,7 +9896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountCoverage(final AccountCoverage object) {
+	public T caseAccountCoverage(AccountCoverage object) {
 		return null;
 	}
 
@@ -9911,7 +9911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountDiagnosis(final AccountDiagnosis object) {
+	public T caseAccountDiagnosis(AccountDiagnosis object) {
 		return null;
 	}
 
@@ -9926,7 +9926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountGuarantor(final AccountGuarantor object) {
+	public T caseAccountGuarantor(AccountGuarantor object) {
 		return null;
 	}
 
@@ -9941,7 +9941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountProcedure(final AccountProcedure object) {
+	public T caseAccountProcedure(AccountProcedure object) {
 		return null;
 	}
 
@@ -9956,7 +9956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountRelatedAccount(final AccountRelatedAccount object) {
+	public T caseAccountRelatedAccount(AccountRelatedAccount object) {
 		return null;
 	}
 
@@ -9971,7 +9971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAccountStatus(final AccountStatus object) {
+	public T caseAccountStatus(AccountStatus object) {
 		return null;
 	}
 
@@ -9986,7 +9986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionCardinalityBehavior(final ActionCardinalityBehavior object) {
+	public T caseActionCardinalityBehavior(ActionCardinalityBehavior object) {
 		return null;
 	}
 
@@ -10001,7 +10001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionConditionKind(final ActionConditionKind object) {
+	public T caseActionConditionKind(ActionConditionKind object) {
 		return null;
 	}
 
@@ -10016,7 +10016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionGroupingBehavior(final ActionGroupingBehavior object) {
+	public T caseActionGroupingBehavior(ActionGroupingBehavior object) {
 		return null;
 	}
 
@@ -10031,7 +10031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionParticipantType(final ActionParticipantType object) {
+	public T caseActionParticipantType(ActionParticipantType object) {
 		return null;
 	}
 
@@ -10046,7 +10046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionPrecheckBehavior(final ActionPrecheckBehavior object) {
+	public T caseActionPrecheckBehavior(ActionPrecheckBehavior object) {
 		return null;
 	}
 
@@ -10061,7 +10061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionRelationshipType(final ActionRelationshipType object) {
+	public T caseActionRelationshipType(ActionRelationshipType object) {
 		return null;
 	}
 
@@ -10076,7 +10076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionRequiredBehavior(final ActionRequiredBehavior object) {
+	public T caseActionRequiredBehavior(ActionRequiredBehavior object) {
 		return null;
 	}
 
@@ -10091,7 +10091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActionSelectionBehavior(final ActionSelectionBehavior object) {
+	public T caseActionSelectionBehavior(ActionSelectionBehavior object) {
 		return null;
 	}
 
@@ -10106,7 +10106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActivityDefinition(final ActivityDefinition object) {
+	public T caseActivityDefinition(ActivityDefinition object) {
 		return null;
 	}
 
@@ -10121,7 +10121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActivityDefinitionDynamicValue(final ActivityDefinitionDynamicValue object) {
+	public T caseActivityDefinitionDynamicValue(ActivityDefinitionDynamicValue object) {
 		return null;
 	}
 
@@ -10136,7 +10136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActivityDefinitionParticipant(final ActivityDefinitionParticipant object) {
+	public T caseActivityDefinitionParticipant(ActivityDefinitionParticipant object) {
 		return null;
 	}
 
@@ -10151,7 +10151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseActorDefinition(final ActorDefinition object) {
+	public T caseActorDefinition(ActorDefinition object) {
 		return null;
 	}
 
@@ -10166,7 +10166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAddress(final Address object) {
+	public T caseAddress(Address object) {
 		return null;
 	}
 
@@ -10181,7 +10181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAddressType(final AddressType object) {
+	public T caseAddressType(AddressType object) {
 		return null;
 	}
 
@@ -10196,7 +10196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAddressUse(final AddressUse object) {
+	public T caseAddressUse(AddressUse object) {
 		return null;
 	}
 
@@ -10211,7 +10211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrableProductDefinition(final AdministrableProductDefinition object) {
+	public T caseAdministrableProductDefinition(AdministrableProductDefinition object) {
 		return null;
 	}
 
@@ -10226,7 +10226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrableProductDefinitionProperty(final AdministrableProductDefinitionProperty object) {
+	public T caseAdministrableProductDefinitionProperty(AdministrableProductDefinitionProperty object) {
 		return null;
 	}
 
@@ -10241,7 +10241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrableProductDefinitionRouteOfAdministration(final AdministrableProductDefinitionRouteOfAdministration object) {
+	public T caseAdministrableProductDefinitionRouteOfAdministration(AdministrableProductDefinitionRouteOfAdministration object) {
 		return null;
 	}
 
@@ -10256,7 +10256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrableProductDefinitionTargetSpecies(final AdministrableProductDefinitionTargetSpecies object) {
+	public T caseAdministrableProductDefinitionTargetSpecies(AdministrableProductDefinitionTargetSpecies object) {
 		return null;
 	}
 
@@ -10271,7 +10271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrableProductDefinitionWithdrawalPeriod(final AdministrableProductDefinitionWithdrawalPeriod object) {
+	public T caseAdministrableProductDefinitionWithdrawalPeriod(AdministrableProductDefinitionWithdrawalPeriod object) {
 		return null;
 	}
 
@@ -10286,7 +10286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdministrativeGender(final AdministrativeGender object) {
+	public T caseAdministrativeGender(AdministrativeGender object) {
 		return null;
 	}
 
@@ -10301,7 +10301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEvent(final AdverseEvent object) {
+	public T caseAdverseEvent(AdverseEvent object) {
 		return null;
 	}
 
@@ -10316,7 +10316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventActuality(final AdverseEventActuality object) {
+	public T caseAdverseEventActuality(AdverseEventActuality object) {
 		return null;
 	}
 
@@ -10331,7 +10331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventCausality(final AdverseEventCausality object) {
+	public T caseAdverseEventCausality(AdverseEventCausality object) {
 		return null;
 	}
 
@@ -10346,7 +10346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventContributingFactor(final AdverseEventContributingFactor object) {
+	public T caseAdverseEventContributingFactor(AdverseEventContributingFactor object) {
 		return null;
 	}
 
@@ -10361,7 +10361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventMitigatingAction(final AdverseEventMitigatingAction object) {
+	public T caseAdverseEventMitigatingAction(AdverseEventMitigatingAction object) {
 		return null;
 	}
 
@@ -10376,7 +10376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventParticipant(final AdverseEventParticipant object) {
+	public T caseAdverseEventParticipant(AdverseEventParticipant object) {
 		return null;
 	}
 
@@ -10391,7 +10391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventPreventiveAction(final AdverseEventPreventiveAction object) {
+	public T caseAdverseEventPreventiveAction(AdverseEventPreventiveAction object) {
 		return null;
 	}
 
@@ -10406,7 +10406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventStatus(final AdverseEventStatus object) {
+	public T caseAdverseEventStatus(AdverseEventStatus object) {
 		return null;
 	}
 
@@ -10421,7 +10421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventSupportingInfo(final AdverseEventSupportingInfo object) {
+	public T caseAdverseEventSupportingInfo(AdverseEventSupportingInfo object) {
 		return null;
 	}
 
@@ -10436,7 +10436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAdverseEventSuspectEntity(final AdverseEventSuspectEntity object) {
+	public T caseAdverseEventSuspectEntity(AdverseEventSuspectEntity object) {
 		return null;
 	}
 
@@ -10451,7 +10451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAge(final Age object) {
+	public T caseAge(Age object) {
 		return null;
 	}
 
@@ -10466,7 +10466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAgeUnits(final AgeUnits object) {
+	public T caseAgeUnits(AgeUnits object) {
 		return null;
 	}
 
@@ -10481,7 +10481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAggregationMode(final AggregationMode object) {
+	public T caseAggregationMode(AggregationMode object) {
 		return null;
 	}
 
@@ -10496,7 +10496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntolerance(final AllergyIntolerance object) {
+	public T caseAllergyIntolerance(AllergyIntolerance object) {
 		return null;
 	}
 
@@ -10511,7 +10511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntoleranceCategory(final AllergyIntoleranceCategory object) {
+	public T caseAllergyIntoleranceCategory(AllergyIntoleranceCategory object) {
 		return null;
 	}
 
@@ -10526,7 +10526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntoleranceCriticality(final AllergyIntoleranceCriticality object) {
+	public T caseAllergyIntoleranceCriticality(AllergyIntoleranceCriticality object) {
 		return null;
 	}
 
@@ -10541,7 +10541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntoleranceParticipant(final AllergyIntoleranceParticipant object) {
+	public T caseAllergyIntoleranceParticipant(AllergyIntoleranceParticipant object) {
 		return null;
 	}
 
@@ -10556,7 +10556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntoleranceReaction(final AllergyIntoleranceReaction object) {
+	public T caseAllergyIntoleranceReaction(AllergyIntoleranceReaction object) {
 		return null;
 	}
 
@@ -10571,7 +10571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllergyIntoleranceSeverity(final AllergyIntoleranceSeverity object) {
+	public T caseAllergyIntoleranceSeverity(AllergyIntoleranceSeverity object) {
 		return null;
 	}
 
@@ -10586,7 +10586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAllResourceTypes(final AllResourceTypes object) {
+	public T caseAllResourceTypes(AllResourceTypes object) {
 		return null;
 	}
 
@@ -10601,7 +10601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAnnotation(final Annotation object) {
+	public T caseAnnotation(Annotation object) {
 		return null;
 	}
 
@@ -10616,7 +10616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointment(final Appointment object) {
+	public T caseAppointment(Appointment object) {
 		return null;
 	}
 
@@ -10631,7 +10631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentMonthlyTemplate(final AppointmentMonthlyTemplate object) {
+	public T caseAppointmentMonthlyTemplate(AppointmentMonthlyTemplate object) {
 		return null;
 	}
 
@@ -10646,7 +10646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentParticipant(final AppointmentParticipant object) {
+	public T caseAppointmentParticipant(AppointmentParticipant object) {
 		return null;
 	}
 
@@ -10661,7 +10661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentRecurrenceTemplate(final AppointmentRecurrenceTemplate object) {
+	public T caseAppointmentRecurrenceTemplate(AppointmentRecurrenceTemplate object) {
 		return null;
 	}
 
@@ -10676,7 +10676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentResponse(final AppointmentResponse object) {
+	public T caseAppointmentResponse(AppointmentResponse object) {
 		return null;
 	}
 
@@ -10691,7 +10691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentResponseStatus(final AppointmentResponseStatus object) {
+	public T caseAppointmentResponseStatus(AppointmentResponseStatus object) {
 		return null;
 	}
 
@@ -10706,7 +10706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentStatus(final AppointmentStatus object) {
+	public T caseAppointmentStatus(AppointmentStatus object) {
 		return null;
 	}
 
@@ -10721,7 +10721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentWeeklyTemplate(final AppointmentWeeklyTemplate object) {
+	public T caseAppointmentWeeklyTemplate(AppointmentWeeklyTemplate object) {
 		return null;
 	}
 
@@ -10736,7 +10736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAppointmentYearlyTemplate(final AppointmentYearlyTemplate object) {
+	public T caseAppointmentYearlyTemplate(AppointmentYearlyTemplate object) {
 		return null;
 	}
 
@@ -10751,7 +10751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseArtifactAssessment(final ArtifactAssessment object) {
+	public T caseArtifactAssessment(ArtifactAssessment object) {
 		return null;
 	}
 
@@ -10766,7 +10766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseArtifactAssessmentContent(final ArtifactAssessmentContent object) {
+	public T caseArtifactAssessmentContent(ArtifactAssessmentContent object) {
 		return null;
 	}
 
@@ -10781,7 +10781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseArtifactAssessmentDisposition(final ArtifactAssessmentDisposition object) {
+	public T caseArtifactAssessmentDisposition(ArtifactAssessmentDisposition object) {
 		return null;
 	}
 
@@ -10796,7 +10796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseArtifactAssessmentInformationType(final ArtifactAssessmentInformationType object) {
+	public T caseArtifactAssessmentInformationType(ArtifactAssessmentInformationType object) {
 		return null;
 	}
 
@@ -10811,7 +10811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseArtifactAssessmentWorkflowStatus(final ArtifactAssessmentWorkflowStatus object) {
+	public T caseArtifactAssessmentWorkflowStatus(ArtifactAssessmentWorkflowStatus object) {
 		return null;
 	}
 
@@ -10826,7 +10826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAssertionDirectionType(final AssertionDirectionType object) {
+	public T caseAssertionDirectionType(AssertionDirectionType object) {
 		return null;
 	}
 
@@ -10841,7 +10841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAssertionManualCompletionType(final AssertionManualCompletionType object) {
+	public T caseAssertionManualCompletionType(AssertionManualCompletionType object) {
 		return null;
 	}
 
@@ -10856,7 +10856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAssertionOperatorType(final AssertionOperatorType object) {
+	public T caseAssertionOperatorType(AssertionOperatorType object) {
 		return null;
 	}
 
@@ -10871,7 +10871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAssertionResponseTypes(final AssertionResponseTypes object) {
+	public T caseAssertionResponseTypes(AssertionResponseTypes object) {
 		return null;
 	}
 
@@ -10886,7 +10886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAttachment(final Attachment object) {
+	public T caseAttachment(Attachment object) {
 		return null;
 	}
 
@@ -10901,7 +10901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEvent(final AuditEvent object) {
+	public T caseAuditEvent(AuditEvent object) {
 		return null;
 	}
 
@@ -10916,7 +10916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventAction(final AuditEventAction object) {
+	public T caseAuditEventAction(AuditEventAction object) {
 		return null;
 	}
 
@@ -10931,7 +10931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventAgent(final AuditEventAgent object) {
+	public T caseAuditEventAgent(AuditEventAgent object) {
 		return null;
 	}
 
@@ -10946,7 +10946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventDetail(final AuditEventDetail object) {
+	public T caseAuditEventDetail(AuditEventDetail object) {
 		return null;
 	}
 
@@ -10961,7 +10961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventEntity(final AuditEventEntity object) {
+	public T caseAuditEventEntity(AuditEventEntity object) {
 		return null;
 	}
 
@@ -10976,7 +10976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventOutcome(final AuditEventOutcome object) {
+	public T caseAuditEventOutcome(AuditEventOutcome object) {
 		return null;
 	}
 
@@ -10991,7 +10991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventSeverity(final AuditEventSeverity object) {
+	public T caseAuditEventSeverity(AuditEventSeverity object) {
 		return null;
 	}
 
@@ -11006,7 +11006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAuditEventSource(final AuditEventSource object) {
+	public T caseAuditEventSource(AuditEventSource object) {
 		return null;
 	}
 
@@ -11021,7 +11021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAvailability(final Availability object) {
+	public T caseAvailability(Availability object) {
 		return null;
 	}
 
@@ -11036,7 +11036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAvailabilityAvailableTime(final AvailabilityAvailableTime object) {
+	public T caseAvailabilityAvailableTime(AvailabilityAvailableTime object) {
 		return null;
 	}
 
@@ -11051,7 +11051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseAvailabilityNotAvailableTime(final AvailabilityNotAvailableTime object) {
+	public T caseAvailabilityNotAvailableTime(AvailabilityNotAvailableTime object) {
 		return null;
 	}
 
@@ -11066,7 +11066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBackboneElement(final BackboneElement object) {
+	public T caseBackboneElement(BackboneElement object) {
 		return null;
 	}
 
@@ -11081,7 +11081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBackboneType(final BackboneType object) {
+	public T caseBackboneType(BackboneType object) {
 		return null;
 	}
 
@@ -11096,7 +11096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBase(final Base object) {
+	public T caseBase(Base object) {
 		return null;
 	}
 
@@ -11111,7 +11111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBase64Binary(final Base64Binary object) {
+	public T caseBase64Binary(Base64Binary object) {
 		return null;
 	}
 
@@ -11126,7 +11126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBasic(final Basic object) {
+	public T caseBasic(Basic object) {
 		return null;
 	}
 
@@ -11141,7 +11141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBinary(final Binary object) {
+	public T caseBinary(Binary object) {
 		return null;
 	}
 
@@ -11156,7 +11156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBindingStrength(final BindingStrength object) {
+	public T caseBindingStrength(BindingStrength object) {
 		return null;
 	}
 
@@ -11171,7 +11171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProduct(final BiologicallyDerivedProduct object) {
+	public T caseBiologicallyDerivedProduct(BiologicallyDerivedProduct object) {
 		return null;
 	}
 
@@ -11186,7 +11186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProductCollection(final BiologicallyDerivedProductCollection object) {
+	public T caseBiologicallyDerivedProductCollection(BiologicallyDerivedProductCollection object) {
 		return null;
 	}
 
@@ -11201,7 +11201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProductDispense(final BiologicallyDerivedProductDispense object) {
+	public T caseBiologicallyDerivedProductDispense(BiologicallyDerivedProductDispense object) {
 		return null;
 	}
 
@@ -11216,7 +11216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProductDispenseCodes(final BiologicallyDerivedProductDispenseCodes object) {
+	public T caseBiologicallyDerivedProductDispenseCodes(BiologicallyDerivedProductDispenseCodes object) {
 		return null;
 	}
 
@@ -11231,7 +11231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProductDispensePerformer(final BiologicallyDerivedProductDispensePerformer object) {
+	public T caseBiologicallyDerivedProductDispensePerformer(BiologicallyDerivedProductDispensePerformer object) {
 		return null;
 	}
 
@@ -11246,7 +11246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBiologicallyDerivedProductProperty(final BiologicallyDerivedProductProperty object) {
+	public T caseBiologicallyDerivedProductProperty(BiologicallyDerivedProductProperty object) {
 		return null;
 	}
 
@@ -11261,7 +11261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBodyStructure(final BodyStructure object) {
+	public T caseBodyStructure(BodyStructure object) {
 		return null;
 	}
 
@@ -11276,7 +11276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBodyStructureBodyLandmarkOrientation(final BodyStructureBodyLandmarkOrientation object) {
+	public T caseBodyStructureBodyLandmarkOrientation(BodyStructureBodyLandmarkOrientation object) {
 		return null;
 	}
 
@@ -11291,7 +11291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBodyStructureDistanceFromLandmark(final BodyStructureDistanceFromLandmark object) {
+	public T caseBodyStructureDistanceFromLandmark(BodyStructureDistanceFromLandmark object) {
 		return null;
 	}
 
@@ -11306,7 +11306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBodyStructureIncludedStructure(final BodyStructureIncludedStructure object) {
+	public T caseBodyStructureIncludedStructure(BodyStructureIncludedStructure object) {
 		return null;
 	}
 
@@ -11321,7 +11321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBoolean(final org.hl7.emf.fhir.Boolean object) {
+	public T caseBoolean(org.hl7.emf.fhir.Boolean object) {
 		return null;
 	}
 
@@ -11336,7 +11336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundle(final Bundle object) {
+	public T caseBundle(Bundle object) {
 		return null;
 	}
 
@@ -11351,7 +11351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleEntry(final BundleEntry object) {
+	public T caseBundleEntry(BundleEntry object) {
 		return null;
 	}
 
@@ -11366,7 +11366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleLink(final BundleLink object) {
+	public T caseBundleLink(BundleLink object) {
 		return null;
 	}
 
@@ -11381,7 +11381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleRequest(final BundleRequest object) {
+	public T caseBundleRequest(BundleRequest object) {
 		return null;
 	}
 
@@ -11396,7 +11396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleResponse(final BundleResponse object) {
+	public T caseBundleResponse(BundleResponse object) {
 		return null;
 	}
 
@@ -11411,7 +11411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleSearch(final BundleSearch object) {
+	public T caseBundleSearch(BundleSearch object) {
 		return null;
 	}
 
@@ -11426,7 +11426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBundleType(final BundleType object) {
+	public T caseBundleType(BundleType object) {
 		return null;
 	}
 
@@ -11441,7 +11441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCanonical(final Canonical object) {
+	public T caseCanonical(Canonical object) {
 		return null;
 	}
 
@@ -11456,7 +11456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCanonicalResource(final CanonicalResource object) {
+	public T caseCanonicalResource(CanonicalResource object) {
 		return null;
 	}
 
@@ -11471,7 +11471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatement(final CapabilityStatement object) {
+	public T caseCapabilityStatement(CapabilityStatement object) {
 		return null;
 	}
 
@@ -11486,7 +11486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementDocument(final CapabilityStatementDocument object) {
+	public T caseCapabilityStatementDocument(CapabilityStatementDocument object) {
 		return null;
 	}
 
@@ -11501,7 +11501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementEndpoint(final CapabilityStatementEndpoint object) {
+	public T caseCapabilityStatementEndpoint(CapabilityStatementEndpoint object) {
 		return null;
 	}
 
@@ -11516,7 +11516,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementImplementation(final CapabilityStatementImplementation object) {
+	public T caseCapabilityStatementImplementation(CapabilityStatementImplementation object) {
 		return null;
 	}
 
@@ -11531,7 +11531,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementInteraction(final CapabilityStatementInteraction object) {
+	public T caseCapabilityStatementInteraction(CapabilityStatementInteraction object) {
 		return null;
 	}
 
@@ -11546,7 +11546,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementInteraction1(final CapabilityStatementInteraction1 object) {
+	public T caseCapabilityStatementInteraction1(CapabilityStatementInteraction1 object) {
 		return null;
 	}
 
@@ -11561,7 +11561,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementKind(final CapabilityStatementKind object) {
+	public T caseCapabilityStatementKind(CapabilityStatementKind object) {
 		return null;
 	}
 
@@ -11576,7 +11576,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementMessaging(final CapabilityStatementMessaging object) {
+	public T caseCapabilityStatementMessaging(CapabilityStatementMessaging object) {
 		return null;
 	}
 
@@ -11591,7 +11591,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementOperation(final CapabilityStatementOperation object) {
+	public T caseCapabilityStatementOperation(CapabilityStatementOperation object) {
 		return null;
 	}
 
@@ -11606,7 +11606,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementResource(final CapabilityStatementResource object) {
+	public T caseCapabilityStatementResource(CapabilityStatementResource object) {
 		return null;
 	}
 
@@ -11621,7 +11621,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementRest(final CapabilityStatementRest object) {
+	public T caseCapabilityStatementRest(CapabilityStatementRest object) {
 		return null;
 	}
 
@@ -11636,7 +11636,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementSearchParam(final CapabilityStatementSearchParam object) {
+	public T caseCapabilityStatementSearchParam(CapabilityStatementSearchParam object) {
 		return null;
 	}
 
@@ -11651,7 +11651,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementSecurity(final CapabilityStatementSecurity object) {
+	public T caseCapabilityStatementSecurity(CapabilityStatementSecurity object) {
 		return null;
 	}
 
@@ -11666,7 +11666,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementSoftware(final CapabilityStatementSoftware object) {
+	public T caseCapabilityStatementSoftware(CapabilityStatementSoftware object) {
 		return null;
 	}
 
@@ -11681,7 +11681,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCapabilityStatementSupportedMessage(final CapabilityStatementSupportedMessage object) {
+	public T caseCapabilityStatementSupportedMessage(CapabilityStatementSupportedMessage object) {
 		return null;
 	}
 
@@ -11696,7 +11696,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCarePlan(final CarePlan object) {
+	public T caseCarePlan(CarePlan object) {
 		return null;
 	}
 
@@ -11711,7 +11711,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCarePlanActivity(final CarePlanActivity object) {
+	public T caseCarePlanActivity(CarePlanActivity object) {
 		return null;
 	}
 
@@ -11726,7 +11726,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCarePlanIntent(final CarePlanIntent object) {
+	public T caseCarePlanIntent(CarePlanIntent object) {
 		return null;
 	}
 
@@ -11741,7 +11741,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCareTeam(final CareTeam object) {
+	public T caseCareTeam(CareTeam object) {
 		return null;
 	}
 
@@ -11756,7 +11756,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCareTeamParticipant(final CareTeamParticipant object) {
+	public T caseCareTeamParticipant(CareTeamParticipant object) {
 		return null;
 	}
 
@@ -11771,7 +11771,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCareTeamStatus(final CareTeamStatus object) {
+	public T caseCareTeamStatus(CareTeamStatus object) {
 		return null;
 	}
 
@@ -11786,7 +11786,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCharacteristicCombination(final CharacteristicCombination object) {
+	public T caseCharacteristicCombination(CharacteristicCombination object) {
 		return null;
 	}
 
@@ -11801,7 +11801,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItem(final ChargeItem object) {
+	public T caseChargeItem(ChargeItem object) {
 		return null;
 	}
 
@@ -11816,7 +11816,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItemDefinition(final ChargeItemDefinition object) {
+	public T caseChargeItemDefinition(ChargeItemDefinition object) {
 		return null;
 	}
 
@@ -11831,7 +11831,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItemDefinitionApplicability(final ChargeItemDefinitionApplicability object) {
+	public T caseChargeItemDefinitionApplicability(ChargeItemDefinitionApplicability object) {
 		return null;
 	}
 
@@ -11846,7 +11846,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItemDefinitionPropertyGroup(final ChargeItemDefinitionPropertyGroup object) {
+	public T caseChargeItemDefinitionPropertyGroup(ChargeItemDefinitionPropertyGroup object) {
 		return null;
 	}
 
@@ -11861,7 +11861,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItemPerformer(final ChargeItemPerformer object) {
+	public T caseChargeItemPerformer(ChargeItemPerformer object) {
 		return null;
 	}
 
@@ -11876,7 +11876,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseChargeItemStatus(final ChargeItemStatus object) {
+	public T caseChargeItemStatus(ChargeItemStatus object) {
 		return null;
 	}
 
@@ -11891,7 +11891,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitation(final Citation object) {
+	public T caseCitation(Citation object) {
 		return null;
 	}
 
@@ -11906,7 +11906,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationAbstract(final CitationAbstract object) {
+	public T caseCitationAbstract(CitationAbstract object) {
 		return null;
 	}
 
@@ -11921,7 +11921,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationCitedArtifact(final CitationCitedArtifact object) {
+	public T caseCitationCitedArtifact(CitationCitedArtifact object) {
 		return null;
 	}
 
@@ -11936,7 +11936,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationClassification(final CitationClassification object) {
+	public T caseCitationClassification(CitationClassification object) {
 		return null;
 	}
 
@@ -11951,7 +11951,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationClassification1(final CitationClassification1 object) {
+	public T caseCitationClassification1(CitationClassification1 object) {
 		return null;
 	}
 
@@ -11966,7 +11966,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationContributionInstance(final CitationContributionInstance object) {
+	public T caseCitationContributionInstance(CitationContributionInstance object) {
 		return null;
 	}
 
@@ -11981,7 +11981,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationContributorship(final CitationContributorship object) {
+	public T caseCitationContributorship(CitationContributorship object) {
 		return null;
 	}
 
@@ -11996,7 +11996,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationEntry(final CitationEntry object) {
+	public T caseCitationEntry(CitationEntry object) {
 		return null;
 	}
 
@@ -12011,7 +12011,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationPart(final CitationPart object) {
+	public T caseCitationPart(CitationPart object) {
 		return null;
 	}
 
@@ -12026,7 +12026,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationPublicationForm(final CitationPublicationForm object) {
+	public T caseCitationPublicationForm(CitationPublicationForm object) {
 		return null;
 	}
 
@@ -12041,7 +12041,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationPublishedIn(final CitationPublishedIn object) {
+	public T caseCitationPublishedIn(CitationPublishedIn object) {
 		return null;
 	}
 
@@ -12056,7 +12056,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationRelatesTo(final CitationRelatesTo object) {
+	public T caseCitationRelatesTo(CitationRelatesTo object) {
 		return null;
 	}
 
@@ -12071,7 +12071,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationStatusDate(final CitationStatusDate object) {
+	public T caseCitationStatusDate(CitationStatusDate object) {
 		return null;
 	}
 
@@ -12086,7 +12086,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationStatusDate1(final CitationStatusDate1 object) {
+	public T caseCitationStatusDate1(CitationStatusDate1 object) {
 		return null;
 	}
 
@@ -12101,7 +12101,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationSummary(final CitationSummary object) {
+	public T caseCitationSummary(CitationSummary object) {
 		return null;
 	}
 
@@ -12116,7 +12116,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationSummary1(final CitationSummary1 object) {
+	public T caseCitationSummary1(CitationSummary1 object) {
 		return null;
 	}
 
@@ -12131,7 +12131,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationTitle(final CitationTitle object) {
+	public T caseCitationTitle(CitationTitle object) {
 		return null;
 	}
 
@@ -12146,7 +12146,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationVersion(final CitationVersion object) {
+	public T caseCitationVersion(CitationVersion object) {
 		return null;
 	}
 
@@ -12161,7 +12161,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCitationWebLocation(final CitationWebLocation object) {
+	public T caseCitationWebLocation(CitationWebLocation object) {
 		return null;
 	}
 
@@ -12176,7 +12176,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaim(final Claim object) {
+	public T caseClaim(Claim object) {
 		return null;
 	}
 
@@ -12191,7 +12191,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimAccident(final ClaimAccident object) {
+	public T caseClaimAccident(ClaimAccident object) {
 		return null;
 	}
 
@@ -12206,7 +12206,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimBodySite(final ClaimBodySite object) {
+	public T caseClaimBodySite(ClaimBodySite object) {
 		return null;
 	}
 
@@ -12221,7 +12221,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimCareTeam(final ClaimCareTeam object) {
+	public T caseClaimCareTeam(ClaimCareTeam object) {
 		return null;
 	}
 
@@ -12236,7 +12236,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimDetail(final ClaimDetail object) {
+	public T caseClaimDetail(ClaimDetail object) {
 		return null;
 	}
 
@@ -12251,7 +12251,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimDiagnosis(final ClaimDiagnosis object) {
+	public T caseClaimDiagnosis(ClaimDiagnosis object) {
 		return null;
 	}
 
@@ -12266,7 +12266,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimEvent(final ClaimEvent object) {
+	public T caseClaimEvent(ClaimEvent object) {
 		return null;
 	}
 
@@ -12281,7 +12281,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimInsurance(final ClaimInsurance object) {
+	public T caseClaimInsurance(ClaimInsurance object) {
 		return null;
 	}
 
@@ -12296,7 +12296,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimItem(final ClaimItem object) {
+	public T caseClaimItem(ClaimItem object) {
 		return null;
 	}
 
@@ -12311,7 +12311,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimPayee(final ClaimPayee object) {
+	public T caseClaimPayee(ClaimPayee object) {
 		return null;
 	}
 
@@ -12326,7 +12326,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimProcedure(final ClaimProcedure object) {
+	public T caseClaimProcedure(ClaimProcedure object) {
 		return null;
 	}
 
@@ -12341,7 +12341,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimProcessingCodes(final ClaimProcessingCodes object) {
+	public T caseClaimProcessingCodes(ClaimProcessingCodes object) {
 		return null;
 	}
 
@@ -12356,7 +12356,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimRelated(final ClaimRelated object) {
+	public T caseClaimRelated(ClaimRelated object) {
 		return null;
 	}
 
@@ -12371,7 +12371,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponse(final ClaimResponse object) {
+	public T caseClaimResponse(ClaimResponse object) {
 		return null;
 	}
 
@@ -12386,7 +12386,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseAddItem(final ClaimResponseAddItem object) {
+	public T caseClaimResponseAddItem(ClaimResponseAddItem object) {
 		return null;
 	}
 
@@ -12401,7 +12401,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseAdjudication(final ClaimResponseAdjudication object) {
+	public T caseClaimResponseAdjudication(ClaimResponseAdjudication object) {
 		return null;
 	}
 
@@ -12416,7 +12416,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseBodySite(final ClaimResponseBodySite object) {
+	public T caseClaimResponseBodySite(ClaimResponseBodySite object) {
 		return null;
 	}
 
@@ -12431,7 +12431,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseDetail(final ClaimResponseDetail object) {
+	public T caseClaimResponseDetail(ClaimResponseDetail object) {
 		return null;
 	}
 
@@ -12446,7 +12446,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseDetail1(final ClaimResponseDetail1 object) {
+	public T caseClaimResponseDetail1(ClaimResponseDetail1 object) {
 		return null;
 	}
 
@@ -12461,7 +12461,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseError(final ClaimResponseError object) {
+	public T caseClaimResponseError(ClaimResponseError object) {
 		return null;
 	}
 
@@ -12476,7 +12476,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseEvent(final ClaimResponseEvent object) {
+	public T caseClaimResponseEvent(ClaimResponseEvent object) {
 		return null;
 	}
 
@@ -12491,7 +12491,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseInsurance(final ClaimResponseInsurance object) {
+	public T caseClaimResponseInsurance(ClaimResponseInsurance object) {
 		return null;
 	}
 
@@ -12506,7 +12506,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseItem(final ClaimResponseItem object) {
+	public T caseClaimResponseItem(ClaimResponseItem object) {
 		return null;
 	}
 
@@ -12521,7 +12521,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponsePayment(final ClaimResponsePayment object) {
+	public T caseClaimResponsePayment(ClaimResponsePayment object) {
 		return null;
 	}
 
@@ -12536,7 +12536,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseProcessNote(final ClaimResponseProcessNote object) {
+	public T caseClaimResponseProcessNote(ClaimResponseProcessNote object) {
 		return null;
 	}
 
@@ -12551,7 +12551,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseReviewOutcome(final ClaimResponseReviewOutcome object) {
+	public T caseClaimResponseReviewOutcome(ClaimResponseReviewOutcome object) {
 		return null;
 	}
 
@@ -12566,7 +12566,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseSubDetail(final ClaimResponseSubDetail object) {
+	public T caseClaimResponseSubDetail(ClaimResponseSubDetail object) {
 		return null;
 	}
 
@@ -12581,7 +12581,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseSubDetail1(final ClaimResponseSubDetail1 object) {
+	public T caseClaimResponseSubDetail1(ClaimResponseSubDetail1 object) {
 		return null;
 	}
 
@@ -12596,7 +12596,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimResponseTotal(final ClaimResponseTotal object) {
+	public T caseClaimResponseTotal(ClaimResponseTotal object) {
 		return null;
 	}
 
@@ -12611,7 +12611,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimSubDetail(final ClaimSubDetail object) {
+	public T caseClaimSubDetail(ClaimSubDetail object) {
 		return null;
 	}
 
@@ -12626,7 +12626,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClaimSupportingInfo(final ClaimSupportingInfo object) {
+	public T caseClaimSupportingInfo(ClaimSupportingInfo object) {
 		return null;
 	}
 
@@ -12641,7 +12641,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalImpression(final ClinicalImpression object) {
+	public T caseClinicalImpression(ClinicalImpression object) {
 		return null;
 	}
 
@@ -12656,7 +12656,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalImpressionFinding(final ClinicalImpressionFinding object) {
+	public T caseClinicalImpressionFinding(ClinicalImpressionFinding object) {
 		return null;
 	}
 
@@ -12671,7 +12671,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinition(final ClinicalUseDefinition object) {
+	public T caseClinicalUseDefinition(ClinicalUseDefinition object) {
 		return null;
 	}
 
@@ -12686,7 +12686,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionContraindication(final ClinicalUseDefinitionContraindication object) {
+	public T caseClinicalUseDefinitionContraindication(ClinicalUseDefinitionContraindication object) {
 		return null;
 	}
 
@@ -12701,7 +12701,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionIndication(final ClinicalUseDefinitionIndication object) {
+	public T caseClinicalUseDefinitionIndication(ClinicalUseDefinitionIndication object) {
 		return null;
 	}
 
@@ -12716,7 +12716,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionInteractant(final ClinicalUseDefinitionInteractant object) {
+	public T caseClinicalUseDefinitionInteractant(ClinicalUseDefinitionInteractant object) {
 		return null;
 	}
 
@@ -12731,7 +12731,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionInteraction(final ClinicalUseDefinitionInteraction object) {
+	public T caseClinicalUseDefinitionInteraction(ClinicalUseDefinitionInteraction object) {
 		return null;
 	}
 
@@ -12746,7 +12746,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionOtherTherapy(final ClinicalUseDefinitionOtherTherapy object) {
+	public T caseClinicalUseDefinitionOtherTherapy(ClinicalUseDefinitionOtherTherapy object) {
 		return null;
 	}
 
@@ -12761,7 +12761,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionType(final ClinicalUseDefinitionType object) {
+	public T caseClinicalUseDefinitionType(ClinicalUseDefinitionType object) {
 		return null;
 	}
 
@@ -12776,7 +12776,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionUndesirableEffect(final ClinicalUseDefinitionUndesirableEffect object) {
+	public T caseClinicalUseDefinitionUndesirableEffect(ClinicalUseDefinitionUndesirableEffect object) {
 		return null;
 	}
 
@@ -12791,7 +12791,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseClinicalUseDefinitionWarning(final ClinicalUseDefinitionWarning object) {
+	public T caseClinicalUseDefinitionWarning(ClinicalUseDefinitionWarning object) {
 		return null;
 	}
 
@@ -12806,7 +12806,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCode(final Code object) {
+	public T caseCode(Code object) {
 		return null;
 	}
 
@@ -12821,7 +12821,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeableConcept(final CodeableConcept object) {
+	public T caseCodeableConcept(CodeableConcept object) {
 		return null;
 	}
 
@@ -12836,7 +12836,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeableReference(final CodeableReference object) {
+	public T caseCodeableReference(CodeableReference object) {
 		return null;
 	}
 
@@ -12851,7 +12851,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSearchSupport(final CodeSearchSupport object) {
+	public T caseCodeSearchSupport(CodeSearchSupport object) {
 		return null;
 	}
 
@@ -12866,7 +12866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystem(final CodeSystem object) {
+	public T caseCodeSystem(CodeSystem object) {
 		return null;
 	}
 
@@ -12881,7 +12881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemConcept(final CodeSystemConcept object) {
+	public T caseCodeSystemConcept(CodeSystemConcept object) {
 		return null;
 	}
 
@@ -12896,7 +12896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemContentMode(final CodeSystemContentMode object) {
+	public T caseCodeSystemContentMode(CodeSystemContentMode object) {
 		return null;
 	}
 
@@ -12911,7 +12911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemDesignation(final CodeSystemDesignation object) {
+	public T caseCodeSystemDesignation(CodeSystemDesignation object) {
 		return null;
 	}
 
@@ -12926,7 +12926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemFilter(final CodeSystemFilter object) {
+	public T caseCodeSystemFilter(CodeSystemFilter object) {
 		return null;
 	}
 
@@ -12941,7 +12941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemHierarchyMeaning(final CodeSystemHierarchyMeaning object) {
+	public T caseCodeSystemHierarchyMeaning(CodeSystemHierarchyMeaning object) {
 		return null;
 	}
 
@@ -12956,7 +12956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemProperty(final CodeSystemProperty object) {
+	public T caseCodeSystemProperty(CodeSystemProperty object) {
 		return null;
 	}
 
@@ -12971,7 +12971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCodeSystemProperty1(final CodeSystemProperty1 object) {
+	public T caseCodeSystemProperty1(CodeSystemProperty1 object) {
 		return null;
 	}
 
@@ -12986,7 +12986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoding(final Coding object) {
+	public T caseCoding(Coding object) {
 		return null;
 	}
 
@@ -13001,7 +13001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseColorCodesOrRGB(final ColorCodesOrRGB object) {
+	public T caseColorCodesOrRGB(ColorCodesOrRGB object) {
 		return null;
 	}
 
@@ -13016,7 +13016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCommonLanguages(final CommonLanguages object) {
+	public T caseCommonLanguages(CommonLanguages object) {
 		return null;
 	}
 
@@ -13031,7 +13031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCommunication(final Communication object) {
+	public T caseCommunication(Communication object) {
 		return null;
 	}
 
@@ -13046,7 +13046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCommunicationPayload(final CommunicationPayload object) {
+	public T caseCommunicationPayload(CommunicationPayload object) {
 		return null;
 	}
 
@@ -13061,7 +13061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCommunicationRequest(final CommunicationRequest object) {
+	public T caseCommunicationRequest(CommunicationRequest object) {
 		return null;
 	}
 
@@ -13076,7 +13076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCommunicationRequestPayload(final CommunicationRequestPayload object) {
+	public T caseCommunicationRequestPayload(CommunicationRequestPayload object) {
 		return null;
 	}
 
@@ -13091,7 +13091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompartmentDefinition(final CompartmentDefinition object) {
+	public T caseCompartmentDefinition(CompartmentDefinition object) {
 		return null;
 	}
 
@@ -13106,7 +13106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompartmentDefinitionResource(final CompartmentDefinitionResource object) {
+	public T caseCompartmentDefinitionResource(CompartmentDefinitionResource object) {
 		return null;
 	}
 
@@ -13121,7 +13121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompartmentType(final CompartmentType object) {
+	public T caseCompartmentType(CompartmentType object) {
 		return null;
 	}
 
@@ -13136,7 +13136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseComposition(final Composition object) {
+	public T caseComposition(Composition object) {
 		return null;
 	}
 
@@ -13151,7 +13151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompositionAttester(final CompositionAttester object) {
+	public T caseCompositionAttester(CompositionAttester object) {
 		return null;
 	}
 
@@ -13166,7 +13166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompositionEvent(final CompositionEvent object) {
+	public T caseCompositionEvent(CompositionEvent object) {
 		return null;
 	}
 
@@ -13181,7 +13181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompositionSection(final CompositionSection object) {
+	public T caseCompositionSection(CompositionSection object) {
 		return null;
 	}
 
@@ -13196,7 +13196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCompositionStatus(final CompositionStatus object) {
+	public T caseCompositionStatus(CompositionStatus object) {
 		return null;
 	}
 
@@ -13211,7 +13211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMap(final ConceptMap object) {
+	public T caseConceptMap(ConceptMap object) {
 		return null;
 	}
 
@@ -13226,7 +13226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapAdditionalAttribute(final ConceptMapAdditionalAttribute object) {
+	public T caseConceptMapAdditionalAttribute(ConceptMapAdditionalAttribute object) {
 		return null;
 	}
 
@@ -13241,7 +13241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapAttributeType(final ConceptMapAttributeType object) {
+	public T caseConceptMapAttributeType(ConceptMapAttributeType object) {
 		return null;
 	}
 
@@ -13256,7 +13256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapDependsOn(final ConceptMapDependsOn object) {
+	public T caseConceptMapDependsOn(ConceptMapDependsOn object) {
 		return null;
 	}
 
@@ -13271,7 +13271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapElement(final ConceptMapElement object) {
+	public T caseConceptMapElement(ConceptMapElement object) {
 		return null;
 	}
 
@@ -13286,7 +13286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapGroup(final ConceptMapGroup object) {
+	public T caseConceptMapGroup(ConceptMapGroup object) {
 		return null;
 	}
 
@@ -13301,7 +13301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapGroupUnmappedMode(final ConceptMapGroupUnmappedMode object) {
+	public T caseConceptMapGroupUnmappedMode(ConceptMapGroupUnmappedMode object) {
 		return null;
 	}
 
@@ -13316,7 +13316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapProperty(final ConceptMapProperty object) {
+	public T caseConceptMapProperty(ConceptMapProperty object) {
 		return null;
 	}
 
@@ -13331,7 +13331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapProperty1(final ConceptMapProperty1 object) {
+	public T caseConceptMapProperty1(ConceptMapProperty1 object) {
 		return null;
 	}
 
@@ -13346,7 +13346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapPropertyType(final ConceptMapPropertyType object) {
+	public T caseConceptMapPropertyType(ConceptMapPropertyType object) {
 		return null;
 	}
 
@@ -13361,7 +13361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapRelationship(final ConceptMapRelationship object) {
+	public T caseConceptMapRelationship(ConceptMapRelationship object) {
 		return null;
 	}
 
@@ -13376,7 +13376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapTarget(final ConceptMapTarget object) {
+	public T caseConceptMapTarget(ConceptMapTarget object) {
 		return null;
 	}
 
@@ -13391,7 +13391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConceptMapUnmapped(final ConceptMapUnmapped object) {
+	public T caseConceptMapUnmapped(ConceptMapUnmapped object) {
 		return null;
 	}
 
@@ -13406,7 +13406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConcreteFHIRTypes(final ConcreteFHIRTypes object) {
+	public T caseConcreteFHIRTypes(ConcreteFHIRTypes object) {
 		return null;
 	}
 
@@ -13421,7 +13421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCondition(final Condition object) {
+	public T caseCondition(Condition object) {
 		return null;
 	}
 
@@ -13436,7 +13436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionalDeleteStatus(final ConditionalDeleteStatus object) {
+	public T caseConditionalDeleteStatus(ConditionalDeleteStatus object) {
 		return null;
 	}
 
@@ -13451,7 +13451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionalReadStatus(final ConditionalReadStatus object) {
+	public T caseConditionalReadStatus(ConditionalReadStatus object) {
 		return null;
 	}
 
@@ -13466,7 +13466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinition(final ConditionDefinition object) {
+	public T caseConditionDefinition(ConditionDefinition object) {
 		return null;
 	}
 
@@ -13481,7 +13481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinitionMedication(final ConditionDefinitionMedication object) {
+	public T caseConditionDefinitionMedication(ConditionDefinitionMedication object) {
 		return null;
 	}
 
@@ -13496,7 +13496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinitionObservation(final ConditionDefinitionObservation object) {
+	public T caseConditionDefinitionObservation(ConditionDefinitionObservation object) {
 		return null;
 	}
 
@@ -13511,7 +13511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinitionPlan(final ConditionDefinitionPlan object) {
+	public T caseConditionDefinitionPlan(ConditionDefinitionPlan object) {
 		return null;
 	}
 
@@ -13526,7 +13526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinitionPrecondition(final ConditionDefinitionPrecondition object) {
+	public T caseConditionDefinitionPrecondition(ConditionDefinitionPrecondition object) {
 		return null;
 	}
 
@@ -13541,7 +13541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionDefinitionQuestionnaire(final ConditionDefinitionQuestionnaire object) {
+	public T caseConditionDefinitionQuestionnaire(ConditionDefinitionQuestionnaire object) {
 		return null;
 	}
 
@@ -13556,7 +13556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionParticipant(final ConditionParticipant object) {
+	public T caseConditionParticipant(ConditionParticipant object) {
 		return null;
 	}
 
@@ -13571,7 +13571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionPreconditionType(final ConditionPreconditionType object) {
+	public T caseConditionPreconditionType(ConditionPreconditionType object) {
 		return null;
 	}
 
@@ -13586,7 +13586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionQuestionnairePurpose(final ConditionQuestionnairePurpose object) {
+	public T caseConditionQuestionnairePurpose(ConditionQuestionnairePurpose object) {
 		return null;
 	}
 
@@ -13601,7 +13601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConditionStage(final ConditionStage object) {
+	public T caseConditionStage(ConditionStage object) {
 		return null;
 	}
 
@@ -13616,7 +13616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConformanceExpectation(final ConformanceExpectation object) {
+	public T caseConformanceExpectation(ConformanceExpectation object) {
 		return null;
 	}
 
@@ -13631,7 +13631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsent(final Consent object) {
+	public T caseConsent(Consent object) {
 		return null;
 	}
 
@@ -13646,7 +13646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentActor(final ConsentActor object) {
+	public T caseConsentActor(ConsentActor object) {
 		return null;
 	}
 
@@ -13661,7 +13661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentData(final ConsentData object) {
+	public T caseConsentData(ConsentData object) {
 		return null;
 	}
 
@@ -13676,7 +13676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentDataMeaning(final ConsentDataMeaning object) {
+	public T caseConsentDataMeaning(ConsentDataMeaning object) {
 		return null;
 	}
 
@@ -13691,7 +13691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentPolicyBasis(final ConsentPolicyBasis object) {
+	public T caseConsentPolicyBasis(ConsentPolicyBasis object) {
 		return null;
 	}
 
@@ -13706,7 +13706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentProvision(final ConsentProvision object) {
+	public T caseConsentProvision(ConsentProvision object) {
 		return null;
 	}
 
@@ -13721,7 +13721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentProvisionType(final ConsentProvisionType object) {
+	public T caseConsentProvisionType(ConsentProvisionType object) {
 		return null;
 	}
 
@@ -13736,7 +13736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentState(final ConsentState object) {
+	public T caseConsentState(ConsentState object) {
 		return null;
 	}
 
@@ -13751,7 +13751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConsentVerification(final ConsentVerification object) {
+	public T caseConsentVerification(ConsentVerification object) {
 		return null;
 	}
 
@@ -13766,7 +13766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseConstraintSeverity(final ConstraintSeverity object) {
+	public T caseConstraintSeverity(ConstraintSeverity object) {
 		return null;
 	}
 
@@ -13781,7 +13781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContactDetail(final ContactDetail object) {
+	public T caseContactDetail(ContactDetail object) {
 		return null;
 	}
 
@@ -13796,7 +13796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContactPoint(final ContactPoint object) {
+	public T caseContactPoint(ContactPoint object) {
 		return null;
 	}
 
@@ -13811,7 +13811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContactPointSystem(final ContactPointSystem object) {
+	public T caseContactPointSystem(ContactPointSystem object) {
 		return null;
 	}
 
@@ -13826,7 +13826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContactPointUse(final ContactPointUse object) {
+	public T caseContactPointUse(ContactPointUse object) {
 		return null;
 	}
 
@@ -13841,7 +13841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContract(final Contract object) {
+	public T caseContract(Contract object) {
 		return null;
 	}
 
@@ -13856,7 +13856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractAction(final ContractAction object) {
+	public T caseContractAction(ContractAction object) {
 		return null;
 	}
 
@@ -13871,7 +13871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractAnswer(final ContractAnswer object) {
+	public T caseContractAnswer(ContractAnswer object) {
 		return null;
 	}
 
@@ -13886,7 +13886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractAsset(final ContractAsset object) {
+	public T caseContractAsset(ContractAsset object) {
 		return null;
 	}
 
@@ -13901,7 +13901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractContentDefinition(final ContractContentDefinition object) {
+	public T caseContractContentDefinition(ContractContentDefinition object) {
 		return null;
 	}
 
@@ -13916,7 +13916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractContext(final ContractContext object) {
+	public T caseContractContext(ContractContext object) {
 		return null;
 	}
 
@@ -13931,7 +13931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractFriendly(final ContractFriendly object) {
+	public T caseContractFriendly(ContractFriendly object) {
 		return null;
 	}
 
@@ -13946,7 +13946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractLegal(final ContractLegal object) {
+	public T caseContractLegal(ContractLegal object) {
 		return null;
 	}
 
@@ -13961,7 +13961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractOffer(final ContractOffer object) {
+	public T caseContractOffer(ContractOffer object) {
 		return null;
 	}
 
@@ -13976,7 +13976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractParty(final ContractParty object) {
+	public T caseContractParty(ContractParty object) {
 		return null;
 	}
 
@@ -13991,7 +13991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractResourcePublicationStatusCodes(final ContractResourcePublicationStatusCodes object) {
+	public T caseContractResourcePublicationStatusCodes(ContractResourcePublicationStatusCodes object) {
 		return null;
 	}
 
@@ -14006,7 +14006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractResourceStatusCodes(final ContractResourceStatusCodes object) {
+	public T caseContractResourceStatusCodes(ContractResourceStatusCodes object) {
 		return null;
 	}
 
@@ -14021,7 +14021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractRule(final ContractRule object) {
+	public T caseContractRule(ContractRule object) {
 		return null;
 	}
 
@@ -14036,7 +14036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractSecurityLabel(final ContractSecurityLabel object) {
+	public T caseContractSecurityLabel(ContractSecurityLabel object) {
 		return null;
 	}
 
@@ -14051,7 +14051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractSigner(final ContractSigner object) {
+	public T caseContractSigner(ContractSigner object) {
 		return null;
 	}
 
@@ -14066,7 +14066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractSubject(final ContractSubject object) {
+	public T caseContractSubject(ContractSubject object) {
 		return null;
 	}
 
@@ -14081,7 +14081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractTerm(final ContractTerm object) {
+	public T caseContractTerm(ContractTerm object) {
 		return null;
 	}
 
@@ -14096,7 +14096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContractValuedItem(final ContractValuedItem object) {
+	public T caseContractValuedItem(ContractValuedItem object) {
 		return null;
 	}
 
@@ -14111,7 +14111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContributor(final Contributor object) {
+	public T caseContributor(Contributor object) {
 		return null;
 	}
 
@@ -14126,7 +14126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseContributorType(final ContributorType object) {
+	public T caseContributorType(ContributorType object) {
 		return null;
 	}
 
@@ -14141,7 +14141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCount(final Count object) {
+	public T caseCount(Count object) {
 		return null;
 	}
 
@@ -14156,7 +14156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverage(final Coverage object) {
+	public T caseCoverage(Coverage object) {
 		return null;
 	}
 
@@ -14171,7 +14171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageClass(final CoverageClass object) {
+	public T caseCoverageClass(CoverageClass object) {
 		return null;
 	}
 
@@ -14186,7 +14186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageCostToBeneficiary(final CoverageCostToBeneficiary object) {
+	public T caseCoverageCostToBeneficiary(CoverageCostToBeneficiary object) {
 		return null;
 	}
 
@@ -14201,7 +14201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequest(final CoverageEligibilityRequest object) {
+	public T caseCoverageEligibilityRequest(CoverageEligibilityRequest object) {
 		return null;
 	}
 
@@ -14216,7 +14216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequestDiagnosis(final CoverageEligibilityRequestDiagnosis object) {
+	public T caseCoverageEligibilityRequestDiagnosis(CoverageEligibilityRequestDiagnosis object) {
 		return null;
 	}
 
@@ -14231,7 +14231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequestEvent(final CoverageEligibilityRequestEvent object) {
+	public T caseCoverageEligibilityRequestEvent(CoverageEligibilityRequestEvent object) {
 		return null;
 	}
 
@@ -14246,7 +14246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequestInsurance(final CoverageEligibilityRequestInsurance object) {
+	public T caseCoverageEligibilityRequestInsurance(CoverageEligibilityRequestInsurance object) {
 		return null;
 	}
 
@@ -14261,7 +14261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequestItem(final CoverageEligibilityRequestItem object) {
+	public T caseCoverageEligibilityRequestItem(CoverageEligibilityRequestItem object) {
 		return null;
 	}
 
@@ -14276,7 +14276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityRequestSupportingInfo(final CoverageEligibilityRequestSupportingInfo object) {
+	public T caseCoverageEligibilityRequestSupportingInfo(CoverageEligibilityRequestSupportingInfo object) {
 		return null;
 	}
 
@@ -14291,7 +14291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponse(final CoverageEligibilityResponse object) {
+	public T caseCoverageEligibilityResponse(CoverageEligibilityResponse object) {
 		return null;
 	}
 
@@ -14306,7 +14306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponseBenefit(final CoverageEligibilityResponseBenefit object) {
+	public T caseCoverageEligibilityResponseBenefit(CoverageEligibilityResponseBenefit object) {
 		return null;
 	}
 
@@ -14321,7 +14321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponseError(final CoverageEligibilityResponseError object) {
+	public T caseCoverageEligibilityResponseError(CoverageEligibilityResponseError object) {
 		return null;
 	}
 
@@ -14336,7 +14336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponseEvent(final CoverageEligibilityResponseEvent object) {
+	public T caseCoverageEligibilityResponseEvent(CoverageEligibilityResponseEvent object) {
 		return null;
 	}
 
@@ -14351,7 +14351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponseInsurance(final CoverageEligibilityResponseInsurance object) {
+	public T caseCoverageEligibilityResponseInsurance(CoverageEligibilityResponseInsurance object) {
 		return null;
 	}
 
@@ -14366,7 +14366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageEligibilityResponseItem(final CoverageEligibilityResponseItem object) {
+	public T caseCoverageEligibilityResponseItem(CoverageEligibilityResponseItem object) {
 		return null;
 	}
 
@@ -14381,7 +14381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoverageException(final CoverageException object) {
+	public T caseCoverageException(CoverageException object) {
 		return null;
 	}
 
@@ -14396,7 +14396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCoveragePaymentBy(final CoveragePaymentBy object) {
+	public T caseCoveragePaymentBy(CoveragePaymentBy object) {
 		return null;
 	}
 
@@ -14411,7 +14411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCriteriaNotExistsBehavior(final CriteriaNotExistsBehavior object) {
+	public T caseCriteriaNotExistsBehavior(CriteriaNotExistsBehavior object) {
 		return null;
 	}
 
@@ -14426,7 +14426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataRequirement(final DataRequirement object) {
+	public T caseDataRequirement(DataRequirement object) {
 		return null;
 	}
 
@@ -14441,7 +14441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataRequirementCodeFilter(final DataRequirementCodeFilter object) {
+	public T caseDataRequirementCodeFilter(DataRequirementCodeFilter object) {
 		return null;
 	}
 
@@ -14456,7 +14456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataRequirementDateFilter(final DataRequirementDateFilter object) {
+	public T caseDataRequirementDateFilter(DataRequirementDateFilter object) {
 		return null;
 	}
 
@@ -14471,7 +14471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataRequirementSort(final DataRequirementSort object) {
+	public T caseDataRequirementSort(DataRequirementSort object) {
 		return null;
 	}
 
@@ -14486,7 +14486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataRequirementValueFilter(final DataRequirementValueFilter object) {
+	public T caseDataRequirementValueFilter(DataRequirementValueFilter object) {
 		return null;
 	}
 
@@ -14501,7 +14501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDataType(final DataType object) {
+	public T caseDataType(DataType object) {
 		return null;
 	}
 
@@ -14516,7 +14516,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDate(final Date object) {
+	public T caseDate(Date object) {
 		return null;
 	}
 
@@ -14531,7 +14531,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDateTime(final DateTime object) {
+	public T caseDateTime(DateTime object) {
 		return null;
 	}
 
@@ -14546,7 +14546,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDecimal(final Decimal object) {
+	public T caseDecimal(Decimal object) {
 		return null;
 	}
 
@@ -14561,7 +14561,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDefinitionResourceTypes(final DefinitionResourceTypes object) {
+	public T caseDefinitionResourceTypes(DefinitionResourceTypes object) {
 		return null;
 	}
 
@@ -14576,7 +14576,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDetectedIssue(final DetectedIssue object) {
+	public T caseDetectedIssue(DetectedIssue object) {
 		return null;
 	}
 
@@ -14591,7 +14591,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDetectedIssueEvidence(final DetectedIssueEvidence object) {
+	public T caseDetectedIssueEvidence(DetectedIssueEvidence object) {
 		return null;
 	}
 
@@ -14606,7 +14606,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDetectedIssueMitigation(final DetectedIssueMitigation object) {
+	public T caseDetectedIssueMitigation(DetectedIssueMitigation object) {
 		return null;
 	}
 
@@ -14621,7 +14621,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDetectedIssueSeverity(final DetectedIssueSeverity object) {
+	public T caseDetectedIssueSeverity(DetectedIssueSeverity object) {
 		return null;
 	}
 
@@ -14636,7 +14636,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDetectedIssueStatus(final DetectedIssueStatus object) {
+	public T caseDetectedIssueStatus(DetectedIssueStatus object) {
 		return null;
 	}
 
@@ -14651,7 +14651,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDevice(final Device object) {
+	public T caseDevice(Device object) {
 		return null;
 	}
 
@@ -14666,7 +14666,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceAssociation(final DeviceAssociation object) {
+	public T caseDeviceAssociation(DeviceAssociation object) {
 		return null;
 	}
 
@@ -14681,7 +14681,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceAssociationOperation(final DeviceAssociationOperation object) {
+	public T caseDeviceAssociationOperation(DeviceAssociationOperation object) {
 		return null;
 	}
 
@@ -14696,7 +14696,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceConformsTo(final DeviceConformsTo object) {
+	public T caseDeviceConformsTo(DeviceConformsTo object) {
 		return null;
 	}
 
@@ -14711,7 +14711,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceCorrectiveActionScope(final DeviceCorrectiveActionScope object) {
+	public T caseDeviceCorrectiveActionScope(DeviceCorrectiveActionScope object) {
 		return null;
 	}
 
@@ -14726,7 +14726,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinition(final DeviceDefinition object) {
+	public T caseDeviceDefinition(DeviceDefinition object) {
 		return null;
 	}
 
@@ -14741,7 +14741,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionChargeItem(final DeviceDefinitionChargeItem object) {
+	public T caseDeviceDefinitionChargeItem(DeviceDefinitionChargeItem object) {
 		return null;
 	}
 
@@ -14756,7 +14756,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionClassification(final DeviceDefinitionClassification object) {
+	public T caseDeviceDefinitionClassification(DeviceDefinitionClassification object) {
 		return null;
 	}
 
@@ -14771,7 +14771,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionConformsTo(final DeviceDefinitionConformsTo object) {
+	public T caseDeviceDefinitionConformsTo(DeviceDefinitionConformsTo object) {
 		return null;
 	}
 
@@ -14786,7 +14786,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionCorrectiveAction(final DeviceDefinitionCorrectiveAction object) {
+	public T caseDeviceDefinitionCorrectiveAction(DeviceDefinitionCorrectiveAction object) {
 		return null;
 	}
 
@@ -14801,7 +14801,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionDeviceName(final DeviceDefinitionDeviceName object) {
+	public T caseDeviceDefinitionDeviceName(DeviceDefinitionDeviceName object) {
 		return null;
 	}
 
@@ -14816,7 +14816,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionDistributor(final DeviceDefinitionDistributor object) {
+	public T caseDeviceDefinitionDistributor(DeviceDefinitionDistributor object) {
 		return null;
 	}
 
@@ -14831,7 +14831,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionGuideline(final DeviceDefinitionGuideline object) {
+	public T caseDeviceDefinitionGuideline(DeviceDefinitionGuideline object) {
 		return null;
 	}
 
@@ -14846,7 +14846,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionHasPart(final DeviceDefinitionHasPart object) {
+	public T caseDeviceDefinitionHasPart(DeviceDefinitionHasPart object) {
 		return null;
 	}
 
@@ -14861,7 +14861,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionLink(final DeviceDefinitionLink object) {
+	public T caseDeviceDefinitionLink(DeviceDefinitionLink object) {
 		return null;
 	}
 
@@ -14876,7 +14876,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionMarketDistribution(final DeviceDefinitionMarketDistribution object) {
+	public T caseDeviceDefinitionMarketDistribution(DeviceDefinitionMarketDistribution object) {
 		return null;
 	}
 
@@ -14891,7 +14891,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionMaterial(final DeviceDefinitionMaterial object) {
+	public T caseDeviceDefinitionMaterial(DeviceDefinitionMaterial object) {
 		return null;
 	}
 
@@ -14906,7 +14906,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionPackaging(final DeviceDefinitionPackaging object) {
+	public T caseDeviceDefinitionPackaging(DeviceDefinitionPackaging object) {
 		return null;
 	}
 
@@ -14921,7 +14921,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionProperty(final DeviceDefinitionProperty object) {
+	public T caseDeviceDefinitionProperty(DeviceDefinitionProperty object) {
 		return null;
 	}
 
@@ -14936,7 +14936,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionRegulatoryIdentifier(final DeviceDefinitionRegulatoryIdentifier object) {
+	public T caseDeviceDefinitionRegulatoryIdentifier(DeviceDefinitionRegulatoryIdentifier object) {
 		return null;
 	}
 
@@ -14951,7 +14951,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionRegulatoryIdentifierType(final DeviceDefinitionRegulatoryIdentifierType object) {
+	public T caseDeviceDefinitionRegulatoryIdentifierType(DeviceDefinitionRegulatoryIdentifierType object) {
 		return null;
 	}
 
@@ -14966,7 +14966,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionUdiDeviceIdentifier(final DeviceDefinitionUdiDeviceIdentifier object) {
+	public T caseDeviceDefinitionUdiDeviceIdentifier(DeviceDefinitionUdiDeviceIdentifier object) {
 		return null;
 	}
 
@@ -14981,7 +14981,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDefinitionVersion(final DeviceDefinitionVersion object) {
+	public T caseDeviceDefinitionVersion(DeviceDefinitionVersion object) {
 		return null;
 	}
 
@@ -14996,7 +14996,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDispense(final DeviceDispense object) {
+	public T caseDeviceDispense(DeviceDispense object) {
 		return null;
 	}
 
@@ -15011,7 +15011,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDispensePerformer(final DeviceDispensePerformer object) {
+	public T caseDeviceDispensePerformer(DeviceDispensePerformer object) {
 		return null;
 	}
 
@@ -15026,7 +15026,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceDispenseStatusCodes(final DeviceDispenseStatusCodes object) {
+	public T caseDeviceDispenseStatusCodes(DeviceDispenseStatusCodes object) {
 		return null;
 	}
 
@@ -15041,7 +15041,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetric(final DeviceMetric object) {
+	public T caseDeviceMetric(DeviceMetric object) {
 		return null;
 	}
 
@@ -15056,7 +15056,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetricCalibration(final DeviceMetricCalibration object) {
+	public T caseDeviceMetricCalibration(DeviceMetricCalibration object) {
 		return null;
 	}
 
@@ -15071,7 +15071,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetricCalibrationState(final DeviceMetricCalibrationState object) {
+	public T caseDeviceMetricCalibrationState(DeviceMetricCalibrationState object) {
 		return null;
 	}
 
@@ -15086,7 +15086,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetricCalibrationType(final DeviceMetricCalibrationType object) {
+	public T caseDeviceMetricCalibrationType(DeviceMetricCalibrationType object) {
 		return null;
 	}
 
@@ -15101,7 +15101,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetricCategory(final DeviceMetricCategory object) {
+	public T caseDeviceMetricCategory(DeviceMetricCategory object) {
 		return null;
 	}
 
@@ -15116,7 +15116,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceMetricOperationalStatus(final DeviceMetricOperationalStatus object) {
+	public T caseDeviceMetricOperationalStatus(DeviceMetricOperationalStatus object) {
 		return null;
 	}
 
@@ -15131,7 +15131,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceName(final DeviceName object) {
+	public T caseDeviceName(DeviceName object) {
 		return null;
 	}
 
@@ -15146,7 +15146,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceNameType(final DeviceNameType object) {
+	public T caseDeviceNameType(DeviceNameType object) {
 		return null;
 	}
 
@@ -15161,7 +15161,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceProductionIdentifierInUDI(final DeviceProductionIdentifierInUDI object) {
+	public T caseDeviceProductionIdentifierInUDI(DeviceProductionIdentifierInUDI object) {
 		return null;
 	}
 
@@ -15176,7 +15176,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceProperty(final DeviceProperty object) {
+	public T caseDeviceProperty(DeviceProperty object) {
 		return null;
 	}
 
@@ -15191,7 +15191,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceRequest(final DeviceRequest object) {
+	public T caseDeviceRequest(DeviceRequest object) {
 		return null;
 	}
 
@@ -15206,7 +15206,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceRequestParameter(final DeviceRequestParameter object) {
+	public T caseDeviceRequestParameter(DeviceRequestParameter object) {
 		return null;
 	}
 
@@ -15221,7 +15221,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceUdiCarrier(final DeviceUdiCarrier object) {
+	public T caseDeviceUdiCarrier(DeviceUdiCarrier object) {
 		return null;
 	}
 
@@ -15236,7 +15236,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceUsage(final DeviceUsage object) {
+	public T caseDeviceUsage(DeviceUsage object) {
 		return null;
 	}
 
@@ -15251,7 +15251,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceUsageAdherence(final DeviceUsageAdherence object) {
+	public T caseDeviceUsageAdherence(DeviceUsageAdherence object) {
 		return null;
 	}
 
@@ -15266,7 +15266,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceUsageStatus(final DeviceUsageStatus object) {
+	public T caseDeviceUsageStatus(DeviceUsageStatus object) {
 		return null;
 	}
 
@@ -15281,7 +15281,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDeviceVersion(final DeviceVersion object) {
+	public T caseDeviceVersion(DeviceVersion object) {
 		return null;
 	}
 
@@ -15296,7 +15296,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDiagnosticReport(final DiagnosticReport object) {
+	public T caseDiagnosticReport(DiagnosticReport object) {
 		return null;
 	}
 
@@ -15311,7 +15311,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDiagnosticReportMedia(final DiagnosticReportMedia object) {
+	public T caseDiagnosticReportMedia(DiagnosticReportMedia object) {
 		return null;
 	}
 
@@ -15326,7 +15326,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDiagnosticReportStatus(final DiagnosticReportStatus object) {
+	public T caseDiagnosticReportStatus(DiagnosticReportStatus object) {
 		return null;
 	}
 
@@ -15341,7 +15341,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDiagnosticReportSupportingInfo(final DiagnosticReportSupportingInfo object) {
+	public T caseDiagnosticReportSupportingInfo(DiagnosticReportSupportingInfo object) {
 		return null;
 	}
 
@@ -15356,7 +15356,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDiscriminatorType(final DiscriminatorType object) {
+	public T caseDiscriminatorType(DiscriminatorType object) {
 		return null;
 	}
 
@@ -15371,7 +15371,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDistance(final Distance object) {
+	public T caseDistance(Distance object) {
 		return null;
 	}
 
@@ -15386,7 +15386,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentMode(final DocumentMode object) {
+	public T caseDocumentMode(DocumentMode object) {
 		return null;
 	}
 
@@ -15401,7 +15401,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReference(final DocumentReference object) {
+	public T caseDocumentReference(DocumentReference object) {
 		return null;
 	}
 
@@ -15416,7 +15416,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReferenceAttester(final DocumentReferenceAttester object) {
+	public T caseDocumentReferenceAttester(DocumentReferenceAttester object) {
 		return null;
 	}
 
@@ -15431,7 +15431,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReferenceContent(final DocumentReferenceContent object) {
+	public T caseDocumentReferenceContent(DocumentReferenceContent object) {
 		return null;
 	}
 
@@ -15446,7 +15446,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReferenceProfile(final DocumentReferenceProfile object) {
+	public T caseDocumentReferenceProfile(DocumentReferenceProfile object) {
 		return null;
 	}
 
@@ -15461,7 +15461,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReferenceRelatesTo(final DocumentReferenceRelatesTo object) {
+	public T caseDocumentReferenceRelatesTo(DocumentReferenceRelatesTo object) {
 		return null;
 	}
 
@@ -15476,7 +15476,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentReferenceStatus(final DocumentReferenceStatus object) {
+	public T caseDocumentReferenceStatus(DocumentReferenceStatus object) {
 		return null;
 	}
 
@@ -15491,7 +15491,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDocumentRoot(final DocumentRoot object) {
+	public T caseDocumentRoot(DocumentRoot object) {
 		return null;
 	}
 
@@ -15506,7 +15506,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDomainResource(final DomainResource object) {
+	public T caseDomainResource(DomainResource object) {
 		return null;
 	}
 
@@ -15521,7 +15521,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDosage(final Dosage object) {
+	public T caseDosage(Dosage object) {
 		return null;
 	}
 
@@ -15536,7 +15536,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDosageDoseAndRate(final DosageDoseAndRate object) {
+	public T caseDosageDoseAndRate(DosageDoseAndRate object) {
 		return null;
 	}
 
@@ -15551,7 +15551,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseDuration(final Duration object) {
+	public T caseDuration(Duration object) {
 		return null;
 	}
 
@@ -15566,7 +15566,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElement(final Element object) {
+	public T caseElement(Element object) {
 		return null;
 	}
 
@@ -15581,7 +15581,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinition(final ElementDefinition object) {
+	public T caseElementDefinition(ElementDefinition object) {
 		return null;
 	}
 
@@ -15596,7 +15596,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionAdditional(final ElementDefinitionAdditional object) {
+	public T caseElementDefinitionAdditional(ElementDefinitionAdditional object) {
 		return null;
 	}
 
@@ -15611,7 +15611,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionBase(final ElementDefinitionBase object) {
+	public T caseElementDefinitionBase(ElementDefinitionBase object) {
 		return null;
 	}
 
@@ -15626,7 +15626,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionBinding(final ElementDefinitionBinding object) {
+	public T caseElementDefinitionBinding(ElementDefinitionBinding object) {
 		return null;
 	}
 
@@ -15641,7 +15641,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionConstraint(final ElementDefinitionConstraint object) {
+	public T caseElementDefinitionConstraint(ElementDefinitionConstraint object) {
 		return null;
 	}
 
@@ -15656,7 +15656,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionDiscriminator(final ElementDefinitionDiscriminator object) {
+	public T caseElementDefinitionDiscriminator(ElementDefinitionDiscriminator object) {
 		return null;
 	}
 
@@ -15671,7 +15671,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionExample(final ElementDefinitionExample object) {
+	public T caseElementDefinitionExample(ElementDefinitionExample object) {
 		return null;
 	}
 
@@ -15686,7 +15686,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionMapping(final ElementDefinitionMapping object) {
+	public T caseElementDefinitionMapping(ElementDefinitionMapping object) {
 		return null;
 	}
 
@@ -15701,7 +15701,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionSlicing(final ElementDefinitionSlicing object) {
+	public T caseElementDefinitionSlicing(ElementDefinitionSlicing object) {
 		return null;
 	}
 
@@ -15716,7 +15716,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseElementDefinitionType(final ElementDefinitionType object) {
+	public T caseElementDefinitionType(ElementDefinitionType object) {
 		return null;
 	}
 
@@ -15731,7 +15731,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEligibilityOutcome(final EligibilityOutcome object) {
+	public T caseEligibilityOutcome(EligibilityOutcome object) {
 		return null;
 	}
 
@@ -15746,7 +15746,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEligibilityRequestPurpose(final EligibilityRequestPurpose object) {
+	public T caseEligibilityRequestPurpose(EligibilityRequestPurpose object) {
 		return null;
 	}
 
@@ -15761,7 +15761,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEligibilityResponsePurpose(final EligibilityResponsePurpose object) {
+	public T caseEligibilityResponsePurpose(EligibilityResponsePurpose object) {
 		return null;
 	}
 
@@ -15776,7 +15776,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEnableWhenBehavior(final EnableWhenBehavior object) {
+	public T caseEnableWhenBehavior(EnableWhenBehavior object) {
 		return null;
 	}
 
@@ -15791,7 +15791,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounter(final Encounter object) {
+	public T caseEncounter(Encounter object) {
 		return null;
 	}
 
@@ -15806,7 +15806,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterAdmission(final EncounterAdmission object) {
+	public T caseEncounterAdmission(EncounterAdmission object) {
 		return null;
 	}
 
@@ -15821,7 +15821,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterDiagnosis(final EncounterDiagnosis object) {
+	public T caseEncounterDiagnosis(EncounterDiagnosis object) {
 		return null;
 	}
 
@@ -15836,7 +15836,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterHistory(final EncounterHistory object) {
+	public T caseEncounterHistory(EncounterHistory object) {
 		return null;
 	}
 
@@ -15851,7 +15851,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterHistoryLocation(final EncounterHistoryLocation object) {
+	public T caseEncounterHistoryLocation(EncounterHistoryLocation object) {
 		return null;
 	}
 
@@ -15866,7 +15866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterLocation(final EncounterLocation object) {
+	public T caseEncounterLocation(EncounterLocation object) {
 		return null;
 	}
 
@@ -15881,7 +15881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterLocationStatus(final EncounterLocationStatus object) {
+	public T caseEncounterLocationStatus(EncounterLocationStatus object) {
 		return null;
 	}
 
@@ -15896,7 +15896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterParticipant(final EncounterParticipant object) {
+	public T caseEncounterParticipant(EncounterParticipant object) {
 		return null;
 	}
 
@@ -15911,7 +15911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterReason(final EncounterReason object) {
+	public T caseEncounterReason(EncounterReason object) {
 		return null;
 	}
 
@@ -15926,7 +15926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEncounterStatus(final EncounterStatus object) {
+	public T caseEncounterStatus(EncounterStatus object) {
 		return null;
 	}
 
@@ -15941,7 +15941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEndpoint(final Endpoint object) {
+	public T caseEndpoint(Endpoint object) {
 		return null;
 	}
 
@@ -15956,7 +15956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEndpointPayload(final EndpointPayload object) {
+	public T caseEndpointPayload(EndpointPayload object) {
 		return null;
 	}
 
@@ -15971,7 +15971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEndpointStatus(final EndpointStatus object) {
+	public T caseEndpointStatus(EndpointStatus object) {
 		return null;
 	}
 
@@ -15986,7 +15986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEnrollmentOutcome(final EnrollmentOutcome object) {
+	public T caseEnrollmentOutcome(EnrollmentOutcome object) {
 		return null;
 	}
 
@@ -16001,7 +16001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEnrollmentRequest(final EnrollmentRequest object) {
+	public T caseEnrollmentRequest(EnrollmentRequest object) {
 		return null;
 	}
 
@@ -16016,7 +16016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEnrollmentResponse(final EnrollmentResponse object) {
+	public T caseEnrollmentResponse(EnrollmentResponse object) {
 		return null;
 	}
 
@@ -16031,7 +16031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEpisodeOfCare(final EpisodeOfCare object) {
+	public T caseEpisodeOfCare(EpisodeOfCare object) {
 		return null;
 	}
 
@@ -16046,7 +16046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEpisodeOfCareDiagnosis(final EpisodeOfCareDiagnosis object) {
+	public T caseEpisodeOfCareDiagnosis(EpisodeOfCareDiagnosis object) {
 		return null;
 	}
 
@@ -16061,7 +16061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEpisodeOfCareReason(final EpisodeOfCareReason object) {
+	public T caseEpisodeOfCareReason(EpisodeOfCareReason object) {
 		return null;
 	}
 
@@ -16076,7 +16076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEpisodeOfCareStatus(final EpisodeOfCareStatus object) {
+	public T caseEpisodeOfCareStatus(EpisodeOfCareStatus object) {
 		return null;
 	}
 
@@ -16091,7 +16091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEpisodeOfCareStatusHistory(final EpisodeOfCareStatusHistory object) {
+	public T caseEpisodeOfCareStatusHistory(EpisodeOfCareStatusHistory object) {
 		return null;
 	}
 
@@ -16106,7 +16106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEventCapabilityMode(final EventCapabilityMode object) {
+	public T caseEventCapabilityMode(EventCapabilityMode object) {
 		return null;
 	}
 
@@ -16121,7 +16121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEventDefinition(final EventDefinition object) {
+	public T caseEventDefinition(EventDefinition object) {
 		return null;
 	}
 
@@ -16136,7 +16136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEventResourceTypes(final EventResourceTypes object) {
+	public T caseEventResourceTypes(EventResourceTypes object) {
 		return null;
 	}
 
@@ -16151,7 +16151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEventStatus(final EventStatus object) {
+	public T caseEventStatus(EventStatus object) {
 		return null;
 	}
 
@@ -16166,7 +16166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEventTiming(final EventTiming object) {
+	public T caseEventTiming(EventTiming object) {
 		return null;
 	}
 
@@ -16181,7 +16181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidence(final Evidence object) {
+	public T caseEvidence(Evidence object) {
 		return null;
 	}
 
@@ -16196,7 +16196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceAttributeEstimate(final EvidenceAttributeEstimate object) {
+	public T caseEvidenceAttributeEstimate(EvidenceAttributeEstimate object) {
 		return null;
 	}
 
@@ -16211,7 +16211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceCertainty(final EvidenceCertainty object) {
+	public T caseEvidenceCertainty(EvidenceCertainty object) {
 		return null;
 	}
 
@@ -16226,7 +16226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceModelCharacteristic(final EvidenceModelCharacteristic object) {
+	public T caseEvidenceModelCharacteristic(EvidenceModelCharacteristic object) {
 		return null;
 	}
 
@@ -16241,7 +16241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReport(final EvidenceReport object) {
+	public T caseEvidenceReport(EvidenceReport object) {
 		return null;
 	}
 
@@ -16256,7 +16256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReportCharacteristic(final EvidenceReportCharacteristic object) {
+	public T caseEvidenceReportCharacteristic(EvidenceReportCharacteristic object) {
 		return null;
 	}
 
@@ -16271,7 +16271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReportRelatesTo(final EvidenceReportRelatesTo object) {
+	public T caseEvidenceReportRelatesTo(EvidenceReportRelatesTo object) {
 		return null;
 	}
 
@@ -16286,7 +16286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReportSection(final EvidenceReportSection object) {
+	public T caseEvidenceReportSection(EvidenceReportSection object) {
 		return null;
 	}
 
@@ -16301,7 +16301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReportSubject(final EvidenceReportSubject object) {
+	public T caseEvidenceReportSubject(EvidenceReportSubject object) {
 		return null;
 	}
 
@@ -16316,7 +16316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceReportTarget(final EvidenceReportTarget object) {
+	public T caseEvidenceReportTarget(EvidenceReportTarget object) {
 		return null;
 	}
 
@@ -16331,7 +16331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceSampleSize(final EvidenceSampleSize object) {
+	public T caseEvidenceSampleSize(EvidenceSampleSize object) {
 		return null;
 	}
 
@@ -16346,7 +16346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceStatistic(final EvidenceStatistic object) {
+	public T caseEvidenceStatistic(EvidenceStatistic object) {
 		return null;
 	}
 
@@ -16361,7 +16361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariable(final EvidenceVariable object) {
+	public T caseEvidenceVariable(EvidenceVariable object) {
 		return null;
 	}
 
@@ -16376,7 +16376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariable1(final EvidenceVariable1 object) {
+	public T caseEvidenceVariable1(EvidenceVariable1 object) {
 		return null;
 	}
 
@@ -16391,7 +16391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableCategory(final EvidenceVariableCategory object) {
+	public T caseEvidenceVariableCategory(EvidenceVariableCategory object) {
 		return null;
 	}
 
@@ -16406,7 +16406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableCharacteristic(final EvidenceVariableCharacteristic object) {
+	public T caseEvidenceVariableCharacteristic(EvidenceVariableCharacteristic object) {
 		return null;
 	}
 
@@ -16421,7 +16421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableDefinition(final EvidenceVariableDefinition object) {
+	public T caseEvidenceVariableDefinition(EvidenceVariableDefinition object) {
 		return null;
 	}
 
@@ -16436,7 +16436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableDefinitionByCombination(final EvidenceVariableDefinitionByCombination object) {
+	public T caseEvidenceVariableDefinitionByCombination(EvidenceVariableDefinitionByCombination object) {
 		return null;
 	}
 
@@ -16451,7 +16451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableDefinitionByTypeAndValue(final EvidenceVariableDefinitionByTypeAndValue object) {
+	public T caseEvidenceVariableDefinitionByTypeAndValue(EvidenceVariableDefinitionByTypeAndValue object) {
 		return null;
 	}
 
@@ -16466,7 +16466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableHandling(final EvidenceVariableHandling object) {
+	public T caseEvidenceVariableHandling(EvidenceVariableHandling object) {
 		return null;
 	}
 
@@ -16481,7 +16481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseEvidenceVariableTimeFromEvent(final EvidenceVariableTimeFromEvent object) {
+	public T caseEvidenceVariableTimeFromEvent(EvidenceVariableTimeFromEvent object) {
 		return null;
 	}
 
@@ -16496,7 +16496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenario(final ExampleScenario object) {
+	public T caseExampleScenario(ExampleScenario object) {
 		return null;
 	}
 
@@ -16511,7 +16511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioActor(final ExampleScenarioActor object) {
+	public T caseExampleScenarioActor(ExampleScenarioActor object) {
 		return null;
 	}
 
@@ -16526,7 +16526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioActorType(final ExampleScenarioActorType object) {
+	public T caseExampleScenarioActorType(ExampleScenarioActorType object) {
 		return null;
 	}
 
@@ -16541,7 +16541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioAlternative(final ExampleScenarioAlternative object) {
+	public T caseExampleScenarioAlternative(ExampleScenarioAlternative object) {
 		return null;
 	}
 
@@ -16556,7 +16556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioContainedInstance(final ExampleScenarioContainedInstance object) {
+	public T caseExampleScenarioContainedInstance(ExampleScenarioContainedInstance object) {
 		return null;
 	}
 
@@ -16571,7 +16571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioInstance(final ExampleScenarioInstance object) {
+	public T caseExampleScenarioInstance(ExampleScenarioInstance object) {
 		return null;
 	}
 
@@ -16586,7 +16586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioOperation(final ExampleScenarioOperation object) {
+	public T caseExampleScenarioOperation(ExampleScenarioOperation object) {
 		return null;
 	}
 
@@ -16601,7 +16601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioProcess(final ExampleScenarioProcess object) {
+	public T caseExampleScenarioProcess(ExampleScenarioProcess object) {
 		return null;
 	}
 
@@ -16616,7 +16616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioStep(final ExampleScenarioStep object) {
+	public T caseExampleScenarioStep(ExampleScenarioStep object) {
 		return null;
 	}
 
@@ -16631,7 +16631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExampleScenarioVersion(final ExampleScenarioVersion object) {
+	public T caseExampleScenarioVersion(ExampleScenarioVersion object) {
 		return null;
 	}
 
@@ -16646,7 +16646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefit(final ExplanationOfBenefit object) {
+	public T caseExplanationOfBenefit(ExplanationOfBenefit object) {
 		return null;
 	}
 
@@ -16661,7 +16661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitAccident(final ExplanationOfBenefitAccident object) {
+	public T caseExplanationOfBenefitAccident(ExplanationOfBenefitAccident object) {
 		return null;
 	}
 
@@ -16676,7 +16676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitAddItem(final ExplanationOfBenefitAddItem object) {
+	public T caseExplanationOfBenefitAddItem(ExplanationOfBenefitAddItem object) {
 		return null;
 	}
 
@@ -16691,7 +16691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitAdjudication(final ExplanationOfBenefitAdjudication object) {
+	public T caseExplanationOfBenefitAdjudication(ExplanationOfBenefitAdjudication object) {
 		return null;
 	}
 
@@ -16706,7 +16706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitBenefitBalance(final ExplanationOfBenefitBenefitBalance object) {
+	public T caseExplanationOfBenefitBenefitBalance(ExplanationOfBenefitBenefitBalance object) {
 		return null;
 	}
 
@@ -16721,7 +16721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitBodySite(final ExplanationOfBenefitBodySite object) {
+	public T caseExplanationOfBenefitBodySite(ExplanationOfBenefitBodySite object) {
 		return null;
 	}
 
@@ -16736,7 +16736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitBodySite1(final ExplanationOfBenefitBodySite1 object) {
+	public T caseExplanationOfBenefitBodySite1(ExplanationOfBenefitBodySite1 object) {
 		return null;
 	}
 
@@ -16751,7 +16751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitCareTeam(final ExplanationOfBenefitCareTeam object) {
+	public T caseExplanationOfBenefitCareTeam(ExplanationOfBenefitCareTeam object) {
 		return null;
 	}
 
@@ -16766,7 +16766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitDetail(final ExplanationOfBenefitDetail object) {
+	public T caseExplanationOfBenefitDetail(ExplanationOfBenefitDetail object) {
 		return null;
 	}
 
@@ -16781,7 +16781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitDetail1(final ExplanationOfBenefitDetail1 object) {
+	public T caseExplanationOfBenefitDetail1(ExplanationOfBenefitDetail1 object) {
 		return null;
 	}
 
@@ -16796,7 +16796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitDiagnosis(final ExplanationOfBenefitDiagnosis object) {
+	public T caseExplanationOfBenefitDiagnosis(ExplanationOfBenefitDiagnosis object) {
 		return null;
 	}
 
@@ -16811,7 +16811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitEvent(final ExplanationOfBenefitEvent object) {
+	public T caseExplanationOfBenefitEvent(ExplanationOfBenefitEvent object) {
 		return null;
 	}
 
@@ -16826,7 +16826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitFinancial(final ExplanationOfBenefitFinancial object) {
+	public T caseExplanationOfBenefitFinancial(ExplanationOfBenefitFinancial object) {
 		return null;
 	}
 
@@ -16841,7 +16841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitInsurance(final ExplanationOfBenefitInsurance object) {
+	public T caseExplanationOfBenefitInsurance(ExplanationOfBenefitInsurance object) {
 		return null;
 	}
 
@@ -16856,7 +16856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitItem(final ExplanationOfBenefitItem object) {
+	public T caseExplanationOfBenefitItem(ExplanationOfBenefitItem object) {
 		return null;
 	}
 
@@ -16871,7 +16871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitPayee(final ExplanationOfBenefitPayee object) {
+	public T caseExplanationOfBenefitPayee(ExplanationOfBenefitPayee object) {
 		return null;
 	}
 
@@ -16886,7 +16886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitPayment(final ExplanationOfBenefitPayment object) {
+	public T caseExplanationOfBenefitPayment(ExplanationOfBenefitPayment object) {
 		return null;
 	}
 
@@ -16901,7 +16901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitProcedure(final ExplanationOfBenefitProcedure object) {
+	public T caseExplanationOfBenefitProcedure(ExplanationOfBenefitProcedure object) {
 		return null;
 	}
 
@@ -16916,7 +16916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitProcessNote(final ExplanationOfBenefitProcessNote object) {
+	public T caseExplanationOfBenefitProcessNote(ExplanationOfBenefitProcessNote object) {
 		return null;
 	}
 
@@ -16931,7 +16931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitRelated(final ExplanationOfBenefitRelated object) {
+	public T caseExplanationOfBenefitRelated(ExplanationOfBenefitRelated object) {
 		return null;
 	}
 
@@ -16946,7 +16946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitReviewOutcome(final ExplanationOfBenefitReviewOutcome object) {
+	public T caseExplanationOfBenefitReviewOutcome(ExplanationOfBenefitReviewOutcome object) {
 		return null;
 	}
 
@@ -16961,7 +16961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitStatus(final ExplanationOfBenefitStatus object) {
+	public T caseExplanationOfBenefitStatus(ExplanationOfBenefitStatus object) {
 		return null;
 	}
 
@@ -16976,7 +16976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitSubDetail(final ExplanationOfBenefitSubDetail object) {
+	public T caseExplanationOfBenefitSubDetail(ExplanationOfBenefitSubDetail object) {
 		return null;
 	}
 
@@ -16991,7 +16991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitSubDetail1(final ExplanationOfBenefitSubDetail1 object) {
+	public T caseExplanationOfBenefitSubDetail1(ExplanationOfBenefitSubDetail1 object) {
 		return null;
 	}
 
@@ -17006,7 +17006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitSupportingInfo(final ExplanationOfBenefitSupportingInfo object) {
+	public T caseExplanationOfBenefitSupportingInfo(ExplanationOfBenefitSupportingInfo object) {
 		return null;
 	}
 
@@ -17021,7 +17021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExplanationOfBenefitTotal(final ExplanationOfBenefitTotal object) {
+	public T caseExplanationOfBenefitTotal(ExplanationOfBenefitTotal object) {
 		return null;
 	}
 
@@ -17036,7 +17036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExpression(final Expression object) {
+	public T caseExpression(Expression object) {
 		return null;
 	}
 
@@ -17051,7 +17051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExtendedContactDetail(final ExtendedContactDetail object) {
+	public T caseExtendedContactDetail(ExtendedContactDetail object) {
 		return null;
 	}
 
@@ -17066,7 +17066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExtension(final Extension object) {
+	public T caseExtension(Extension object) {
 		return null;
 	}
 
@@ -17081,7 +17081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseExtensionContextType(final ExtensionContextType object) {
+	public T caseExtensionContextType(ExtensionContextType object) {
 		return null;
 	}
 
@@ -17096,7 +17096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFamilyHistoryStatus(final FamilyHistoryStatus object) {
+	public T caseFamilyHistoryStatus(FamilyHistoryStatus object) {
 		return null;
 	}
 
@@ -17111,7 +17111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFamilyMemberHistory(final FamilyMemberHistory object) {
+	public T caseFamilyMemberHistory(FamilyMemberHistory object) {
 		return null;
 	}
 
@@ -17126,7 +17126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFamilyMemberHistoryCondition(final FamilyMemberHistoryCondition object) {
+	public T caseFamilyMemberHistoryCondition(FamilyMemberHistoryCondition object) {
 		return null;
 	}
 
@@ -17141,7 +17141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFamilyMemberHistoryParticipant(final FamilyMemberHistoryParticipant object) {
+	public T caseFamilyMemberHistoryParticipant(FamilyMemberHistoryParticipant object) {
 		return null;
 	}
 
@@ -17156,7 +17156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFamilyMemberHistoryProcedure(final FamilyMemberHistoryProcedure object) {
+	public T caseFamilyMemberHistoryProcedure(FamilyMemberHistoryProcedure object) {
 		return null;
 	}
 
@@ -17171,7 +17171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFHIRDeviceStatus(final FHIRDeviceStatus object) {
+	public T caseFHIRDeviceStatus(FHIRDeviceStatus object) {
 		return null;
 	}
 
@@ -17186,7 +17186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFHIRPathTypes(final FHIRPathTypes object) {
+	public T caseFHIRPathTypes(FHIRPathTypes object) {
 		return null;
 	}
 
@@ -17201,7 +17201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFHIRSubstanceStatus(final FHIRSubstanceStatus object) {
+	public T caseFHIRSubstanceStatus(FHIRSubstanceStatus object) {
 		return null;
 	}
 
@@ -17216,7 +17216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFHIRTypes(final FHIRTypes object) {
+	public T caseFHIRTypes(FHIRTypes object) {
 		return null;
 	}
 
@@ -17231,7 +17231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFHIRVersion(final FHIRVersion object) {
+	public T caseFHIRVersion(FHIRVersion object) {
 		return null;
 	}
 
@@ -17246,7 +17246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFilterOperator(final FilterOperator object) {
+	public T caseFilterOperator(FilterOperator object) {
 		return null;
 	}
 
@@ -17261,7 +17261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFinancialResourceStatusCodes(final FinancialResourceStatusCodes object) {
+	public T caseFinancialResourceStatusCodes(FinancialResourceStatusCodes object) {
 		return null;
 	}
 
@@ -17276,7 +17276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFlag(final Flag object) {
+	public T caseFlag(Flag object) {
 		return null;
 	}
 
@@ -17291,7 +17291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFlagStatus(final FlagStatus object) {
+	public T caseFlagStatus(FlagStatus object) {
 		return null;
 	}
 
@@ -17306,7 +17306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFormularyItem(final FormularyItem object) {
+	public T caseFormularyItem(FormularyItem object) {
 		return null;
 	}
 
@@ -17321,7 +17321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseFormularyItemStatusCodes(final FormularyItemStatusCodes object) {
+	public T caseFormularyItemStatusCodes(FormularyItemStatusCodes object) {
 		return null;
 	}
 
@@ -17336,7 +17336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudy(final GenomicStudy object) {
+	public T caseGenomicStudy(GenomicStudy object) {
 		return null;
 	}
 
@@ -17351,7 +17351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyAnalysis(final GenomicStudyAnalysis object) {
+	public T caseGenomicStudyAnalysis(GenomicStudyAnalysis object) {
 		return null;
 	}
 
@@ -17366,7 +17366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyDevice(final GenomicStudyDevice object) {
+	public T caseGenomicStudyDevice(GenomicStudyDevice object) {
 		return null;
 	}
 
@@ -17381,7 +17381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyInput(final GenomicStudyInput object) {
+	public T caseGenomicStudyInput(GenomicStudyInput object) {
 		return null;
 	}
 
@@ -17396,7 +17396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyOutput(final GenomicStudyOutput object) {
+	public T caseGenomicStudyOutput(GenomicStudyOutput object) {
 		return null;
 	}
 
@@ -17411,7 +17411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyPerformer(final GenomicStudyPerformer object) {
+	public T caseGenomicStudyPerformer(GenomicStudyPerformer object) {
 		return null;
 	}
 
@@ -17426,7 +17426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGenomicStudyStatus(final GenomicStudyStatus object) {
+	public T caseGenomicStudyStatus(GenomicStudyStatus object) {
 		return null;
 	}
 
@@ -17441,7 +17441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGoal(final Goal object) {
+	public T caseGoal(Goal object) {
 		return null;
 	}
 
@@ -17456,7 +17456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGoalLifecycleStatus(final GoalLifecycleStatus object) {
+	public T caseGoalLifecycleStatus(GoalLifecycleStatus object) {
 		return null;
 	}
 
@@ -17471,7 +17471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGoalTarget(final GoalTarget object) {
+	public T caseGoalTarget(GoalTarget object) {
 		return null;
 	}
 
@@ -17486,7 +17486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphCompartmentRule(final GraphCompartmentRule object) {
+	public T caseGraphCompartmentRule(GraphCompartmentRule object) {
 		return null;
 	}
 
@@ -17501,7 +17501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphCompartmentUse(final GraphCompartmentUse object) {
+	public T caseGraphCompartmentUse(GraphCompartmentUse object) {
 		return null;
 	}
 
@@ -17516,7 +17516,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphDefinition(final GraphDefinition object) {
+	public T caseGraphDefinition(GraphDefinition object) {
 		return null;
 	}
 
@@ -17531,7 +17531,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphDefinitionCompartment(final GraphDefinitionCompartment object) {
+	public T caseGraphDefinitionCompartment(GraphDefinitionCompartment object) {
 		return null;
 	}
 
@@ -17546,7 +17546,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphDefinitionLink(final GraphDefinitionLink object) {
+	public T caseGraphDefinitionLink(GraphDefinitionLink object) {
 		return null;
 	}
 
@@ -17561,7 +17561,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGraphDefinitionNode(final GraphDefinitionNode object) {
+	public T caseGraphDefinitionNode(GraphDefinitionNode object) {
 		return null;
 	}
 
@@ -17576,7 +17576,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGroup(final Group object) {
+	public T caseGroup(Group object) {
 		return null;
 	}
 
@@ -17591,7 +17591,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGroupCharacteristic(final GroupCharacteristic object) {
+	public T caseGroupCharacteristic(GroupCharacteristic object) {
 		return null;
 	}
 
@@ -17606,7 +17606,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGroupMember(final GroupMember object) {
+	public T caseGroupMember(GroupMember object) {
 		return null;
 	}
 
@@ -17621,7 +17621,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGroupMembershipBasis(final GroupMembershipBasis object) {
+	public T caseGroupMembershipBasis(GroupMembershipBasis object) {
 		return null;
 	}
 
@@ -17636,7 +17636,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGroupType(final GroupType object) {
+	public T caseGroupType(GroupType object) {
 		return null;
 	}
 
@@ -17651,7 +17651,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGuidanceResponse(final GuidanceResponse object) {
+	public T caseGuidanceResponse(GuidanceResponse object) {
 		return null;
 	}
 
@@ -17666,7 +17666,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGuidanceResponseStatus(final GuidanceResponseStatus object) {
+	public T caseGuidanceResponseStatus(GuidanceResponseStatus object) {
 		return null;
 	}
 
@@ -17681,7 +17681,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGuidePageGeneration(final GuidePageGeneration object) {
+	public T caseGuidePageGeneration(GuidePageGeneration object) {
 		return null;
 	}
 
@@ -17696,7 +17696,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseHealthcareService(final HealthcareService object) {
+	public T caseHealthcareService(HealthcareService object) {
 		return null;
 	}
 
@@ -17711,7 +17711,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseHealthcareServiceEligibility(final HealthcareServiceEligibility object) {
+	public T caseHealthcareServiceEligibility(HealthcareServiceEligibility object) {
 		return null;
 	}
 
@@ -17726,7 +17726,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseHTTPVerb(final HTTPVerb object) {
+	public T caseHTTPVerb(HTTPVerb object) {
 		return null;
 	}
 
@@ -17741,7 +17741,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseHumanName(final HumanName object) {
+	public T caseHumanName(HumanName object) {
 		return null;
 	}
 
@@ -17756,7 +17756,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseId(final Id object) {
+	public T caseId(Id object) {
 		return null;
 	}
 
@@ -17771,7 +17771,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIdentifier(final Identifier object) {
+	public T caseIdentifier(Identifier object) {
 		return null;
 	}
 
@@ -17786,7 +17786,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIdentifierUse(final IdentifierUse object) {
+	public T caseIdentifierUse(IdentifierUse object) {
 		return null;
 	}
 
@@ -17801,7 +17801,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIdentityAssuranceLevel(final IdentityAssuranceLevel object) {
+	public T caseIdentityAssuranceLevel(IdentityAssuranceLevel object) {
 		return null;
 	}
 
@@ -17816,7 +17816,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelection(final ImagingSelection object) {
+	public T caseImagingSelection(ImagingSelection object) {
 		return null;
 	}
 
@@ -17831,7 +17831,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionDGraphicType(final ImagingSelectionDGraphicType object) {
+	public T caseImagingSelectionDGraphicType(ImagingSelectionDGraphicType object) {
 		return null;
 	}
 
@@ -17846,7 +17846,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionImageRegion2D(final ImagingSelectionImageRegion2D object) {
+	public T caseImagingSelectionImageRegion2D(ImagingSelectionImageRegion2D object) {
 		return null;
 	}
 
@@ -17861,7 +17861,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionImageRegion3D(final ImagingSelectionImageRegion3D object) {
+	public T caseImagingSelectionImageRegion3D(ImagingSelectionImageRegion3D object) {
 		return null;
 	}
 
@@ -17876,7 +17876,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionInstance(final ImagingSelectionInstance object) {
+	public T caseImagingSelectionInstance(ImagingSelectionInstance object) {
 		return null;
 	}
 
@@ -17891,7 +17891,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionPerformer(final ImagingSelectionPerformer object) {
+	public T caseImagingSelectionPerformer(ImagingSelectionPerformer object) {
 		return null;
 	}
 
@@ -17906,7 +17906,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingSelectionStatus(final ImagingSelectionStatus object) {
+	public T caseImagingSelectionStatus(ImagingSelectionStatus object) {
 		return null;
 	}
 
@@ -17921,7 +17921,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingStudy(final ImagingStudy object) {
+	public T caseImagingStudy(ImagingStudy object) {
 		return null;
 	}
 
@@ -17936,7 +17936,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingStudyInstance(final ImagingStudyInstance object) {
+	public T caseImagingStudyInstance(ImagingStudyInstance object) {
 		return null;
 	}
 
@@ -17951,7 +17951,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingStudyPerformer(final ImagingStudyPerformer object) {
+	public T caseImagingStudyPerformer(ImagingStudyPerformer object) {
 		return null;
 	}
 
@@ -17966,7 +17966,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingStudySeries(final ImagingStudySeries object) {
+	public T caseImagingStudySeries(ImagingStudySeries object) {
 		return null;
 	}
 
@@ -17981,7 +17981,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImagingStudyStatus(final ImagingStudyStatus object) {
+	public T caseImagingStudyStatus(ImagingStudyStatus object) {
 		return null;
 	}
 
@@ -17996,7 +17996,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunization(final Immunization object) {
+	public T caseImmunization(Immunization object) {
 		return null;
 	}
 
@@ -18011,7 +18011,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationEvaluation(final ImmunizationEvaluation object) {
+	public T caseImmunizationEvaluation(ImmunizationEvaluation object) {
 		return null;
 	}
 
@@ -18026,7 +18026,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationEvaluationStatusCodes(final ImmunizationEvaluationStatusCodes object) {
+	public T caseImmunizationEvaluationStatusCodes(ImmunizationEvaluationStatusCodes object) {
 		return null;
 	}
 
@@ -18041,7 +18041,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationPerformer(final ImmunizationPerformer object) {
+	public T caseImmunizationPerformer(ImmunizationPerformer object) {
 		return null;
 	}
 
@@ -18056,7 +18056,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationProgramEligibility(final ImmunizationProgramEligibility object) {
+	public T caseImmunizationProgramEligibility(ImmunizationProgramEligibility object) {
 		return null;
 	}
 
@@ -18071,7 +18071,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationProtocolApplied(final ImmunizationProtocolApplied object) {
+	public T caseImmunizationProtocolApplied(ImmunizationProtocolApplied object) {
 		return null;
 	}
 
@@ -18086,7 +18086,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationReaction(final ImmunizationReaction object) {
+	public T caseImmunizationReaction(ImmunizationReaction object) {
 		return null;
 	}
 
@@ -18101,7 +18101,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationRecommendation(final ImmunizationRecommendation object) {
+	public T caseImmunizationRecommendation(ImmunizationRecommendation object) {
 		return null;
 	}
 
@@ -18116,7 +18116,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationRecommendationDateCriterion(final ImmunizationRecommendationDateCriterion object) {
+	public T caseImmunizationRecommendationDateCriterion(ImmunizationRecommendationDateCriterion object) {
 		return null;
 	}
 
@@ -18131,7 +18131,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationRecommendationRecommendation(final ImmunizationRecommendationRecommendation object) {
+	public T caseImmunizationRecommendationRecommendation(ImmunizationRecommendationRecommendation object) {
 		return null;
 	}
 
@@ -18146,7 +18146,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImmunizationStatusCodes(final ImmunizationStatusCodes object) {
+	public T caseImmunizationStatusCodes(ImmunizationStatusCodes object) {
 		return null;
 	}
 
@@ -18161,7 +18161,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuide(final ImplementationGuide object) {
+	public T caseImplementationGuide(ImplementationGuide object) {
 		return null;
 	}
 
@@ -18176,7 +18176,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideDefinition(final ImplementationGuideDefinition object) {
+	public T caseImplementationGuideDefinition(ImplementationGuideDefinition object) {
 		return null;
 	}
 
@@ -18191,7 +18191,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideDependsOn(final ImplementationGuideDependsOn object) {
+	public T caseImplementationGuideDependsOn(ImplementationGuideDependsOn object) {
 		return null;
 	}
 
@@ -18206,7 +18206,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideGlobal(final ImplementationGuideGlobal object) {
+	public T caseImplementationGuideGlobal(ImplementationGuideGlobal object) {
 		return null;
 	}
 
@@ -18221,7 +18221,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideGrouping(final ImplementationGuideGrouping object) {
+	public T caseImplementationGuideGrouping(ImplementationGuideGrouping object) {
 		return null;
 	}
 
@@ -18236,7 +18236,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideManifest(final ImplementationGuideManifest object) {
+	public T caseImplementationGuideManifest(ImplementationGuideManifest object) {
 		return null;
 	}
 
@@ -18251,7 +18251,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuidePage(final ImplementationGuidePage object) {
+	public T caseImplementationGuidePage(ImplementationGuidePage object) {
 		return null;
 	}
 
@@ -18266,7 +18266,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuidePage1(final ImplementationGuidePage1 object) {
+	public T caseImplementationGuidePage1(ImplementationGuidePage1 object) {
 		return null;
 	}
 
@@ -18281,7 +18281,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideParameter(final ImplementationGuideParameter object) {
+	public T caseImplementationGuideParameter(ImplementationGuideParameter object) {
 		return null;
 	}
 
@@ -18296,7 +18296,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideResource(final ImplementationGuideResource object) {
+	public T caseImplementationGuideResource(ImplementationGuideResource object) {
 		return null;
 	}
 
@@ -18311,7 +18311,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideResource1(final ImplementationGuideResource1 object) {
+	public T caseImplementationGuideResource1(ImplementationGuideResource1 object) {
 		return null;
 	}
 
@@ -18326,7 +18326,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseImplementationGuideTemplate(final ImplementationGuideTemplate object) {
+	public T caseImplementationGuideTemplate(ImplementationGuideTemplate object) {
 		return null;
 	}
 
@@ -18341,7 +18341,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredient(final Ingredient object) {
+	public T caseIngredient(Ingredient object) {
 		return null;
 	}
 
@@ -18356,7 +18356,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredientManufacturer(final IngredientManufacturer object) {
+	public T caseIngredientManufacturer(IngredientManufacturer object) {
 		return null;
 	}
 
@@ -18371,7 +18371,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredientManufacturerRole(final IngredientManufacturerRole object) {
+	public T caseIngredientManufacturerRole(IngredientManufacturerRole object) {
 		return null;
 	}
 
@@ -18386,7 +18386,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredientReferenceStrength(final IngredientReferenceStrength object) {
+	public T caseIngredientReferenceStrength(IngredientReferenceStrength object) {
 		return null;
 	}
 
@@ -18401,7 +18401,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredientStrength(final IngredientStrength object) {
+	public T caseIngredientStrength(IngredientStrength object) {
 		return null;
 	}
 
@@ -18416,7 +18416,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIngredientSubstance(final IngredientSubstance object) {
+	public T caseIngredientSubstance(IngredientSubstance object) {
 		return null;
 	}
 
@@ -18431,7 +18431,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInstant(final Instant object) {
+	public T caseInstant(Instant object) {
 		return null;
 	}
 
@@ -18446,7 +18446,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlan(final InsurancePlan object) {
+	public T caseInsurancePlan(InsurancePlan object) {
 		return null;
 	}
 
@@ -18461,7 +18461,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanBenefit(final InsurancePlanBenefit object) {
+	public T caseInsurancePlanBenefit(InsurancePlanBenefit object) {
 		return null;
 	}
 
@@ -18476,7 +18476,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanBenefit1(final InsurancePlanBenefit1 object) {
+	public T caseInsurancePlanBenefit1(InsurancePlanBenefit1 object) {
 		return null;
 	}
 
@@ -18491,7 +18491,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanCost(final InsurancePlanCost object) {
+	public T caseInsurancePlanCost(InsurancePlanCost object) {
 		return null;
 	}
 
@@ -18506,7 +18506,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanCoverage(final InsurancePlanCoverage object) {
+	public T caseInsurancePlanCoverage(InsurancePlanCoverage object) {
 		return null;
 	}
 
@@ -18521,7 +18521,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanGeneralCost(final InsurancePlanGeneralCost object) {
+	public T caseInsurancePlanGeneralCost(InsurancePlanGeneralCost object) {
 		return null;
 	}
 
@@ -18536,7 +18536,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanLimit(final InsurancePlanLimit object) {
+	public T caseInsurancePlanLimit(InsurancePlanLimit object) {
 		return null;
 	}
 
@@ -18551,7 +18551,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanPlan(final InsurancePlanPlan object) {
+	public T caseInsurancePlanPlan(InsurancePlanPlan object) {
 		return null;
 	}
 
@@ -18566,7 +18566,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInsurancePlanSpecificCost(final InsurancePlanSpecificCost object) {
+	public T caseInsurancePlanSpecificCost(InsurancePlanSpecificCost object) {
 		return null;
 	}
 
@@ -18581,7 +18581,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInteger(final org.hl7.emf.fhir.Integer object) {
+	public T caseInteger(org.hl7.emf.fhir.Integer object) {
 		return null;
 	}
 
@@ -18596,7 +18596,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInteger64(final Integer64 object) {
+	public T caseInteger64(Integer64 object) {
 		return null;
 	}
 
@@ -18611,7 +18611,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInteractionTrigger(final InteractionTrigger object) {
+	public T caseInteractionTrigger(InteractionTrigger object) {
 		return null;
 	}
 
@@ -18626,7 +18626,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryCountType(final InventoryCountType object) {
+	public T caseInventoryCountType(InventoryCountType object) {
 		return null;
 	}
 
@@ -18641,7 +18641,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItem(final InventoryItem object) {
+	public T caseInventoryItem(InventoryItem object) {
 		return null;
 	}
 
@@ -18656,7 +18656,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemAssociation(final InventoryItemAssociation object) {
+	public T caseInventoryItemAssociation(InventoryItemAssociation object) {
 		return null;
 	}
 
@@ -18671,7 +18671,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemCharacteristic(final InventoryItemCharacteristic object) {
+	public T caseInventoryItemCharacteristic(InventoryItemCharacteristic object) {
 		return null;
 	}
 
@@ -18686,7 +18686,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemDescription(final InventoryItemDescription object) {
+	public T caseInventoryItemDescription(InventoryItemDescription object) {
 		return null;
 	}
 
@@ -18701,7 +18701,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemInstance(final InventoryItemInstance object) {
+	public T caseInventoryItemInstance(InventoryItemInstance object) {
 		return null;
 	}
 
@@ -18716,7 +18716,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemName(final InventoryItemName object) {
+	public T caseInventoryItemName(InventoryItemName object) {
 		return null;
 	}
 
@@ -18731,7 +18731,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemResponsibleOrganization(final InventoryItemResponsibleOrganization object) {
+	public T caseInventoryItemResponsibleOrganization(InventoryItemResponsibleOrganization object) {
 		return null;
 	}
 
@@ -18746,7 +18746,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryItemStatusCodes(final InventoryItemStatusCodes object) {
+	public T caseInventoryItemStatusCodes(InventoryItemStatusCodes object) {
 		return null;
 	}
 
@@ -18761,7 +18761,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryReport(final InventoryReport object) {
+	public T caseInventoryReport(InventoryReport object) {
 		return null;
 	}
 
@@ -18776,7 +18776,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryReportInventoryListing(final InventoryReportInventoryListing object) {
+	public T caseInventoryReportInventoryListing(InventoryReportInventoryListing object) {
 		return null;
 	}
 
@@ -18791,7 +18791,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryReportItem(final InventoryReportItem object) {
+	public T caseInventoryReportItem(InventoryReportItem object) {
 		return null;
 	}
 
@@ -18806,7 +18806,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInventoryReportStatus(final InventoryReportStatus object) {
+	public T caseInventoryReportStatus(InventoryReportStatus object) {
 		return null;
 	}
 
@@ -18821,7 +18821,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInvoice(final Invoice object) {
+	public T caseInvoice(Invoice object) {
 		return null;
 	}
 
@@ -18836,7 +18836,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInvoiceLineItem(final InvoiceLineItem object) {
+	public T caseInvoiceLineItem(InvoiceLineItem object) {
 		return null;
 	}
 
@@ -18851,7 +18851,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInvoiceParticipant(final InvoiceParticipant object) {
+	public T caseInvoiceParticipant(InvoiceParticipant object) {
 		return null;
 	}
 
@@ -18866,7 +18866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInvoiceStatus(final InvoiceStatus object) {
+	public T caseInvoiceStatus(InvoiceStatus object) {
 		return null;
 	}
 
@@ -18881,7 +18881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIssueSeverity(final IssueSeverity object) {
+	public T caseIssueSeverity(IssueSeverity object) {
 		return null;
 	}
 
@@ -18896,7 +18896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseIssueType(final IssueType object) {
+	public T caseIssueType(IssueType object) {
 		return null;
 	}
 
@@ -18911,7 +18911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseJurisdictionValueSet(final JurisdictionValueSet object) {
+	public T caseJurisdictionValueSet(JurisdictionValueSet object) {
 		return null;
 	}
 
@@ -18926,7 +18926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseKind(final Kind object) {
+	public T caseKind(Kind object) {
 		return null;
 	}
 
@@ -18941,7 +18941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLibrary(final Library object) {
+	public T caseLibrary(Library object) {
 		return null;
 	}
 
@@ -18956,7 +18956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkage(final Linkage object) {
+	public T caseLinkage(Linkage object) {
 		return null;
 	}
 
@@ -18971,7 +18971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkageItem(final LinkageItem object) {
+	public T caseLinkageItem(LinkageItem object) {
 		return null;
 	}
 
@@ -18986,7 +18986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkageType(final LinkageType object) {
+	public T caseLinkageType(LinkageType object) {
 		return null;
 	}
 
@@ -19001,7 +19001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkRelationTypes(final LinkRelationTypes object) {
+	public T caseLinkRelationTypes(LinkRelationTypes object) {
 		return null;
 	}
 
@@ -19016,7 +19016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkType(final LinkType object) {
+	public T caseLinkType(LinkType object) {
 		return null;
 	}
 
@@ -19031,7 +19031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseList(final List object) {
+	public T caseList(List object) {
 		return null;
 	}
 
@@ -19046,7 +19046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseListEntry(final ListEntry object) {
+	public T caseListEntry(ListEntry object) {
 		return null;
 	}
 
@@ -19061,7 +19061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseListMode(final ListMode object) {
+	public T caseListMode(ListMode object) {
 		return null;
 	}
 
@@ -19076,7 +19076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseListStatus(final ListStatus object) {
+	public T caseListStatus(ListStatus object) {
 		return null;
 	}
 
@@ -19091,7 +19091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLocation(final Location object) {
+	public T caseLocation(Location object) {
 		return null;
 	}
 
@@ -19106,7 +19106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLocationMode(final LocationMode object) {
+	public T caseLocationMode(LocationMode object) {
 		return null;
 	}
 
@@ -19121,7 +19121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLocationPosition(final LocationPosition object) {
+	public T caseLocationPosition(LocationPosition object) {
 		return null;
 	}
 
@@ -19136,7 +19136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLocationStatus(final LocationStatus object) {
+	public T caseLocationStatus(LocationStatus object) {
 		return null;
 	}
 
@@ -19151,7 +19151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseManufacturedItemDefinition(final ManufacturedItemDefinition object) {
+	public T caseManufacturedItemDefinition(ManufacturedItemDefinition object) {
 		return null;
 	}
 
@@ -19166,7 +19166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseManufacturedItemDefinitionComponent(final ManufacturedItemDefinitionComponent object) {
+	public T caseManufacturedItemDefinitionComponent(ManufacturedItemDefinitionComponent object) {
 		return null;
 	}
 
@@ -19181,7 +19181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseManufacturedItemDefinitionConstituent(final ManufacturedItemDefinitionConstituent object) {
+	public T caseManufacturedItemDefinitionConstituent(ManufacturedItemDefinitionConstituent object) {
 		return null;
 	}
 
@@ -19196,7 +19196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseManufacturedItemDefinitionProperty(final ManufacturedItemDefinitionProperty object) {
+	public T caseManufacturedItemDefinitionProperty(ManufacturedItemDefinitionProperty object) {
 		return null;
 	}
 
@@ -19211,7 +19211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMarkdown(final Markdown object) {
+	public T caseMarkdown(Markdown object) {
 		return null;
 	}
 
@@ -19226,7 +19226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMarketingStatus(final MarketingStatus object) {
+	public T caseMarketingStatus(MarketingStatus object) {
 		return null;
 	}
 
@@ -19241,7 +19241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasure(final Measure object) {
+	public T caseMeasure(Measure object) {
 		return null;
 	}
 
@@ -19256,7 +19256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureComponent(final MeasureComponent object) {
+	public T caseMeasureComponent(MeasureComponent object) {
 		return null;
 	}
 
@@ -19271,7 +19271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureGroup(final MeasureGroup object) {
+	public T caseMeasureGroup(MeasureGroup object) {
 		return null;
 	}
 
@@ -19286,7 +19286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasurePopulation(final MeasurePopulation object) {
+	public T caseMeasurePopulation(MeasurePopulation object) {
 		return null;
 	}
 
@@ -19301,7 +19301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReport(final MeasureReport object) {
+	public T caseMeasureReport(MeasureReport object) {
 		return null;
 	}
 
@@ -19316,7 +19316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportComponent(final MeasureReportComponent object) {
+	public T caseMeasureReportComponent(MeasureReportComponent object) {
 		return null;
 	}
 
@@ -19331,7 +19331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportGroup(final MeasureReportGroup object) {
+	public T caseMeasureReportGroup(MeasureReportGroup object) {
 		return null;
 	}
 
@@ -19346,7 +19346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportPopulation(final MeasureReportPopulation object) {
+	public T caseMeasureReportPopulation(MeasureReportPopulation object) {
 		return null;
 	}
 
@@ -19361,7 +19361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportPopulation1(final MeasureReportPopulation1 object) {
+	public T caseMeasureReportPopulation1(MeasureReportPopulation1 object) {
 		return null;
 	}
 
@@ -19376,7 +19376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportStatus(final MeasureReportStatus object) {
+	public T caseMeasureReportStatus(MeasureReportStatus object) {
 		return null;
 	}
 
@@ -19391,7 +19391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportStratifier(final MeasureReportStratifier object) {
+	public T caseMeasureReportStratifier(MeasureReportStratifier object) {
 		return null;
 	}
 
@@ -19406,7 +19406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportStratum(final MeasureReportStratum object) {
+	public T caseMeasureReportStratum(MeasureReportStratum object) {
 		return null;
 	}
 
@@ -19421,7 +19421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureReportType(final MeasureReportType object) {
+	public T caseMeasureReportType(MeasureReportType object) {
 		return null;
 	}
 
@@ -19436,7 +19436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureStratifier(final MeasureStratifier object) {
+	public T caseMeasureStratifier(MeasureStratifier object) {
 		return null;
 	}
 
@@ -19451,7 +19451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureSupplementalData(final MeasureSupplementalData object) {
+	public T caseMeasureSupplementalData(MeasureSupplementalData object) {
 		return null;
 	}
 
@@ -19466,7 +19466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeasureTerm(final MeasureTerm object) {
+	public T caseMeasureTerm(MeasureTerm object) {
 		return null;
 	}
 
@@ -19481,7 +19481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedication(final Medication object) {
+	public T caseMedication(Medication object) {
 		return null;
 	}
 
@@ -19496,7 +19496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationAdministration(final MedicationAdministration object) {
+	public T caseMedicationAdministration(MedicationAdministration object) {
 		return null;
 	}
 
@@ -19511,7 +19511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationAdministrationDosage(final MedicationAdministrationDosage object) {
+	public T caseMedicationAdministrationDosage(MedicationAdministrationDosage object) {
 		return null;
 	}
 
@@ -19526,7 +19526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationAdministrationPerformer(final MedicationAdministrationPerformer object) {
+	public T caseMedicationAdministrationPerformer(MedicationAdministrationPerformer object) {
 		return null;
 	}
 
@@ -19541,7 +19541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationAdministrationStatusCodes(final MedicationAdministrationStatusCodes object) {
+	public T caseMedicationAdministrationStatusCodes(MedicationAdministrationStatusCodes object) {
 		return null;
 	}
 
@@ -19556,7 +19556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationBatch(final MedicationBatch object) {
+	public T caseMedicationBatch(MedicationBatch object) {
 		return null;
 	}
 
@@ -19571,7 +19571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationDispense(final MedicationDispense object) {
+	public T caseMedicationDispense(MedicationDispense object) {
 		return null;
 	}
 
@@ -19586,7 +19586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationDispensePerformer(final MedicationDispensePerformer object) {
+	public T caseMedicationDispensePerformer(MedicationDispensePerformer object) {
 		return null;
 	}
 
@@ -19601,7 +19601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationDispenseStatusCodes(final MedicationDispenseStatusCodes object) {
+	public T caseMedicationDispenseStatusCodes(MedicationDispenseStatusCodes object) {
 		return null;
 	}
 
@@ -19616,7 +19616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationDispenseSubstitution(final MedicationDispenseSubstitution object) {
+	public T caseMedicationDispenseSubstitution(MedicationDispenseSubstitution object) {
 		return null;
 	}
 
@@ -19631,7 +19631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationIngredient(final MedicationIngredient object) {
+	public T caseMedicationIngredient(MedicationIngredient object) {
 		return null;
 	}
 
@@ -19646,7 +19646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledge(final MedicationKnowledge object) {
+	public T caseMedicationKnowledge(MedicationKnowledge object) {
 		return null;
 	}
 
@@ -19661,7 +19661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeCost(final MedicationKnowledgeCost object) {
+	public T caseMedicationKnowledgeCost(MedicationKnowledgeCost object) {
 		return null;
 	}
 
@@ -19676,7 +19676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeDefinitional(final MedicationKnowledgeDefinitional object) {
+	public T caseMedicationKnowledgeDefinitional(MedicationKnowledgeDefinitional object) {
 		return null;
 	}
 
@@ -19691,7 +19691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeDosage(final MedicationKnowledgeDosage object) {
+	public T caseMedicationKnowledgeDosage(MedicationKnowledgeDosage object) {
 		return null;
 	}
 
@@ -19706,7 +19706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeDosingGuideline(final MedicationKnowledgeDosingGuideline object) {
+	public T caseMedicationKnowledgeDosingGuideline(MedicationKnowledgeDosingGuideline object) {
 		return null;
 	}
 
@@ -19721,7 +19721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeDrugCharacteristic(final MedicationKnowledgeDrugCharacteristic object) {
+	public T caseMedicationKnowledgeDrugCharacteristic(MedicationKnowledgeDrugCharacteristic object) {
 		return null;
 	}
 
@@ -19736,7 +19736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeEnvironmentalSetting(final MedicationKnowledgeEnvironmentalSetting object) {
+	public T caseMedicationKnowledgeEnvironmentalSetting(MedicationKnowledgeEnvironmentalSetting object) {
 		return null;
 	}
 
@@ -19751,7 +19751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeIndicationGuideline(final MedicationKnowledgeIndicationGuideline object) {
+	public T caseMedicationKnowledgeIndicationGuideline(MedicationKnowledgeIndicationGuideline object) {
 		return null;
 	}
 
@@ -19766,7 +19766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeIngredient(final MedicationKnowledgeIngredient object) {
+	public T caseMedicationKnowledgeIngredient(MedicationKnowledgeIngredient object) {
 		return null;
 	}
 
@@ -19781,7 +19781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeMaxDispense(final MedicationKnowledgeMaxDispense object) {
+	public T caseMedicationKnowledgeMaxDispense(MedicationKnowledgeMaxDispense object) {
 		return null;
 	}
 
@@ -19796,7 +19796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeMedicineClassification(final MedicationKnowledgeMedicineClassification object) {
+	public T caseMedicationKnowledgeMedicineClassification(MedicationKnowledgeMedicineClassification object) {
 		return null;
 	}
 
@@ -19811,7 +19811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeMonitoringProgram(final MedicationKnowledgeMonitoringProgram object) {
+	public T caseMedicationKnowledgeMonitoringProgram(MedicationKnowledgeMonitoringProgram object) {
 		return null;
 	}
 
@@ -19826,7 +19826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeMonograph(final MedicationKnowledgeMonograph object) {
+	public T caseMedicationKnowledgeMonograph(MedicationKnowledgeMonograph object) {
 		return null;
 	}
 
@@ -19841,7 +19841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgePackaging(final MedicationKnowledgePackaging object) {
+	public T caseMedicationKnowledgePackaging(MedicationKnowledgePackaging object) {
 		return null;
 	}
 
@@ -19856,7 +19856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgePatientCharacteristic(final MedicationKnowledgePatientCharacteristic object) {
+	public T caseMedicationKnowledgePatientCharacteristic(MedicationKnowledgePatientCharacteristic object) {
 		return null;
 	}
 
@@ -19871,7 +19871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeRegulatory(final MedicationKnowledgeRegulatory object) {
+	public T caseMedicationKnowledgeRegulatory(MedicationKnowledgeRegulatory object) {
 		return null;
 	}
 
@@ -19886,7 +19886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeRelatedMedicationKnowledge(final MedicationKnowledgeRelatedMedicationKnowledge object) {
+	public T caseMedicationKnowledgeRelatedMedicationKnowledge(MedicationKnowledgeRelatedMedicationKnowledge object) {
 		return null;
 	}
 
@@ -19901,7 +19901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeStatusCodes(final MedicationKnowledgeStatusCodes object) {
+	public T caseMedicationKnowledgeStatusCodes(MedicationKnowledgeStatusCodes object) {
 		return null;
 	}
 
@@ -19916,7 +19916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeStorageGuideline(final MedicationKnowledgeStorageGuideline object) {
+	public T caseMedicationKnowledgeStorageGuideline(MedicationKnowledgeStorageGuideline object) {
 		return null;
 	}
 
@@ -19931,7 +19931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationKnowledgeSubstitution(final MedicationKnowledgeSubstitution object) {
+	public T caseMedicationKnowledgeSubstitution(MedicationKnowledgeSubstitution object) {
 		return null;
 	}
 
@@ -19946,7 +19946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationRequest(final MedicationRequest object) {
+	public T caseMedicationRequest(MedicationRequest object) {
 		return null;
 	}
 
@@ -19961,7 +19961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationRequestDispenseRequest(final MedicationRequestDispenseRequest object) {
+	public T caseMedicationRequestDispenseRequest(MedicationRequestDispenseRequest object) {
 		return null;
 	}
 
@@ -19976,7 +19976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationRequestInitialFill(final MedicationRequestInitialFill object) {
+	public T caseMedicationRequestInitialFill(MedicationRequestInitialFill object) {
 		return null;
 	}
 
@@ -19991,7 +19991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationRequestIntent(final MedicationRequestIntent object) {
+	public T caseMedicationRequestIntent(MedicationRequestIntent object) {
 		return null;
 	}
 
@@ -20006,7 +20006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationrequestStatus(final MedicationrequestStatus object) {
+	public T caseMedicationrequestStatus(MedicationrequestStatus object) {
 		return null;
 	}
 
@@ -20021,7 +20021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationRequestSubstitution(final MedicationRequestSubstitution object) {
+	public T caseMedicationRequestSubstitution(MedicationRequestSubstitution object) {
 		return null;
 	}
 
@@ -20036,7 +20036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationStatement(final MedicationStatement object) {
+	public T caseMedicationStatement(MedicationStatement object) {
 		return null;
 	}
 
@@ -20051,7 +20051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationStatementAdherence(final MedicationStatementAdherence object) {
+	public T caseMedicationStatementAdherence(MedicationStatementAdherence object) {
 		return null;
 	}
 
@@ -20066,7 +20066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationStatementStatusCodes(final MedicationStatementStatusCodes object) {
+	public T caseMedicationStatementStatusCodes(MedicationStatementStatusCodes object) {
 		return null;
 	}
 
@@ -20081,7 +20081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicationStatusCodes(final MedicationStatusCodes object) {
+	public T caseMedicationStatusCodes(MedicationStatusCodes object) {
 		return null;
 	}
 
@@ -20096,7 +20096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinition(final MedicinalProductDefinition object) {
+	public T caseMedicinalProductDefinition(MedicinalProductDefinition object) {
 		return null;
 	}
 
@@ -20111,7 +20111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionCharacteristic(final MedicinalProductDefinitionCharacteristic object) {
+	public T caseMedicinalProductDefinitionCharacteristic(MedicinalProductDefinitionCharacteristic object) {
 		return null;
 	}
 
@@ -20126,7 +20126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionContact(final MedicinalProductDefinitionContact object) {
+	public T caseMedicinalProductDefinitionContact(MedicinalProductDefinitionContact object) {
 		return null;
 	}
 
@@ -20141,7 +20141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionCrossReference(final MedicinalProductDefinitionCrossReference object) {
+	public T caseMedicinalProductDefinitionCrossReference(MedicinalProductDefinitionCrossReference object) {
 		return null;
 	}
 
@@ -20156,7 +20156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionName(final MedicinalProductDefinitionName object) {
+	public T caseMedicinalProductDefinitionName(MedicinalProductDefinitionName object) {
 		return null;
 	}
 
@@ -20171,7 +20171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionOperation(final MedicinalProductDefinitionOperation object) {
+	public T caseMedicinalProductDefinitionOperation(MedicinalProductDefinitionOperation object) {
 		return null;
 	}
 
@@ -20186,7 +20186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionPart(final MedicinalProductDefinitionPart object) {
+	public T caseMedicinalProductDefinitionPart(MedicinalProductDefinitionPart object) {
 		return null;
 	}
 
@@ -20201,7 +20201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMedicinalProductDefinitionUsage(final MedicinalProductDefinitionUsage object) {
+	public T caseMedicinalProductDefinitionUsage(MedicinalProductDefinitionUsage object) {
 		return null;
 	}
 
@@ -20216,7 +20216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageDefinition(final MessageDefinition object) {
+	public T caseMessageDefinition(MessageDefinition object) {
 		return null;
 	}
 
@@ -20231,7 +20231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageDefinitionAllowedResponse(final MessageDefinitionAllowedResponse object) {
+	public T caseMessageDefinitionAllowedResponse(MessageDefinitionAllowedResponse object) {
 		return null;
 	}
 
@@ -20246,7 +20246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageDefinitionFocus(final MessageDefinitionFocus object) {
+	public T caseMessageDefinitionFocus(MessageDefinitionFocus object) {
 		return null;
 	}
 
@@ -20261,7 +20261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageHeader(final MessageHeader object) {
+	public T caseMessageHeader(MessageHeader object) {
 		return null;
 	}
 
@@ -20276,7 +20276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageHeaderDestination(final MessageHeaderDestination object) {
+	public T caseMessageHeaderDestination(MessageHeaderDestination object) {
 		return null;
 	}
 
@@ -20291,7 +20291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageHeaderResponse(final MessageHeaderResponse object) {
+	public T caseMessageHeaderResponse(MessageHeaderResponse object) {
 		return null;
 	}
 
@@ -20306,7 +20306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageheaderResponseRequest(final MessageheaderResponseRequest object) {
+	public T caseMessageheaderResponseRequest(MessageheaderResponseRequest object) {
 		return null;
 	}
 
@@ -20321,7 +20321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageHeaderSource(final MessageHeaderSource object) {
+	public T caseMessageHeaderSource(MessageHeaderSource object) {
 		return null;
 	}
 
@@ -20336,7 +20336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMessageSignificanceCategory(final MessageSignificanceCategory object) {
+	public T caseMessageSignificanceCategory(MessageSignificanceCategory object) {
 		return null;
 	}
 
@@ -20351,7 +20351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMeta(final Meta object) {
+	public T caseMeta(Meta object) {
 		return null;
 	}
 
@@ -20366,7 +20366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMetadataResource(final MetadataResource object) {
+	public T caseMetadataResource(MetadataResource object) {
 		return null;
 	}
 
@@ -20381,7 +20381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMolecularSequence(final MolecularSequence object) {
+	public T caseMolecularSequence(MolecularSequence object) {
 		return null;
 	}
 
@@ -20396,7 +20396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMolecularSequenceEdit(final MolecularSequenceEdit object) {
+	public T caseMolecularSequenceEdit(MolecularSequenceEdit object) {
 		return null;
 	}
 
@@ -20411,7 +20411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMolecularSequenceRelative(final MolecularSequenceRelative object) {
+	public T caseMolecularSequenceRelative(MolecularSequenceRelative object) {
 		return null;
 	}
 
@@ -20426,7 +20426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMolecularSequenceStartingSequence(final MolecularSequenceStartingSequence object) {
+	public T caseMolecularSequenceStartingSequence(MolecularSequenceStartingSequence object) {
 		return null;
 	}
 
@@ -20441,7 +20441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMonetaryComponent(final MonetaryComponent object) {
+	public T caseMonetaryComponent(MonetaryComponent object) {
 		return null;
 	}
 
@@ -20456,7 +20456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMoney(final Money object) {
+	public T caseMoney(Money object) {
 		return null;
 	}
 
@@ -20471,7 +20471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNameUse(final NameUse object) {
+	public T caseNameUse(NameUse object) {
 		return null;
 	}
 
@@ -20486,7 +20486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNamingSystem(final NamingSystem object) {
+	public T caseNamingSystem(NamingSystem object) {
 		return null;
 	}
 
@@ -20501,7 +20501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNamingSystemIdentifierType(final NamingSystemIdentifierType object) {
+	public T caseNamingSystemIdentifierType(NamingSystemIdentifierType object) {
 		return null;
 	}
 
@@ -20516,7 +20516,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNamingSystemType(final NamingSystemType object) {
+	public T caseNamingSystemType(NamingSystemType object) {
 		return null;
 	}
 
@@ -20531,7 +20531,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNamingSystemUniqueId(final NamingSystemUniqueId object) {
+	public T caseNamingSystemUniqueId(NamingSystemUniqueId object) {
 		return null;
 	}
 
@@ -20546,7 +20546,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNarrative(final Narrative object) {
+	public T caseNarrative(Narrative object) {
 		return null;
 	}
 
@@ -20561,7 +20561,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNarrativeStatus(final NarrativeStatus object) {
+	public T caseNarrativeStatus(NarrativeStatus object) {
 		return null;
 	}
 
@@ -20576,7 +20576,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNoteType(final NoteType object) {
+	public T caseNoteType(NoteType object) {
 		return null;
 	}
 
@@ -20591,7 +20591,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionIntake(final NutritionIntake object) {
+	public T caseNutritionIntake(NutritionIntake object) {
 		return null;
 	}
 
@@ -20606,7 +20606,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionIntakeConsumedItem(final NutritionIntakeConsumedItem object) {
+	public T caseNutritionIntakeConsumedItem(NutritionIntakeConsumedItem object) {
 		return null;
 	}
 
@@ -20621,7 +20621,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionIntakeIngredientLabel(final NutritionIntakeIngredientLabel object) {
+	public T caseNutritionIntakeIngredientLabel(NutritionIntakeIngredientLabel object) {
 		return null;
 	}
 
@@ -20636,7 +20636,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionIntakePerformer(final NutritionIntakePerformer object) {
+	public T caseNutritionIntakePerformer(NutritionIntakePerformer object) {
 		return null;
 	}
 
@@ -20651,7 +20651,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrder(final NutritionOrder object) {
+	public T caseNutritionOrder(NutritionOrder object) {
 		return null;
 	}
 
@@ -20666,7 +20666,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderAdditive(final NutritionOrderAdditive object) {
+	public T caseNutritionOrderAdditive(NutritionOrderAdditive object) {
 		return null;
 	}
 
@@ -20681,7 +20681,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderAdministration(final NutritionOrderAdministration object) {
+	public T caseNutritionOrderAdministration(NutritionOrderAdministration object) {
 		return null;
 	}
 
@@ -20696,7 +20696,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderEnteralFormula(final NutritionOrderEnteralFormula object) {
+	public T caseNutritionOrderEnteralFormula(NutritionOrderEnteralFormula object) {
 		return null;
 	}
 
@@ -20711,7 +20711,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderNutrient(final NutritionOrderNutrient object) {
+	public T caseNutritionOrderNutrient(NutritionOrderNutrient object) {
 		return null;
 	}
 
@@ -20726,7 +20726,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderOralDiet(final NutritionOrderOralDiet object) {
+	public T caseNutritionOrderOralDiet(NutritionOrderOralDiet object) {
 		return null;
 	}
 
@@ -20741,7 +20741,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderSchedule(final NutritionOrderSchedule object) {
+	public T caseNutritionOrderSchedule(NutritionOrderSchedule object) {
 		return null;
 	}
 
@@ -20756,7 +20756,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderSchedule1(final NutritionOrderSchedule1 object) {
+	public T caseNutritionOrderSchedule1(NutritionOrderSchedule1 object) {
 		return null;
 	}
 
@@ -20771,7 +20771,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderSchedule2(final NutritionOrderSchedule2 object) {
+	public T caseNutritionOrderSchedule2(NutritionOrderSchedule2 object) {
 		return null;
 	}
 
@@ -20786,7 +20786,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderSupplement(final NutritionOrderSupplement object) {
+	public T caseNutritionOrderSupplement(NutritionOrderSupplement object) {
 		return null;
 	}
 
@@ -20801,7 +20801,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionOrderTexture(final NutritionOrderTexture object) {
+	public T caseNutritionOrderTexture(NutritionOrderTexture object) {
 		return null;
 	}
 
@@ -20816,7 +20816,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProduct(final NutritionProduct object) {
+	public T caseNutritionProduct(NutritionProduct object) {
 		return null;
 	}
 
@@ -20831,7 +20831,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProductCharacteristic(final NutritionProductCharacteristic object) {
+	public T caseNutritionProductCharacteristic(NutritionProductCharacteristic object) {
 		return null;
 	}
 
@@ -20846,7 +20846,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProductIngredient(final NutritionProductIngredient object) {
+	public T caseNutritionProductIngredient(NutritionProductIngredient object) {
 		return null;
 	}
 
@@ -20861,7 +20861,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProductInstance(final NutritionProductInstance object) {
+	public T caseNutritionProductInstance(NutritionProductInstance object) {
 		return null;
 	}
 
@@ -20876,7 +20876,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProductNutrient(final NutritionProductNutrient object) {
+	public T caseNutritionProductNutrient(NutritionProductNutrient object) {
 		return null;
 	}
 
@@ -20891,7 +20891,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseNutritionProductStatus(final NutritionProductStatus object) {
+	public T caseNutritionProductStatus(NutritionProductStatus object) {
 		return null;
 	}
 
@@ -20906,7 +20906,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservation(final Observation object) {
+	public T caseObservation(Observation object) {
 		return null;
 	}
 
@@ -20921,7 +20921,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationComponent(final ObservationComponent object) {
+	public T caseObservationComponent(ObservationComponent object) {
 		return null;
 	}
 
@@ -20936,7 +20936,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationDataType(final ObservationDataType object) {
+	public T caseObservationDataType(ObservationDataType object) {
 		return null;
 	}
 
@@ -20951,7 +20951,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationDefinition(final ObservationDefinition object) {
+	public T caseObservationDefinition(ObservationDefinition object) {
 		return null;
 	}
 
@@ -20966,7 +20966,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationDefinitionComponent(final ObservationDefinitionComponent object) {
+	public T caseObservationDefinitionComponent(ObservationDefinitionComponent object) {
 		return null;
 	}
 
@@ -20981,7 +20981,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationDefinitionQualifiedValue(final ObservationDefinitionQualifiedValue object) {
+	public T caseObservationDefinitionQualifiedValue(ObservationDefinitionQualifiedValue object) {
 		return null;
 	}
 
@@ -20996,7 +20996,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationRangeCategory(final ObservationRangeCategory object) {
+	public T caseObservationRangeCategory(ObservationRangeCategory object) {
 		return null;
 	}
 
@@ -21011,7 +21011,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationReferenceRange(final ObservationReferenceRange object) {
+	public T caseObservationReferenceRange(ObservationReferenceRange object) {
 		return null;
 	}
 
@@ -21026,7 +21026,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationStatus(final ObservationStatus object) {
+	public T caseObservationStatus(ObservationStatus object) {
 		return null;
 	}
 
@@ -21041,7 +21041,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseObservationTriggeredBy(final ObservationTriggeredBy object) {
+	public T caseObservationTriggeredBy(ObservationTriggeredBy object) {
 		return null;
 	}
 
@@ -21056,7 +21056,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOid(final Oid object) {
+	public T caseOid(Oid object) {
 		return null;
 	}
 
@@ -21071,7 +21071,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationDefinition(final OperationDefinition object) {
+	public T caseOperationDefinition(OperationDefinition object) {
 		return null;
 	}
 
@@ -21086,7 +21086,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationDefinitionBinding(final OperationDefinitionBinding object) {
+	public T caseOperationDefinitionBinding(OperationDefinitionBinding object) {
 		return null;
 	}
 
@@ -21101,7 +21101,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationDefinitionOverload(final OperationDefinitionOverload object) {
+	public T caseOperationDefinitionOverload(OperationDefinitionOverload object) {
 		return null;
 	}
 
@@ -21116,7 +21116,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationDefinitionParameter(final OperationDefinitionParameter object) {
+	public T caseOperationDefinitionParameter(OperationDefinitionParameter object) {
 		return null;
 	}
 
@@ -21131,7 +21131,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationDefinitionReferencedFrom(final OperationDefinitionReferencedFrom object) {
+	public T caseOperationDefinitionReferencedFrom(OperationDefinitionReferencedFrom object) {
 		return null;
 	}
 
@@ -21146,7 +21146,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationKind(final OperationKind object) {
+	public T caseOperationKind(OperationKind object) {
 		return null;
 	}
 
@@ -21161,7 +21161,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationOutcome(final OperationOutcome object) {
+	public T caseOperationOutcome(OperationOutcome object) {
 		return null;
 	}
 
@@ -21176,7 +21176,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationOutcomeCodes(final OperationOutcomeCodes object) {
+	public T caseOperationOutcomeCodes(OperationOutcomeCodes object) {
 		return null;
 	}
 
@@ -21191,7 +21191,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationOutcomeIssue(final OperationOutcomeIssue object) {
+	public T caseOperationOutcomeIssue(OperationOutcomeIssue object) {
 		return null;
 	}
 
@@ -21206,7 +21206,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationParameterScope(final OperationParameterScope object) {
+	public T caseOperationParameterScope(OperationParameterScope object) {
 		return null;
 	}
 
@@ -21221,7 +21221,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOperationParameterUse(final OperationParameterUse object) {
+	public T caseOperationParameterUse(OperationParameterUse object) {
 		return null;
 	}
 
@@ -21236,7 +21236,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOrganization(final Organization object) {
+	public T caseOrganization(Organization object) {
 		return null;
 	}
 
@@ -21251,7 +21251,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOrganizationAffiliation(final OrganizationAffiliation object) {
+	public T caseOrganizationAffiliation(OrganizationAffiliation object) {
 		return null;
 	}
 
@@ -21266,7 +21266,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOrganizationQualification(final OrganizationQualification object) {
+	public T caseOrganizationQualification(OrganizationQualification object) {
 		return null;
 	}
 
@@ -21281,7 +21281,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseOrientationType(final OrientationType object) {
+	public T caseOrientationType(OrientationType object) {
 		return null;
 	}
 
@@ -21296,7 +21296,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePackagedProductDefinition(final PackagedProductDefinition object) {
+	public T casePackagedProductDefinition(PackagedProductDefinition object) {
 		return null;
 	}
 
@@ -21311,7 +21311,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePackagedProductDefinitionContainedItem(final PackagedProductDefinitionContainedItem object) {
+	public T casePackagedProductDefinitionContainedItem(PackagedProductDefinitionContainedItem object) {
 		return null;
 	}
 
@@ -21326,7 +21326,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePackagedProductDefinitionLegalStatusOfSupply(final PackagedProductDefinitionLegalStatusOfSupply object) {
+	public T casePackagedProductDefinitionLegalStatusOfSupply(PackagedProductDefinitionLegalStatusOfSupply object) {
 		return null;
 	}
 
@@ -21341,7 +21341,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePackagedProductDefinitionPackaging(final PackagedProductDefinitionPackaging object) {
+	public T casePackagedProductDefinitionPackaging(PackagedProductDefinitionPackaging object) {
 		return null;
 	}
 
@@ -21356,7 +21356,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePackagedProductDefinitionProperty(final PackagedProductDefinitionProperty object) {
+	public T casePackagedProductDefinitionProperty(PackagedProductDefinitionProperty object) {
 		return null;
 	}
 
@@ -21371,7 +21371,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterDefinition(final ParameterDefinition object) {
+	public T caseParameterDefinition(ParameterDefinition object) {
 		return null;
 	}
 
@@ -21386,7 +21386,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameters(final Parameters object) {
+	public T caseParameters(Parameters object) {
 		return null;
 	}
 
@@ -21401,7 +21401,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParametersParameter(final ParametersParameter object) {
+	public T caseParametersParameter(ParametersParameter object) {
 		return null;
 	}
 
@@ -21416,7 +21416,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParticipantResourceTypes(final ParticipantResourceTypes object) {
+	public T caseParticipantResourceTypes(ParticipantResourceTypes object) {
 		return null;
 	}
 
@@ -21431,7 +21431,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParticipationStatus(final ParticipationStatus object) {
+	public T caseParticipationStatus(ParticipationStatus object) {
 		return null;
 	}
 
@@ -21446,7 +21446,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePatient(final Patient object) {
+	public T casePatient(Patient object) {
 		return null;
 	}
 
@@ -21461,7 +21461,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePatientCommunication(final PatientCommunication object) {
+	public T casePatientCommunication(PatientCommunication object) {
 		return null;
 	}
 
@@ -21476,7 +21476,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePatientContact(final PatientContact object) {
+	public T casePatientContact(PatientContact object) {
 		return null;
 	}
 
@@ -21491,7 +21491,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePatientLink(final PatientLink object) {
+	public T casePatientLink(PatientLink object) {
 		return null;
 	}
 
@@ -21506,7 +21506,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePaymentNotice(final PaymentNotice object) {
+	public T casePaymentNotice(PaymentNotice object) {
 		return null;
 	}
 
@@ -21521,7 +21521,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePaymentOutcome(final PaymentOutcome object) {
+	public T casePaymentOutcome(PaymentOutcome object) {
 		return null;
 	}
 
@@ -21536,7 +21536,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePaymentReconciliation(final PaymentReconciliation object) {
+	public T casePaymentReconciliation(PaymentReconciliation object) {
 		return null;
 	}
 
@@ -21551,7 +21551,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePaymentReconciliationAllocation(final PaymentReconciliationAllocation object) {
+	public T casePaymentReconciliationAllocation(PaymentReconciliationAllocation object) {
 		return null;
 	}
 
@@ -21566,7 +21566,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePaymentReconciliationProcessNote(final PaymentReconciliationProcessNote object) {
+	public T casePaymentReconciliationProcessNote(PaymentReconciliationProcessNote object) {
 		return null;
 	}
 
@@ -21581,7 +21581,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePeriod(final Period object) {
+	public T casePeriod(Period object) {
 		return null;
 	}
 
@@ -21596,7 +21596,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermission(final Permission object) {
+	public T casePermission(Permission object) {
 		return null;
 	}
 
@@ -21611,7 +21611,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionActivity(final PermissionActivity object) {
+	public T casePermissionActivity(PermissionActivity object) {
 		return null;
 	}
 
@@ -21626,7 +21626,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionData(final PermissionData object) {
+	public T casePermissionData(PermissionData object) {
 		return null;
 	}
 
@@ -21641,7 +21641,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionJustification(final PermissionJustification object) {
+	public T casePermissionJustification(PermissionJustification object) {
 		return null;
 	}
 
@@ -21656,7 +21656,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionResource(final PermissionResource object) {
+	public T casePermissionResource(PermissionResource object) {
 		return null;
 	}
 
@@ -21671,7 +21671,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionRule(final PermissionRule object) {
+	public T casePermissionRule(PermissionRule object) {
 		return null;
 	}
 
@@ -21686,7 +21686,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionRuleCombining(final PermissionRuleCombining object) {
+	public T casePermissionRuleCombining(PermissionRuleCombining object) {
 		return null;
 	}
 
@@ -21701,7 +21701,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePermissionStatus(final PermissionStatus object) {
+	public T casePermissionStatus(PermissionStatus object) {
 		return null;
 	}
 
@@ -21716,7 +21716,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePerson(final Person object) {
+	public T casePerson(Person object) {
 		return null;
 	}
 
@@ -21731,7 +21731,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePersonCommunication(final PersonCommunication object) {
+	public T casePersonCommunication(PersonCommunication object) {
 		return null;
 	}
 
@@ -21746,7 +21746,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePersonLink(final PersonLink object) {
+	public T casePersonLink(PersonLink object) {
 		return null;
 	}
 
@@ -21761,7 +21761,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinition(final PlanDefinition object) {
+	public T casePlanDefinition(PlanDefinition object) {
 		return null;
 	}
 
@@ -21776,7 +21776,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionAction(final PlanDefinitionAction object) {
+	public T casePlanDefinitionAction(PlanDefinitionAction object) {
 		return null;
 	}
 
@@ -21791,7 +21791,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionActor(final PlanDefinitionActor object) {
+	public T casePlanDefinitionActor(PlanDefinitionActor object) {
 		return null;
 	}
 
@@ -21806,7 +21806,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionCondition(final PlanDefinitionCondition object) {
+	public T casePlanDefinitionCondition(PlanDefinitionCondition object) {
 		return null;
 	}
 
@@ -21821,7 +21821,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionDynamicValue(final PlanDefinitionDynamicValue object) {
+	public T casePlanDefinitionDynamicValue(PlanDefinitionDynamicValue object) {
 		return null;
 	}
 
@@ -21836,7 +21836,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionGoal(final PlanDefinitionGoal object) {
+	public T casePlanDefinitionGoal(PlanDefinitionGoal object) {
 		return null;
 	}
 
@@ -21851,7 +21851,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionInput(final PlanDefinitionInput object) {
+	public T casePlanDefinitionInput(PlanDefinitionInput object) {
 		return null;
 	}
 
@@ -21866,7 +21866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionOption(final PlanDefinitionOption object) {
+	public T casePlanDefinitionOption(PlanDefinitionOption object) {
 		return null;
 	}
 
@@ -21881,7 +21881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionOutput(final PlanDefinitionOutput object) {
+	public T casePlanDefinitionOutput(PlanDefinitionOutput object) {
 		return null;
 	}
 
@@ -21896,7 +21896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionParticipant(final PlanDefinitionParticipant object) {
+	public T casePlanDefinitionParticipant(PlanDefinitionParticipant object) {
 		return null;
 	}
 
@@ -21911,7 +21911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionRelatedAction(final PlanDefinitionRelatedAction object) {
+	public T casePlanDefinitionRelatedAction(PlanDefinitionRelatedAction object) {
 		return null;
 	}
 
@@ -21926,7 +21926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePlanDefinitionTarget(final PlanDefinitionTarget object) {
+	public T casePlanDefinitionTarget(PlanDefinitionTarget object) {
 		return null;
 	}
 
@@ -21941,7 +21941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePositiveInt(final PositiveInt object) {
+	public T casePositiveInt(PositiveInt object) {
 		return null;
 	}
 
@@ -21956,7 +21956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePractitioner(final Practitioner object) {
+	public T casePractitioner(Practitioner object) {
 		return null;
 	}
 
@@ -21971,7 +21971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePractitionerCommunication(final PractitionerCommunication object) {
+	public T casePractitionerCommunication(PractitionerCommunication object) {
 		return null;
 	}
 
@@ -21986,7 +21986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePractitionerQualification(final PractitionerQualification object) {
+	public T casePractitionerQualification(PractitionerQualification object) {
 		return null;
 	}
 
@@ -22001,7 +22001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePractitionerRole(final PractitionerRole object) {
+	public T casePractitionerRole(PractitionerRole object) {
 		return null;
 	}
 
@@ -22016,7 +22016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePrimitiveType(final PrimitiveType object) {
+	public T casePrimitiveType(PrimitiveType object) {
 		return null;
 	}
 
@@ -22031,7 +22031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProcedure(final Procedure object) {
+	public T caseProcedure(Procedure object) {
 		return null;
 	}
 
@@ -22046,7 +22046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProcedureFocalDevice(final ProcedureFocalDevice object) {
+	public T caseProcedureFocalDevice(ProcedureFocalDevice object) {
 		return null;
 	}
 
@@ -22061,7 +22061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProcedurePerformer(final ProcedurePerformer object) {
+	public T caseProcedurePerformer(ProcedurePerformer object) {
 		return null;
 	}
 
@@ -22076,7 +22076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProductShelfLife(final ProductShelfLife object) {
+	public T caseProductShelfLife(ProductShelfLife object) {
 		return null;
 	}
 
@@ -22091,7 +22091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePropertyRepresentation(final PropertyRepresentation object) {
+	public T casePropertyRepresentation(PropertyRepresentation object) {
 		return null;
 	}
 
@@ -22106,7 +22106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePropertyType(final PropertyType object) {
+	public T casePropertyType(PropertyType object) {
 		return null;
 	}
 
@@ -22121,7 +22121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProvenance(final Provenance object) {
+	public T caseProvenance(Provenance object) {
 		return null;
 	}
 
@@ -22136,7 +22136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProvenanceAgent(final ProvenanceAgent object) {
+	public T caseProvenanceAgent(ProvenanceAgent object) {
 		return null;
 	}
 
@@ -22151,7 +22151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProvenanceEntity(final ProvenanceEntity object) {
+	public T caseProvenanceEntity(ProvenanceEntity object) {
 		return null;
 	}
 
@@ -22166,7 +22166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProvenanceEntityRole(final ProvenanceEntityRole object) {
+	public T caseProvenanceEntityRole(ProvenanceEntityRole object) {
 		return null;
 	}
 
@@ -22181,7 +22181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePublicationStatus(final PublicationStatus object) {
+	public T casePublicationStatus(PublicationStatus object) {
 		return null;
 	}
 
@@ -22196,7 +22196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuantity(final Quantity object) {
+	public T caseQuantity(Quantity object) {
 		return null;
 	}
 
@@ -22211,7 +22211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuantityComparator(final QuantityComparator object) {
+	public T caseQuantityComparator(QuantityComparator object) {
 		return null;
 	}
 
@@ -22226,7 +22226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaire(final Questionnaire object) {
+	public T caseQuestionnaire(Questionnaire object) {
 		return null;
 	}
 
@@ -22241,7 +22241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireAnswerConstraint(final QuestionnaireAnswerConstraint object) {
+	public T caseQuestionnaireAnswerConstraint(QuestionnaireAnswerConstraint object) {
 		return null;
 	}
 
@@ -22256,7 +22256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireAnswerOption(final QuestionnaireAnswerOption object) {
+	public T caseQuestionnaireAnswerOption(QuestionnaireAnswerOption object) {
 		return null;
 	}
 
@@ -22271,7 +22271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireEnableWhen(final QuestionnaireEnableWhen object) {
+	public T caseQuestionnaireEnableWhen(QuestionnaireEnableWhen object) {
 		return null;
 	}
 
@@ -22286,7 +22286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireInitial(final QuestionnaireInitial object) {
+	public T caseQuestionnaireInitial(QuestionnaireInitial object) {
 		return null;
 	}
 
@@ -22301,7 +22301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireItem(final QuestionnaireItem object) {
+	public T caseQuestionnaireItem(QuestionnaireItem object) {
 		return null;
 	}
 
@@ -22316,7 +22316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireItemDisabledDisplay(final QuestionnaireItemDisabledDisplay object) {
+	public T caseQuestionnaireItemDisabledDisplay(QuestionnaireItemDisabledDisplay object) {
 		return null;
 	}
 
@@ -22331,7 +22331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireItemOperator(final QuestionnaireItemOperator object) {
+	public T caseQuestionnaireItemOperator(QuestionnaireItemOperator object) {
 		return null;
 	}
 
@@ -22346,7 +22346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireItemType(final QuestionnaireItemType object) {
+	public T caseQuestionnaireItemType(QuestionnaireItemType object) {
 		return null;
 	}
 
@@ -22361,7 +22361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireResponse(final QuestionnaireResponse object) {
+	public T caseQuestionnaireResponse(QuestionnaireResponse object) {
 		return null;
 	}
 
@@ -22376,7 +22376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireResponseAnswer(final QuestionnaireResponseAnswer object) {
+	public T caseQuestionnaireResponseAnswer(QuestionnaireResponseAnswer object) {
 		return null;
 	}
 
@@ -22391,7 +22391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireResponseItem(final QuestionnaireResponseItem object) {
+	public T caseQuestionnaireResponseItem(QuestionnaireResponseItem object) {
 		return null;
 	}
 
@@ -22406,7 +22406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseQuestionnaireResponseStatus(final QuestionnaireResponseStatus object) {
+	public T caseQuestionnaireResponseStatus(QuestionnaireResponseStatus object) {
 		return null;
 	}
 
@@ -22421,7 +22421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRange(final Range object) {
+	public T caseRange(Range object) {
 		return null;
 	}
 
@@ -22436,7 +22436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRatio(final Ratio object) {
+	public T caseRatio(Ratio object) {
 		return null;
 	}
 
@@ -22451,7 +22451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRatioRange(final RatioRange object) {
+	public T caseRatioRange(RatioRange object) {
 		return null;
 	}
 
@@ -22466,7 +22466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseReference(final Reference object) {
+	public T caseReference(Reference object) {
 		return null;
 	}
 
@@ -22481,7 +22481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseReferenceHandlingPolicy(final ReferenceHandlingPolicy object) {
+	public T caseReferenceHandlingPolicy(ReferenceHandlingPolicy object) {
 		return null;
 	}
 
@@ -22496,7 +22496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseReferenceVersionRules(final ReferenceVersionRules object) {
+	public T caseReferenceVersionRules(ReferenceVersionRules object) {
 		return null;
 	}
 
@@ -22511,7 +22511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRegulatedAuthorization(final RegulatedAuthorization object) {
+	public T caseRegulatedAuthorization(RegulatedAuthorization object) {
 		return null;
 	}
 
@@ -22526,7 +22526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRegulatedAuthorizationCase(final RegulatedAuthorizationCase object) {
+	public T caseRegulatedAuthorizationCase(RegulatedAuthorizationCase object) {
 		return null;
 	}
 
@@ -22541,7 +22541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRelatedArtifact(final RelatedArtifact object) {
+	public T caseRelatedArtifact(RelatedArtifact object) {
 		return null;
 	}
 
@@ -22556,7 +22556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRelatedArtifactType(final RelatedArtifactType object) {
+	public T caseRelatedArtifactType(RelatedArtifactType object) {
 		return null;
 	}
 
@@ -22571,7 +22571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRelatedArtifactTypeExpanded(final RelatedArtifactTypeExpanded object) {
+	public T caseRelatedArtifactTypeExpanded(RelatedArtifactTypeExpanded object) {
 		return null;
 	}
 
@@ -22586,7 +22586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRelatedPerson(final RelatedPerson object) {
+	public T caseRelatedPerson(RelatedPerson object) {
 		return null;
 	}
 
@@ -22601,7 +22601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRelatedPersonCommunication(final RelatedPersonCommunication object) {
+	public T caseRelatedPersonCommunication(RelatedPersonCommunication object) {
 		return null;
 	}
 
@@ -22616,7 +22616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRemittanceOutcome(final RemittanceOutcome object) {
+	public T caseRemittanceOutcome(RemittanceOutcome object) {
 		return null;
 	}
 
@@ -22631,7 +22631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseReportRelationshipType(final ReportRelationshipType object) {
+	public T caseReportRelationshipType(ReportRelationshipType object) {
 		return null;
 	}
 
@@ -22646,7 +22646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestIntent(final RequestIntent object) {
+	public T caseRequestIntent(RequestIntent object) {
 		return null;
 	}
 
@@ -22661,7 +22661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestration(final RequestOrchestration object) {
+	public T caseRequestOrchestration(RequestOrchestration object) {
 		return null;
 	}
 
@@ -22676,7 +22676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationAction(final RequestOrchestrationAction object) {
+	public T caseRequestOrchestrationAction(RequestOrchestrationAction object) {
 		return null;
 	}
 
@@ -22691,7 +22691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationCondition(final RequestOrchestrationCondition object) {
+	public T caseRequestOrchestrationCondition(RequestOrchestrationCondition object) {
 		return null;
 	}
 
@@ -22706,7 +22706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationDynamicValue(final RequestOrchestrationDynamicValue object) {
+	public T caseRequestOrchestrationDynamicValue(RequestOrchestrationDynamicValue object) {
 		return null;
 	}
 
@@ -22721,7 +22721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationInput(final RequestOrchestrationInput object) {
+	public T caseRequestOrchestrationInput(RequestOrchestrationInput object) {
 		return null;
 	}
 
@@ -22736,7 +22736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationOutput(final RequestOrchestrationOutput object) {
+	public T caseRequestOrchestrationOutput(RequestOrchestrationOutput object) {
 		return null;
 	}
 
@@ -22751,7 +22751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationParticipant(final RequestOrchestrationParticipant object) {
+	public T caseRequestOrchestrationParticipant(RequestOrchestrationParticipant object) {
 		return null;
 	}
 
@@ -22766,7 +22766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestOrchestrationRelatedAction(final RequestOrchestrationRelatedAction object) {
+	public T caseRequestOrchestrationRelatedAction(RequestOrchestrationRelatedAction object) {
 		return null;
 	}
 
@@ -22781,7 +22781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestPriority(final RequestPriority object) {
+	public T caseRequestPriority(RequestPriority object) {
 		return null;
 	}
 
@@ -22796,7 +22796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestResourceTypes(final RequestResourceTypes object) {
+	public T caseRequestResourceTypes(RequestResourceTypes object) {
 		return null;
 	}
 
@@ -22811,7 +22811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequestStatus(final RequestStatus object) {
+	public T caseRequestStatus(RequestStatus object) {
 		return null;
 	}
 
@@ -22826,7 +22826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequirements(final Requirements object) {
+	public T caseRequirements(Requirements object) {
 		return null;
 	}
 
@@ -22841,7 +22841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRequirementsStatement(final RequirementsStatement object) {
+	public T caseRequirementsStatement(RequirementsStatement object) {
 		return null;
 	}
 
@@ -22856,7 +22856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudy(final ResearchStudy object) {
+	public T caseResearchStudy(ResearchStudy object) {
 		return null;
 	}
 
@@ -22871,7 +22871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyAssociatedParty(final ResearchStudyAssociatedParty object) {
+	public T caseResearchStudyAssociatedParty(ResearchStudyAssociatedParty object) {
 		return null;
 	}
 
@@ -22886,7 +22886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyComparisonGroup(final ResearchStudyComparisonGroup object) {
+	public T caseResearchStudyComparisonGroup(ResearchStudyComparisonGroup object) {
 		return null;
 	}
 
@@ -22901,7 +22901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyLabel(final ResearchStudyLabel object) {
+	public T caseResearchStudyLabel(ResearchStudyLabel object) {
 		return null;
 	}
 
@@ -22916,7 +22916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyObjective(final ResearchStudyObjective object) {
+	public T caseResearchStudyObjective(ResearchStudyObjective object) {
 		return null;
 	}
 
@@ -22931,7 +22931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyOutcomeMeasure(final ResearchStudyOutcomeMeasure object) {
+	public T caseResearchStudyOutcomeMeasure(ResearchStudyOutcomeMeasure object) {
 		return null;
 	}
 
@@ -22946,7 +22946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyProgressStatus(final ResearchStudyProgressStatus object) {
+	public T caseResearchStudyProgressStatus(ResearchStudyProgressStatus object) {
 		return null;
 	}
 
@@ -22961,7 +22961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchStudyRecruitment(final ResearchStudyRecruitment object) {
+	public T caseResearchStudyRecruitment(ResearchStudyRecruitment object) {
 		return null;
 	}
 
@@ -22976,7 +22976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchSubject(final ResearchSubject object) {
+	public T caseResearchSubject(ResearchSubject object) {
 		return null;
 	}
 
@@ -22991,7 +22991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResearchSubjectProgress(final ResearchSubjectProgress object) {
+	public T caseResearchSubjectProgress(ResearchSubjectProgress object) {
 		return null;
 	}
 
@@ -23006,7 +23006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResource(final Resource object) {
+	public T caseResource(Resource object) {
 		return null;
 	}
 
@@ -23021,7 +23021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResourceContainer(final ResourceContainer object) {
+	public T caseResourceContainer(ResourceContainer object) {
 		return null;
 	}
 
@@ -23036,7 +23036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResourceType(final ResourceType object) {
+	public T caseResourceType(ResourceType object) {
 		return null;
 	}
 
@@ -23051,7 +23051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResourceVersionPolicy(final ResourceVersionPolicy object) {
+	public T caseResourceVersionPolicy(ResourceVersionPolicy object) {
 		return null;
 	}
 
@@ -23066,7 +23066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResponseType(final ResponseType object) {
+	public T caseResponseType(ResponseType object) {
 		return null;
 	}
 
@@ -23081,7 +23081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRestfulCapabilityMode(final RestfulCapabilityMode object) {
+	public T caseRestfulCapabilityMode(RestfulCapabilityMode object) {
 		return null;
 	}
 
@@ -23096,7 +23096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRiskAssessment(final RiskAssessment object) {
+	public T caseRiskAssessment(RiskAssessment object) {
 		return null;
 	}
 
@@ -23111,7 +23111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRiskAssessmentPrediction(final RiskAssessmentPrediction object) {
+	public T caseRiskAssessmentPrediction(RiskAssessmentPrediction object) {
 		return null;
 	}
 
@@ -23126,7 +23126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSampledData(final SampledData object) {
+	public T caseSampledData(SampledData object) {
 		return null;
 	}
 
@@ -23141,7 +23141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSampledDataDataType(final SampledDataDataType object) {
+	public T caseSampledDataDataType(SampledDataDataType object) {
 		return null;
 	}
 
@@ -23156,7 +23156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSchedule(final Schedule object) {
+	public T caseSchedule(Schedule object) {
 		return null;
 	}
 
@@ -23171,7 +23171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchComparator(final SearchComparator object) {
+	public T caseSearchComparator(SearchComparator object) {
 		return null;
 	}
 
@@ -23186,7 +23186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchEntryMode(final SearchEntryMode object) {
+	public T caseSearchEntryMode(SearchEntryMode object) {
 		return null;
 	}
 
@@ -23201,7 +23201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchModifierCode(final SearchModifierCode object) {
+	public T caseSearchModifierCode(SearchModifierCode object) {
 		return null;
 	}
 
@@ -23216,7 +23216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchParameter(final SearchParameter object) {
+	public T caseSearchParameter(SearchParameter object) {
 		return null;
 	}
 
@@ -23231,7 +23231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchParameterComponent(final SearchParameterComponent object) {
+	public T caseSearchParameterComponent(SearchParameterComponent object) {
 		return null;
 	}
 
@@ -23246,7 +23246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchParamType(final SearchParamType object) {
+	public T caseSearchParamType(SearchParamType object) {
 		return null;
 	}
 
@@ -23261,7 +23261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSearchProcessingModeType(final SearchProcessingModeType object) {
+	public T caseSearchProcessingModeType(SearchProcessingModeType object) {
 		return null;
 	}
 
@@ -23276,7 +23276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSequenceType(final SequenceType object) {
+	public T caseSequenceType(SequenceType object) {
 		return null;
 	}
 
@@ -23291,7 +23291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseServiceRequest(final ServiceRequest object) {
+	public T caseServiceRequest(ServiceRequest object) {
 		return null;
 	}
 
@@ -23306,7 +23306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseServiceRequestOrderDetail(final ServiceRequestOrderDetail object) {
+	public T caseServiceRequestOrderDetail(ServiceRequestOrderDetail object) {
 		return null;
 	}
 
@@ -23321,7 +23321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseServiceRequestParameter(final ServiceRequestParameter object) {
+	public T caseServiceRequestParameter(ServiceRequestParameter object) {
 		return null;
 	}
 
@@ -23336,7 +23336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseServiceRequestPatientInstruction(final ServiceRequestPatientInstruction object) {
+	public T caseServiceRequestPatientInstruction(ServiceRequestPatientInstruction object) {
 		return null;
 	}
 
@@ -23351,7 +23351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSignature(final Signature object) {
+	public T caseSignature(Signature object) {
 		return null;
 	}
 
@@ -23366,7 +23366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSlicingRules(final SlicingRules object) {
+	public T caseSlicingRules(SlicingRules object) {
 		return null;
 	}
 
@@ -23381,7 +23381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSlot(final Slot object) {
+	public T caseSlot(Slot object) {
 		return null;
 	}
 
@@ -23396,7 +23396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSlotStatus(final SlotStatus object) {
+	public T caseSlotStatus(SlotStatus object) {
 		return null;
 	}
 
@@ -23411,7 +23411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSortDirection(final SortDirection object) {
+	public T caseSortDirection(SortDirection object) {
 		return null;
 	}
 
@@ -23426,7 +23426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSPDXLicense(final SPDXLicense object) {
+	public T caseSPDXLicense(SPDXLicense object) {
 		return null;
 	}
 
@@ -23441,7 +23441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimen(final Specimen object) {
+	public T caseSpecimen(Specimen object) {
 		return null;
 	}
 
@@ -23456,7 +23456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenCollection(final SpecimenCollection object) {
+	public T caseSpecimenCollection(SpecimenCollection object) {
 		return null;
 	}
 
@@ -23471,7 +23471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenCombined(final SpecimenCombined object) {
+	public T caseSpecimenCombined(SpecimenCombined object) {
 		return null;
 	}
 
@@ -23486,7 +23486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenContainedPreference(final SpecimenContainedPreference object) {
+	public T caseSpecimenContainedPreference(SpecimenContainedPreference object) {
 		return null;
 	}
 
@@ -23501,7 +23501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenContainer(final SpecimenContainer object) {
+	public T caseSpecimenContainer(SpecimenContainer object) {
 		return null;
 	}
 
@@ -23516,7 +23516,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenDefinition(final SpecimenDefinition object) {
+	public T caseSpecimenDefinition(SpecimenDefinition object) {
 		return null;
 	}
 
@@ -23531,7 +23531,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenDefinitionAdditive(final SpecimenDefinitionAdditive object) {
+	public T caseSpecimenDefinitionAdditive(SpecimenDefinitionAdditive object) {
 		return null;
 	}
 
@@ -23546,7 +23546,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenDefinitionContainer(final SpecimenDefinitionContainer object) {
+	public T caseSpecimenDefinitionContainer(SpecimenDefinitionContainer object) {
 		return null;
 	}
 
@@ -23561,7 +23561,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenDefinitionHandling(final SpecimenDefinitionHandling object) {
+	public T caseSpecimenDefinitionHandling(SpecimenDefinitionHandling object) {
 		return null;
 	}
 
@@ -23576,7 +23576,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenDefinitionTypeTested(final SpecimenDefinitionTypeTested object) {
+	public T caseSpecimenDefinitionTypeTested(SpecimenDefinitionTypeTested object) {
 		return null;
 	}
 
@@ -23591,7 +23591,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenFeature(final SpecimenFeature object) {
+	public T caseSpecimenFeature(SpecimenFeature object) {
 		return null;
 	}
 
@@ -23606,7 +23606,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenProcessing(final SpecimenProcessing object) {
+	public T caseSpecimenProcessing(SpecimenProcessing object) {
 		return null;
 	}
 
@@ -23621,7 +23621,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSpecimenStatus(final SpecimenStatus object) {
+	public T caseSpecimenStatus(SpecimenStatus object) {
 		return null;
 	}
 
@@ -23636,7 +23636,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStrandType(final StrandType object) {
+	public T caseStrandType(StrandType object) {
 		return null;
 	}
 
@@ -23651,7 +23651,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseString(final org.hl7.emf.fhir.String object) {
+	public T caseString(org.hl7.emf.fhir.String object) {
 		return null;
 	}
 
@@ -23666,7 +23666,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinition(final StructureDefinition object) {
+	public T caseStructureDefinition(StructureDefinition object) {
 		return null;
 	}
 
@@ -23681,7 +23681,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinitionContext(final StructureDefinitionContext object) {
+	public T caseStructureDefinitionContext(StructureDefinitionContext object) {
 		return null;
 	}
 
@@ -23696,7 +23696,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinitionDifferential(final StructureDefinitionDifferential object) {
+	public T caseStructureDefinitionDifferential(StructureDefinitionDifferential object) {
 		return null;
 	}
 
@@ -23711,7 +23711,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinitionKind(final StructureDefinitionKind object) {
+	public T caseStructureDefinitionKind(StructureDefinitionKind object) {
 		return null;
 	}
 
@@ -23726,7 +23726,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinitionMapping(final StructureDefinitionMapping object) {
+	public T caseStructureDefinitionMapping(StructureDefinitionMapping object) {
 		return null;
 	}
 
@@ -23741,7 +23741,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureDefinitionSnapshot(final StructureDefinitionSnapshot object) {
+	public T caseStructureDefinitionSnapshot(StructureDefinitionSnapshot object) {
 		return null;
 	}
 
@@ -23756,7 +23756,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMap(final StructureMap object) {
+	public T caseStructureMap(StructureMap object) {
 		return null;
 	}
 
@@ -23771,7 +23771,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapConst(final StructureMapConst object) {
+	public T caseStructureMapConst(StructureMapConst object) {
 		return null;
 	}
 
@@ -23786,7 +23786,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapDependent(final StructureMapDependent object) {
+	public T caseStructureMapDependent(StructureMapDependent object) {
 		return null;
 	}
 
@@ -23801,7 +23801,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapGroup(final StructureMapGroup object) {
+	public T caseStructureMapGroup(StructureMapGroup object) {
 		return null;
 	}
 
@@ -23816,7 +23816,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapGroupTypeMode(final StructureMapGroupTypeMode object) {
+	public T caseStructureMapGroupTypeMode(StructureMapGroupTypeMode object) {
 		return null;
 	}
 
@@ -23831,7 +23831,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapInput(final StructureMapInput object) {
+	public T caseStructureMapInput(StructureMapInput object) {
 		return null;
 	}
 
@@ -23846,7 +23846,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapInputMode(final StructureMapInputMode object) {
+	public T caseStructureMapInputMode(StructureMapInputMode object) {
 		return null;
 	}
 
@@ -23861,7 +23861,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapModelMode(final StructureMapModelMode object) {
+	public T caseStructureMapModelMode(StructureMapModelMode object) {
 		return null;
 	}
 
@@ -23876,7 +23876,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapParameter(final StructureMapParameter object) {
+	public T caseStructureMapParameter(StructureMapParameter object) {
 		return null;
 	}
 
@@ -23891,7 +23891,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapRule(final StructureMapRule object) {
+	public T caseStructureMapRule(StructureMapRule object) {
 		return null;
 	}
 
@@ -23906,7 +23906,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapSource(final StructureMapSource object) {
+	public T caseStructureMapSource(StructureMapSource object) {
 		return null;
 	}
 
@@ -23921,7 +23921,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapSourceListMode(final StructureMapSourceListMode object) {
+	public T caseStructureMapSourceListMode(StructureMapSourceListMode object) {
 		return null;
 	}
 
@@ -23936,7 +23936,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapStructure(final StructureMapStructure object) {
+	public T caseStructureMapStructure(StructureMapStructure object) {
 		return null;
 	}
 
@@ -23951,7 +23951,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapTarget(final StructureMapTarget object) {
+	public T caseStructureMapTarget(StructureMapTarget object) {
 		return null;
 	}
 
@@ -23966,7 +23966,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapTargetListMode(final StructureMapTargetListMode object) {
+	public T caseStructureMapTargetListMode(StructureMapTargetListMode object) {
 		return null;
 	}
 
@@ -23981,7 +23981,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseStructureMapTransform(final StructureMapTransform object) {
+	public T caseStructureMapTransform(StructureMapTransform object) {
 		return null;
 	}
 
@@ -23996,7 +23996,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubmitDataUpdateType(final SubmitDataUpdateType object) {
+	public T caseSubmitDataUpdateType(SubmitDataUpdateType object) {
 		return null;
 	}
 
@@ -24011,7 +24011,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscription(final Subscription object) {
+	public T caseSubscription(Subscription object) {
 		return null;
 	}
 
@@ -24026,7 +24026,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionFilterBy(final SubscriptionFilterBy object) {
+	public T caseSubscriptionFilterBy(SubscriptionFilterBy object) {
 		return null;
 	}
 
@@ -24041,7 +24041,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionNotificationType(final SubscriptionNotificationType object) {
+	public T caseSubscriptionNotificationType(SubscriptionNotificationType object) {
 		return null;
 	}
 
@@ -24056,7 +24056,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionParameter(final SubscriptionParameter object) {
+	public T caseSubscriptionParameter(SubscriptionParameter object) {
 		return null;
 	}
 
@@ -24071,7 +24071,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionPayloadContent(final SubscriptionPayloadContent object) {
+	public T caseSubscriptionPayloadContent(SubscriptionPayloadContent object) {
 		return null;
 	}
 
@@ -24086,7 +24086,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionStatus(final SubscriptionStatus object) {
+	public T caseSubscriptionStatus(SubscriptionStatus object) {
 		return null;
 	}
 
@@ -24101,7 +24101,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionStatusCodes(final SubscriptionStatusCodes object) {
+	public T caseSubscriptionStatusCodes(SubscriptionStatusCodes object) {
 		return null;
 	}
 
@@ -24116,7 +24116,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionStatusNotificationEvent(final SubscriptionStatusNotificationEvent object) {
+	public T caseSubscriptionStatusNotificationEvent(SubscriptionStatusNotificationEvent object) {
 		return null;
 	}
 
@@ -24131,7 +24131,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopic(final SubscriptionTopic object) {
+	public T caseSubscriptionTopic(SubscriptionTopic object) {
 		return null;
 	}
 
@@ -24146,7 +24146,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopicCanFilterBy(final SubscriptionTopicCanFilterBy object) {
+	public T caseSubscriptionTopicCanFilterBy(SubscriptionTopicCanFilterBy object) {
 		return null;
 	}
 
@@ -24161,7 +24161,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopicEventTrigger(final SubscriptionTopicEventTrigger object) {
+	public T caseSubscriptionTopicEventTrigger(SubscriptionTopicEventTrigger object) {
 		return null;
 	}
 
@@ -24176,7 +24176,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopicNotificationShape(final SubscriptionTopicNotificationShape object) {
+	public T caseSubscriptionTopicNotificationShape(SubscriptionTopicNotificationShape object) {
 		return null;
 	}
 
@@ -24191,7 +24191,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopicQueryCriteria(final SubscriptionTopicQueryCriteria object) {
+	public T caseSubscriptionTopicQueryCriteria(SubscriptionTopicQueryCriteria object) {
 		return null;
 	}
 
@@ -24206,7 +24206,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubscriptionTopicResourceTrigger(final SubscriptionTopicResourceTrigger object) {
+	public T caseSubscriptionTopicResourceTrigger(SubscriptionTopicResourceTrigger object) {
 		return null;
 	}
 
@@ -24221,7 +24221,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstance(final Substance object) {
+	public T caseSubstance(Substance object) {
 		return null;
 	}
 
@@ -24236,7 +24236,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinition(final SubstanceDefinition object) {
+	public T caseSubstanceDefinition(SubstanceDefinition object) {
 		return null;
 	}
 
@@ -24251,7 +24251,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionCharacterization(final SubstanceDefinitionCharacterization object) {
+	public T caseSubstanceDefinitionCharacterization(SubstanceDefinitionCharacterization object) {
 		return null;
 	}
 
@@ -24266,7 +24266,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionCode(final SubstanceDefinitionCode object) {
+	public T caseSubstanceDefinitionCode(SubstanceDefinitionCode object) {
 		return null;
 	}
 
@@ -24281,7 +24281,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionMoiety(final SubstanceDefinitionMoiety object) {
+	public T caseSubstanceDefinitionMoiety(SubstanceDefinitionMoiety object) {
 		return null;
 	}
 
@@ -24296,7 +24296,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionMolecularWeight(final SubstanceDefinitionMolecularWeight object) {
+	public T caseSubstanceDefinitionMolecularWeight(SubstanceDefinitionMolecularWeight object) {
 		return null;
 	}
 
@@ -24311,7 +24311,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionName(final SubstanceDefinitionName object) {
+	public T caseSubstanceDefinitionName(SubstanceDefinitionName object) {
 		return null;
 	}
 
@@ -24326,7 +24326,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionOfficial(final SubstanceDefinitionOfficial object) {
+	public T caseSubstanceDefinitionOfficial(SubstanceDefinitionOfficial object) {
 		return null;
 	}
 
@@ -24341,7 +24341,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionProperty(final SubstanceDefinitionProperty object) {
+	public T caseSubstanceDefinitionProperty(SubstanceDefinitionProperty object) {
 		return null;
 	}
 
@@ -24356,7 +24356,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionRelationship(final SubstanceDefinitionRelationship object) {
+	public T caseSubstanceDefinitionRelationship(SubstanceDefinitionRelationship object) {
 		return null;
 	}
 
@@ -24371,7 +24371,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionRepresentation(final SubstanceDefinitionRepresentation object) {
+	public T caseSubstanceDefinitionRepresentation(SubstanceDefinitionRepresentation object) {
 		return null;
 	}
 
@@ -24386,7 +24386,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionSourceMaterial(final SubstanceDefinitionSourceMaterial object) {
+	public T caseSubstanceDefinitionSourceMaterial(SubstanceDefinitionSourceMaterial object) {
 		return null;
 	}
 
@@ -24401,7 +24401,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceDefinitionStructure(final SubstanceDefinitionStructure object) {
+	public T caseSubstanceDefinitionStructure(SubstanceDefinitionStructure object) {
 		return null;
 	}
 
@@ -24416,7 +24416,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceIngredient(final SubstanceIngredient object) {
+	public T caseSubstanceIngredient(SubstanceIngredient object) {
 		return null;
 	}
 
@@ -24431,7 +24431,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceNucleicAcid(final SubstanceNucleicAcid object) {
+	public T caseSubstanceNucleicAcid(SubstanceNucleicAcid object) {
 		return null;
 	}
 
@@ -24446,7 +24446,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceNucleicAcidLinkage(final SubstanceNucleicAcidLinkage object) {
+	public T caseSubstanceNucleicAcidLinkage(SubstanceNucleicAcidLinkage object) {
 		return null;
 	}
 
@@ -24461,7 +24461,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceNucleicAcidSubunit(final SubstanceNucleicAcidSubunit object) {
+	public T caseSubstanceNucleicAcidSubunit(SubstanceNucleicAcidSubunit object) {
 		return null;
 	}
 
@@ -24476,7 +24476,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceNucleicAcidSugar(final SubstanceNucleicAcidSugar object) {
+	public T caseSubstanceNucleicAcidSugar(SubstanceNucleicAcidSugar object) {
 		return null;
 	}
 
@@ -24491,7 +24491,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymer(final SubstancePolymer object) {
+	public T caseSubstancePolymer(SubstancePolymer object) {
 		return null;
 	}
 
@@ -24506,7 +24506,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerDegreeOfPolymerisation(final SubstancePolymerDegreeOfPolymerisation object) {
+	public T caseSubstancePolymerDegreeOfPolymerisation(SubstancePolymerDegreeOfPolymerisation object) {
 		return null;
 	}
 
@@ -24521,7 +24521,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerMonomerSet(final SubstancePolymerMonomerSet object) {
+	public T caseSubstancePolymerMonomerSet(SubstancePolymerMonomerSet object) {
 		return null;
 	}
 
@@ -24536,7 +24536,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerRepeat(final SubstancePolymerRepeat object) {
+	public T caseSubstancePolymerRepeat(SubstancePolymerRepeat object) {
 		return null;
 	}
 
@@ -24551,7 +24551,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerRepeatUnit(final SubstancePolymerRepeatUnit object) {
+	public T caseSubstancePolymerRepeatUnit(SubstancePolymerRepeatUnit object) {
 		return null;
 	}
 
@@ -24566,7 +24566,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerStartingMaterial(final SubstancePolymerStartingMaterial object) {
+	public T caseSubstancePolymerStartingMaterial(SubstancePolymerStartingMaterial object) {
 		return null;
 	}
 
@@ -24581,7 +24581,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstancePolymerStructuralRepresentation(final SubstancePolymerStructuralRepresentation object) {
+	public T caseSubstancePolymerStructuralRepresentation(SubstancePolymerStructuralRepresentation object) {
 		return null;
 	}
 
@@ -24596,7 +24596,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceProtein(final SubstanceProtein object) {
+	public T caseSubstanceProtein(SubstanceProtein object) {
 		return null;
 	}
 
@@ -24611,7 +24611,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceProteinSubunit(final SubstanceProteinSubunit object) {
+	public T caseSubstanceProteinSubunit(SubstanceProteinSubunit object) {
 		return null;
 	}
 
@@ -24626,7 +24626,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceReferenceInformation(final SubstanceReferenceInformation object) {
+	public T caseSubstanceReferenceInformation(SubstanceReferenceInformation object) {
 		return null;
 	}
 
@@ -24641,7 +24641,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceReferenceInformationGene(final SubstanceReferenceInformationGene object) {
+	public T caseSubstanceReferenceInformationGene(SubstanceReferenceInformationGene object) {
 		return null;
 	}
 
@@ -24656,7 +24656,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceReferenceInformationGeneElement(final SubstanceReferenceInformationGeneElement object) {
+	public T caseSubstanceReferenceInformationGeneElement(SubstanceReferenceInformationGeneElement object) {
 		return null;
 	}
 
@@ -24671,7 +24671,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceReferenceInformationTarget(final SubstanceReferenceInformationTarget object) {
+	public T caseSubstanceReferenceInformationTarget(SubstanceReferenceInformationTarget object) {
 		return null;
 	}
 
@@ -24686,7 +24686,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterial(final SubstanceSourceMaterial object) {
+	public T caseSubstanceSourceMaterial(SubstanceSourceMaterial object) {
 		return null;
 	}
 
@@ -24701,7 +24701,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialAuthor(final SubstanceSourceMaterialAuthor object) {
+	public T caseSubstanceSourceMaterialAuthor(SubstanceSourceMaterialAuthor object) {
 		return null;
 	}
 
@@ -24716,7 +24716,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialFractionDescription(final SubstanceSourceMaterialFractionDescription object) {
+	public T caseSubstanceSourceMaterialFractionDescription(SubstanceSourceMaterialFractionDescription object) {
 		return null;
 	}
 
@@ -24731,7 +24731,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialHybrid(final SubstanceSourceMaterialHybrid object) {
+	public T caseSubstanceSourceMaterialHybrid(SubstanceSourceMaterialHybrid object) {
 		return null;
 	}
 
@@ -24746,7 +24746,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialOrganism(final SubstanceSourceMaterialOrganism object) {
+	public T caseSubstanceSourceMaterialOrganism(SubstanceSourceMaterialOrganism object) {
 		return null;
 	}
 
@@ -24761,7 +24761,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialOrganismGeneral(final SubstanceSourceMaterialOrganismGeneral object) {
+	public T caseSubstanceSourceMaterialOrganismGeneral(SubstanceSourceMaterialOrganismGeneral object) {
 		return null;
 	}
 
@@ -24776,7 +24776,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSubstanceSourceMaterialPartDescription(final SubstanceSourceMaterialPartDescription object) {
+	public T caseSubstanceSourceMaterialPartDescription(SubstanceSourceMaterialPartDescription object) {
 		return null;
 	}
 
@@ -24791,7 +24791,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyDelivery(final SupplyDelivery object) {
+	public T caseSupplyDelivery(SupplyDelivery object) {
 		return null;
 	}
 
@@ -24806,7 +24806,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyDeliveryStatus(final SupplyDeliveryStatus object) {
+	public T caseSupplyDeliveryStatus(SupplyDeliveryStatus object) {
 		return null;
 	}
 
@@ -24821,7 +24821,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyDeliverySuppliedItem(final SupplyDeliverySuppliedItem object) {
+	public T caseSupplyDeliverySuppliedItem(SupplyDeliverySuppliedItem object) {
 		return null;
 	}
 
@@ -24836,7 +24836,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyRequest(final SupplyRequest object) {
+	public T caseSupplyRequest(SupplyRequest object) {
 		return null;
 	}
 
@@ -24851,7 +24851,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyRequestParameter(final SupplyRequestParameter object) {
+	public T caseSupplyRequestParameter(SupplyRequestParameter object) {
 		return null;
 	}
 
@@ -24866,7 +24866,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSupplyRequestStatus(final SupplyRequestStatus object) {
+	public T caseSupplyRequestStatus(SupplyRequestStatus object) {
 		return null;
 	}
 
@@ -24881,7 +24881,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSystemRestfulInteraction(final SystemRestfulInteraction object) {
+	public T caseSystemRestfulInteraction(SystemRestfulInteraction object) {
 		return null;
 	}
 
@@ -24896,7 +24896,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTask(final Task object) {
+	public T caseTask(Task object) {
 		return null;
 	}
 
@@ -24911,7 +24911,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskInput(final TaskInput object) {
+	public T caseTaskInput(TaskInput object) {
 		return null;
 	}
 
@@ -24926,7 +24926,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskIntent(final TaskIntent object) {
+	public T caseTaskIntent(TaskIntent object) {
 		return null;
 	}
 
@@ -24941,7 +24941,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskOutput(final TaskOutput object) {
+	public T caseTaskOutput(TaskOutput object) {
 		return null;
 	}
 
@@ -24956,7 +24956,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskPerformer(final TaskPerformer object) {
+	public T caseTaskPerformer(TaskPerformer object) {
 		return null;
 	}
 
@@ -24971,7 +24971,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskRestriction(final TaskRestriction object) {
+	public T caseTaskRestriction(TaskRestriction object) {
 		return null;
 	}
 
@@ -24986,7 +24986,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTaskStatus(final TaskStatus object) {
+	public T caseTaskStatus(TaskStatus object) {
 		return null;
 	}
 
@@ -25001,7 +25001,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilities(final TerminologyCapabilities object) {
+	public T caseTerminologyCapabilities(TerminologyCapabilities object) {
 		return null;
 	}
 
@@ -25016,7 +25016,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesClosure(final TerminologyCapabilitiesClosure object) {
+	public T caseTerminologyCapabilitiesClosure(TerminologyCapabilitiesClosure object) {
 		return null;
 	}
 
@@ -25031,7 +25031,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesCodeSystem(final TerminologyCapabilitiesCodeSystem object) {
+	public T caseTerminologyCapabilitiesCodeSystem(TerminologyCapabilitiesCodeSystem object) {
 		return null;
 	}
 
@@ -25046,7 +25046,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesExpansion(final TerminologyCapabilitiesExpansion object) {
+	public T caseTerminologyCapabilitiesExpansion(TerminologyCapabilitiesExpansion object) {
 		return null;
 	}
 
@@ -25061,7 +25061,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesFilter(final TerminologyCapabilitiesFilter object) {
+	public T caseTerminologyCapabilitiesFilter(TerminologyCapabilitiesFilter object) {
 		return null;
 	}
 
@@ -25076,7 +25076,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesImplementation(final TerminologyCapabilitiesImplementation object) {
+	public T caseTerminologyCapabilitiesImplementation(TerminologyCapabilitiesImplementation object) {
 		return null;
 	}
 
@@ -25091,7 +25091,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesParameter(final TerminologyCapabilitiesParameter object) {
+	public T caseTerminologyCapabilitiesParameter(TerminologyCapabilitiesParameter object) {
 		return null;
 	}
 
@@ -25106,7 +25106,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesSoftware(final TerminologyCapabilitiesSoftware object) {
+	public T caseTerminologyCapabilitiesSoftware(TerminologyCapabilitiesSoftware object) {
 		return null;
 	}
 
@@ -25121,7 +25121,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesTranslation(final TerminologyCapabilitiesTranslation object) {
+	public T caseTerminologyCapabilitiesTranslation(TerminologyCapabilitiesTranslation object) {
 		return null;
 	}
 
@@ -25136,7 +25136,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesValidateCode(final TerminologyCapabilitiesValidateCode object) {
+	public T caseTerminologyCapabilitiesValidateCode(TerminologyCapabilitiesValidateCode object) {
 		return null;
 	}
 
@@ -25151,7 +25151,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTerminologyCapabilitiesVersion(final TerminologyCapabilitiesVersion object) {
+	public T caseTerminologyCapabilitiesVersion(TerminologyCapabilitiesVersion object) {
 		return null;
 	}
 
@@ -25166,7 +25166,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlan(final TestPlan object) {
+	public T caseTestPlan(TestPlan object) {
 		return null;
 	}
 
@@ -25181,7 +25181,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanAssertion(final TestPlanAssertion object) {
+	public T caseTestPlanAssertion(TestPlanAssertion object) {
 		return null;
 	}
 
@@ -25196,7 +25196,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanDependency(final TestPlanDependency object) {
+	public T caseTestPlanDependency(TestPlanDependency object) {
 		return null;
 	}
 
@@ -25211,7 +25211,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanDependency1(final TestPlanDependency1 object) {
+	public T caseTestPlanDependency1(TestPlanDependency1 object) {
 		return null;
 	}
 
@@ -25226,7 +25226,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanScript(final TestPlanScript object) {
+	public T caseTestPlanScript(TestPlanScript object) {
 		return null;
 	}
 
@@ -25241,7 +25241,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanTestCase(final TestPlanTestCase object) {
+	public T caseTestPlanTestCase(TestPlanTestCase object) {
 		return null;
 	}
 
@@ -25256,7 +25256,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanTestData(final TestPlanTestData object) {
+	public T caseTestPlanTestData(TestPlanTestData object) {
 		return null;
 	}
 
@@ -25271,7 +25271,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestPlanTestRun(final TestPlanTestRun object) {
+	public T caseTestPlanTestRun(TestPlanTestRun object) {
 		return null;
 	}
 
@@ -25286,7 +25286,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReport(final TestReport object) {
+	public T caseTestReport(TestReport object) {
 		return null;
 	}
 
@@ -25301,7 +25301,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportAction(final TestReportAction object) {
+	public T caseTestReportAction(TestReportAction object) {
 		return null;
 	}
 
@@ -25316,7 +25316,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportAction1(final TestReportAction1 object) {
+	public T caseTestReportAction1(TestReportAction1 object) {
 		return null;
 	}
 
@@ -25331,7 +25331,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportAction2(final TestReportAction2 object) {
+	public T caseTestReportAction2(TestReportAction2 object) {
 		return null;
 	}
 
@@ -25346,7 +25346,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportActionResult(final TestReportActionResult object) {
+	public T caseTestReportActionResult(TestReportActionResult object) {
 		return null;
 	}
 
@@ -25361,7 +25361,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportAssert(final TestReportAssert object) {
+	public T caseTestReportAssert(TestReportAssert object) {
 		return null;
 	}
 
@@ -25376,7 +25376,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportOperation(final TestReportOperation object) {
+	public T caseTestReportOperation(TestReportOperation object) {
 		return null;
 	}
 
@@ -25391,7 +25391,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportParticipant(final TestReportParticipant object) {
+	public T caseTestReportParticipant(TestReportParticipant object) {
 		return null;
 	}
 
@@ -25406,7 +25406,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportParticipantType(final TestReportParticipantType object) {
+	public T caseTestReportParticipantType(TestReportParticipantType object) {
 		return null;
 	}
 
@@ -25421,7 +25421,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportRequirement(final TestReportRequirement object) {
+	public T caseTestReportRequirement(TestReportRequirement object) {
 		return null;
 	}
 
@@ -25436,7 +25436,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportResult(final TestReportResult object) {
+	public T caseTestReportResult(TestReportResult object) {
 		return null;
 	}
 
@@ -25451,7 +25451,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportSetup(final TestReportSetup object) {
+	public T caseTestReportSetup(TestReportSetup object) {
 		return null;
 	}
 
@@ -25466,7 +25466,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportStatus(final TestReportStatus object) {
+	public T caseTestReportStatus(TestReportStatus object) {
 		return null;
 	}
 
@@ -25481,7 +25481,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportTeardown(final TestReportTeardown object) {
+	public T caseTestReportTeardown(TestReportTeardown object) {
 		return null;
 	}
 
@@ -25496,7 +25496,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestReportTest(final TestReportTest object) {
+	public T caseTestReportTest(TestReportTest object) {
 		return null;
 	}
 
@@ -25511,7 +25511,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScript(final TestScript object) {
+	public T caseTestScript(TestScript object) {
 		return null;
 	}
 
@@ -25526,7 +25526,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptAction(final TestScriptAction object) {
+	public T caseTestScriptAction(TestScriptAction object) {
 		return null;
 	}
 
@@ -25541,7 +25541,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptAction1(final TestScriptAction1 object) {
+	public T caseTestScriptAction1(TestScriptAction1 object) {
 		return null;
 	}
 
@@ -25556,7 +25556,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptAction2(final TestScriptAction2 object) {
+	public T caseTestScriptAction2(TestScriptAction2 object) {
 		return null;
 	}
 
@@ -25571,7 +25571,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptAssert(final TestScriptAssert object) {
+	public T caseTestScriptAssert(TestScriptAssert object) {
 		return null;
 	}
 
@@ -25586,7 +25586,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptCapability(final TestScriptCapability object) {
+	public T caseTestScriptCapability(TestScriptCapability object) {
 		return null;
 	}
 
@@ -25601,7 +25601,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptDestination(final TestScriptDestination object) {
+	public T caseTestScriptDestination(TestScriptDestination object) {
 		return null;
 	}
 
@@ -25616,7 +25616,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptFixture(final TestScriptFixture object) {
+	public T caseTestScriptFixture(TestScriptFixture object) {
 		return null;
 	}
 
@@ -25631,7 +25631,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptLink(final TestScriptLink object) {
+	public T caseTestScriptLink(TestScriptLink object) {
 		return null;
 	}
 
@@ -25646,7 +25646,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptMetadata(final TestScriptMetadata object) {
+	public T caseTestScriptMetadata(TestScriptMetadata object) {
 		return null;
 	}
 
@@ -25661,7 +25661,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptOperation(final TestScriptOperation object) {
+	public T caseTestScriptOperation(TestScriptOperation object) {
 		return null;
 	}
 
@@ -25676,7 +25676,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptOrigin(final TestScriptOrigin object) {
+	public T caseTestScriptOrigin(TestScriptOrigin object) {
 		return null;
 	}
 
@@ -25691,7 +25691,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptRequestHeader(final TestScriptRequestHeader object) {
+	public T caseTestScriptRequestHeader(TestScriptRequestHeader object) {
 		return null;
 	}
 
@@ -25706,7 +25706,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptRequestMethodCode(final TestScriptRequestMethodCode object) {
+	public T caseTestScriptRequestMethodCode(TestScriptRequestMethodCode object) {
 		return null;
 	}
 
@@ -25721,7 +25721,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptRequirement(final TestScriptRequirement object) {
+	public T caseTestScriptRequirement(TestScriptRequirement object) {
 		return null;
 	}
 
@@ -25736,7 +25736,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptScope(final TestScriptScope object) {
+	public T caseTestScriptScope(TestScriptScope object) {
 		return null;
 	}
 
@@ -25751,7 +25751,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptSetup(final TestScriptSetup object) {
+	public T caseTestScriptSetup(TestScriptSetup object) {
 		return null;
 	}
 
@@ -25766,7 +25766,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptTeardown(final TestScriptTeardown object) {
+	public T caseTestScriptTeardown(TestScriptTeardown object) {
 		return null;
 	}
 
@@ -25781,7 +25781,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptTest(final TestScriptTest object) {
+	public T caseTestScriptTest(TestScriptTest object) {
 		return null;
 	}
 
@@ -25796,7 +25796,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTestScriptVariable(final TestScriptVariable object) {
+	public T caseTestScriptVariable(TestScriptVariable object) {
 		return null;
 	}
 
@@ -25811,7 +25811,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTime(final Time object) {
+	public T caseTime(Time object) {
 		return null;
 	}
 
@@ -25826,7 +25826,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTiming(final Timing object) {
+	public T caseTiming(Timing object) {
 		return null;
 	}
 
@@ -25841,7 +25841,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTimingRepeat(final TimingRepeat object) {
+	public T caseTimingRepeat(TimingRepeat object) {
 		return null;
 	}
 
@@ -25856,7 +25856,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransport(final Transport object) {
+	public T caseTransport(Transport object) {
 		return null;
 	}
 
@@ -25871,7 +25871,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransportInput(final TransportInput object) {
+	public T caseTransportInput(TransportInput object) {
 		return null;
 	}
 
@@ -25886,7 +25886,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransportIntent(final TransportIntent object) {
+	public T caseTransportIntent(TransportIntent object) {
 		return null;
 	}
 
@@ -25901,7 +25901,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransportOutput(final TransportOutput object) {
+	public T caseTransportOutput(TransportOutput object) {
 		return null;
 	}
 
@@ -25916,7 +25916,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransportRestriction(final TransportRestriction object) {
+	public T caseTransportRestriction(TransportRestriction object) {
 		return null;
 	}
 
@@ -25931,7 +25931,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTransportStatus(final TransportStatus object) {
+	public T caseTransportStatus(TransportStatus object) {
 		return null;
 	}
 
@@ -25946,7 +25946,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTriggerDefinition(final TriggerDefinition object) {
+	public T caseTriggerDefinition(TriggerDefinition object) {
 		return null;
 	}
 
@@ -25961,7 +25961,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTriggeredBytype(final TriggeredBytype object) {
+	public T caseTriggeredBytype(TriggeredBytype object) {
 		return null;
 	}
 
@@ -25976,7 +25976,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTriggerType(final TriggerType object) {
+	public T caseTriggerType(TriggerType object) {
 		return null;
 	}
 
@@ -25991,7 +25991,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTypeDerivationRule(final TypeDerivationRule object) {
+	public T caseTypeDerivationRule(TypeDerivationRule object) {
 		return null;
 	}
 
@@ -26006,7 +26006,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseTypeRestfulInteraction(final TypeRestfulInteraction object) {
+	public T caseTypeRestfulInteraction(TypeRestfulInteraction object) {
 		return null;
 	}
 
@@ -26021,7 +26021,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUDIEntryType(final UDIEntryType object) {
+	public T caseUDIEntryType(UDIEntryType object) {
 		return null;
 	}
 
@@ -26036,7 +26036,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUnitsOfTime(final UnitsOfTime object) {
+	public T caseUnitsOfTime(UnitsOfTime object) {
 		return null;
 	}
 
@@ -26051,7 +26051,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUnsignedInt(final UnsignedInt object) {
+	public T caseUnsignedInt(UnsignedInt object) {
 		return null;
 	}
 
@@ -26066,7 +26066,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUri(final Uri object) {
+	public T caseUri(Uri object) {
 		return null;
 	}
 
@@ -26081,7 +26081,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUrl(final Url object) {
+	public T caseUrl(Url object) {
 		return null;
 	}
 
@@ -26096,7 +26096,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUsageContext(final UsageContext object) {
+	public T caseUsageContext(UsageContext object) {
 		return null;
 	}
 
@@ -26111,7 +26111,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUse(final Use object) {
+	public T caseUse(Use object) {
 		return null;
 	}
 
@@ -26126,7 +26126,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseUuid(final Uuid object) {
+	public T caseUuid(Uuid object) {
 		return null;
 	}
 
@@ -26141,7 +26141,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSet(final ValueSet object) {
+	public T caseValueSet(ValueSet object) {
 		return null;
 	}
 
@@ -26156,7 +26156,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetCompose(final ValueSetCompose object) {
+	public T caseValueSetCompose(ValueSetCompose object) {
 		return null;
 	}
 
@@ -26171,7 +26171,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetConcept(final ValueSetConcept object) {
+	public T caseValueSetConcept(ValueSetConcept object) {
 		return null;
 	}
 
@@ -26186,7 +26186,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetContains(final ValueSetContains object) {
+	public T caseValueSetContains(ValueSetContains object) {
 		return null;
 	}
 
@@ -26201,7 +26201,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetDesignation(final ValueSetDesignation object) {
+	public T caseValueSetDesignation(ValueSetDesignation object) {
 		return null;
 	}
 
@@ -26216,7 +26216,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetExpansion(final ValueSetExpansion object) {
+	public T caseValueSetExpansion(ValueSetExpansion object) {
 		return null;
 	}
 
@@ -26231,7 +26231,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetFilter(final ValueSetFilter object) {
+	public T caseValueSetFilter(ValueSetFilter object) {
 		return null;
 	}
 
@@ -26246,7 +26246,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetInclude(final ValueSetInclude object) {
+	public T caseValueSetInclude(ValueSetInclude object) {
 		return null;
 	}
 
@@ -26261,7 +26261,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetParameter(final ValueSetParameter object) {
+	public T caseValueSetParameter(ValueSetParameter object) {
 		return null;
 	}
 
@@ -26276,7 +26276,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetProperty(final ValueSetProperty object) {
+	public T caseValueSetProperty(ValueSetProperty object) {
 		return null;
 	}
 
@@ -26291,7 +26291,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetProperty1(final ValueSetProperty1 object) {
+	public T caseValueSetProperty1(ValueSetProperty1 object) {
 		return null;
 	}
 
@@ -26306,7 +26306,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetScope(final ValueSetScope object) {
+	public T caseValueSetScope(ValueSetScope object) {
 		return null;
 	}
 
@@ -26321,7 +26321,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseValueSetSubProperty(final ValueSetSubProperty object) {
+	public T caseValueSetSubProperty(ValueSetSubProperty object) {
 		return null;
 	}
 
@@ -26336,7 +26336,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVerificationResult(final VerificationResult object) {
+	public T caseVerificationResult(VerificationResult object) {
 		return null;
 	}
 
@@ -26351,7 +26351,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVerificationResultAttestation(final VerificationResultAttestation object) {
+	public T caseVerificationResultAttestation(VerificationResultAttestation object) {
 		return null;
 	}
 
@@ -26366,7 +26366,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVerificationResultPrimarySource(final VerificationResultPrimarySource object) {
+	public T caseVerificationResultPrimarySource(VerificationResultPrimarySource object) {
 		return null;
 	}
 
@@ -26381,7 +26381,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVerificationResultStatus(final VerificationResultStatus object) {
+	public T caseVerificationResultStatus(VerificationResultStatus object) {
 		return null;
 	}
 
@@ -26396,7 +26396,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVerificationResultValidator(final VerificationResultValidator object) {
+	public T caseVerificationResultValidator(VerificationResultValidator object) {
 		return null;
 	}
 
@@ -26411,7 +26411,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVersionIndependentResourceTypesAll(final VersionIndependentResourceTypesAll object) {
+	public T caseVersionIndependentResourceTypesAll(VersionIndependentResourceTypesAll object) {
 		return null;
 	}
 
@@ -26426,7 +26426,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVirtualServiceDetail(final VirtualServiceDetail object) {
+	public T caseVirtualServiceDetail(VirtualServiceDetail object) {
 		return null;
 	}
 
@@ -26441,7 +26441,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisionBase(final VisionBase object) {
+	public T caseVisionBase(VisionBase object) {
 		return null;
 	}
 
@@ -26456,7 +26456,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisionEyes(final VisionEyes object) {
+	public T caseVisionEyes(VisionEyes object) {
 		return null;
 	}
 
@@ -26471,7 +26471,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisionPrescription(final VisionPrescription object) {
+	public T caseVisionPrescription(VisionPrescription object) {
 		return null;
 	}
 
@@ -26486,7 +26486,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisionPrescriptionLensSpecification(final VisionPrescriptionLensSpecification object) {
+	public T caseVisionPrescriptionLensSpecification(VisionPrescriptionLensSpecification object) {
 		return null;
 	}
 
@@ -26501,7 +26501,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisionPrescriptionPrism(final VisionPrescriptionPrism object) {
+	public T caseVisionPrescriptionPrism(VisionPrescriptionPrism object) {
 		return null;
 	}
 
@@ -26517,7 +26517,7 @@ public class FhirSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	@Override
-	public T defaultCase(final EObject object) {
+	public T defaultCase(EObject object) {
 		return null;
 	}
 
